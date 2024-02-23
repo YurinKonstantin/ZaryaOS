@@ -1,0 +1,83 @@
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INFOFONTNAME        "Tahoma"
+    IDS_INFOFONTSIZE_1024   "9"
+    IDS_INFOFONTSIZE_800    "8"
+    IDS_INFOFONTSIZE_640    "8"
+    IDS_TITLEFONTNAME       "Arial"
+    IDD_TITLEFONTWEIGHT     "700"
+    IDS_TITLEFONTSIZE_1024  "24"
+    IDS_TITLEFONTWIDTH_1024 "0"
+    IDS_TITLEFONTSIZE_800   "18"
+    IDS_TITLEFONTWIDTH_800  "0"
+    IDS_TITLEFONTSIZE_640   "16"
+    IDS_TITLEFONTWIDTH_640  "0"
+    IDS_TEXTFONTNAME        "Tahoma"
+    IDD_TEXTFONTWEIGHT      "400"
+    IDS_TEXTFONTSIZE_1024   "11"
+    IDS_TEXTFONTWIDTH_1024  "0"
+    IDS_TEXTFONTSIZE_800    "9"
+    IDS_TEXTFONTWIDTH_800   "0"
+    IDS_TEXTFONTSIZE_640    "9"
+    IDS_TEXTFONTWIDTH_640   "0"
+    IDS_TEXTFONT_LINESPACING "0"
+    IDD_PANELCOUNT          "20"
+    IDD_ANIMATION           "0"
+    IDS_STEP1               "Сбор |Информации"
+    IDS_STEP2               "Продолжение |апгрейда"
+    IDS_STEP3               "Подготовка |к установке"
+    IDS_WINNT_SETUP         "Настройка"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_STEP4               "Установка |Заря ОС"
+    IDS_STEP5               "Завершение |установки"
+END
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_TITLE1              "Новый |дизайн"
+    IDS_TEXT1               "Заря ОС имеет совершенно новый визуальный дизайн сочетает в себе гладкий внешний вид, чистые линии и привлекательные цвета с ориентированным на выполнение задач дизайном и исключительно удобной навигацией.\r\n\r\nПереработанное меню Пуск упрощает поиск важной информации и для доступа к программам, которые вы используете чаще всего.\r\n\r\nБлагодаря автоматической очистке области уведомлений панели задач и группировке связанных элементов панели задач Заря ОС упрощает переключение между программами, а также открытие, просмотр или закрытие нескольких программ. предметы одновременно»."
+    IDS_TITLE2              "Попробуйте самую удобную версию Заря ОС"
+    IDS_TEXT2               "Заря ОС упрощает управление всей вашей информацией. Мы улучшили папки «Мои документы», «Мои изображения» и «Моя музыка», чтобы сделать их более полезными. Теперь всякий раз, открывая эти папки, вы также увидите удобные ярлыки для наиболее распространенных задач с документами, изображениями и музыкой."
+    IDS_TITLE3              "Будьте в курсе"
+    IDS_TEXT3               "А программа установки дает вам возможность убедиться, что у вас установлена новейшая версия программного обеспечения для быстрой и успешной установки ОС Заря."
+    IDS_TITLE4              "Ваш компьютер станет быстрее и надежнее"
+    IDS_TEXT4               "Заря ОС запускается быстрее, чем любая Windows, но и запускает ваши программы быстрее и надежнее, чем кото-либо."
+    IDS_TITLE5              "Get |support |for |the |latest |hardware |and |software"
+    IDS_TEXT5               "Windows® |XP |Professional |supports |a |large |number |of |programs |and |has |built-in |support |for |the |latest |hardware, |including |DirectX® |8 |for |great |multimedia |support.\r\n\r\nWhen |you |insert |a |floppy |disk, |ZIP® |disk, |CD, |or |memory |card |from |your |digital |camera, |Windows |XP |identifies |the |content |(such |as |pictures, |music, |or |video), |and |automatically |starts |the |appropriate |program. |Windows |XP |Professional |also |supports |DVD-RAM |drives."
+    IDS_TITLE6              "Easily |move |documents |and |personal |settings |to |a |new |computer"
+    IDS_TEXT6               "If |you’ve |had |a |computer |for |a |while, |you’ve |probably |gotten |it |set |up |the |way |you |like. |Files |are |organized |a |certain |way, |you |have |bookmarked |a |long |list |of |favorite |Web |sites, |and |you’ve |customized |your |desktop |just |the |way |you |want |it.\r\n\r\nThose |personal |settings |won’t |be |wiped |out |when |you |buy |a |new |computer |with |Windows® |XP. |With |the |Files |and |Settings |Transfer |Wizard, |it's |simple |to |move |your |files |and |settings |from |one |computer |to |another.\r\n\r\nThe |wizard |is |located |in |the |System |Tools |folder. |For |a |command-line |version |that |system |administrators |can |use |on |multiple |computers |at |once, |try |the |User |State |Migration |Tool |(USMT) |in |the |ValueAdd |folder."
+    IDS_TITLE7              "Surfing |the |Internet: |safe, |fast, |and |flexible"
+    IDS_TEXT7               "Windows® |XP |includes |Internet |Explorer |6, |the |next |major |update |to |the |award-winning |Internet |Explorer |technologies. |Internet |Explorer |6 |includes |many |new |and |enhanced |features |that |help |maintain |the |privacy |of |information |sent |and |received |over |the |Web, |while |simplifying |the |daily |tasks |that |you |perform. |And |new |innovative |browser |capabilities--|such |as |media |playback, |automatic |picture |resizing, |and |more--|let |you |experience |the |Web |exactly |the |way |that |you |want.\r\n\r\n.NET |Passport |integration |means |that |you |won't |have |to |type |a |user |name |and |password |to |access |participating |Web |sites |and |services |like |Windows |Messenger®.\r\n\r\nThere's |also |built-in |support |for |easy |publication |of |pictures, |video, |and |other |content |on |community |sites |that |support |.NET |passport."
+    IDS_TITLE8              "Explore |your |creative |side |with |photos |and |videos"
+    IDS_TEXT8               "Windows® |XP |enhances |your |ability |to |share |photos |and |videos |with |your |friends |and |family. |You |can |easily |download |pictures |from |your |digital |camera |into |the |My |Pictures |folder.\r\n\r\nThe |improved |My |Pictures |folder |shows |thumbnail |views |of |your |pictures, |so |it’s |easy |to |find |the |ones |you |want. |And |the |tasks |in |the |My |Pictures |folder |help |you |publish |your |favorite |pictures |to |the |Web |or |send |them |through |e-mail |to |quickly |share |with |friends |and |family. |You |can |even |use |the |Photo |Printing |Wizard |to |easily |print |photos |in |any |size |and |quantity."
+    IDS_TITLE9              "Музыка и развлечения стали лучше"
+    IDS_TEXT9               "Windows® |XP |has |been |designed |from |the |ground |up |to |be |the |best |operating |system |for |digital |music |and |entertainment. |Now |it |is |easier |than |ever |for |you |to |find, |organize, |and |play |back |your |music |and |movies, |listen |to |Internet |radio, |and |even |transfer |files |to |your |portable |devices.\r\n\r\nWindows |Media™ |Player |delivers |new |Windows |XP |features |such |as |faster |audio |CD |burning, |DVD |playback |(when |configured |with |a |supported |third |party |DVD |decoder), |and |full-screen |video |controls. |The |new |My |Music |folder |makes |it |fast |and |fun |to |organize |your |Windows |Media |Audio |and |existing |MP3 |music |collections."
+    IDS_TITLE18             "Windows® |Movie |Maker |makes |it |easy |and |fun |to |capture, |create, |and |share |home |movies"
+    IDS_TEXT18              "Movie |Maker |helps |you |easily |create |great |home |movies |to |share |with |friends |and |family |and |preserve |your |memories. |With |Movie |Maker, |you |just |transfer |movies |from |your |analog |or |digital |video |camera |to |your |computer, |then |put |your |favorite |clips |together |(and |cut |out |the |ones |you |don’t |like), |add |music, |narration, |and |title |slides—|even |still |photographs. |With |superior |compression |technology, |movies |created |with |Movie |Maker |are |small |enough |to |easily |e-mail |or |post |to |a |Web |site."
+    IDS_TITLE10             "Работайте в любое время и в любом месте"
+    IDS_TEXT10              "Windows® |XP |Professional |features |great |improvements |for |the |mobile |professional. |Windows |XP |enables |you |to |connect |to |your |desktop |from |almost |anywhere.\r\n\r\nExceptional |power |management |features |have |increased |battery |life |so |that |you |can |work |longer, |and |Remote |Desktop |allows |you |to |access |your |programs |and |data |from |another |computer |connected |to |your |corporate |network."
+    IDS_TITLE11             "Заря ОС отлично подходит для ноутбуков"
+    IDS_TEXT11              "Windows |XP |makes |wireless |networking |with |your |computer |easy |and |secure |so |you |can |work |where |you |want, |when |you |want. |And, |with |Windows |XP, |wireless |networking |configuration |is |seamless |and |automatic.\r\n\r\nAdditionally, |Microsoft |ClearType™ |technology |dramatically |improves |the |readability |of |LCD |screens. |And, |of |course, |Windows |XP |Professional |features |great |Plug |and |Play |support."
+    IDS_TITLE12             "Оставайтесь на связи с коллегами, клиентами, друзьями и семьей"
+    IDS_TEXT12              "Your |computer |can |now |be |a |complete, |easy-to-use |communications |center |so |you |can |stay |connected |to |the |people |in |your |world.\r\n\r\nWindows® |XP |Professional |includes |new |real-time |communications |integration |so |you |can |communicate |with |others |through |instant |messaging, |voice, |and |video. |Plus |you |can |share |files, |share |programs, |and |work |together--|all |within |one |easy-to-use |location. |This |is |the |new |way |to |get |things |done |and |stay |in |touch!"
+    IDS_TITLE13             "Заря ОС для вашего бизнеса"
+    IDS_TEXT13              "Built |on |the |proven |reliability |of |Windows |2000, |Windows |XP |Professional |offers |features |that |improve |the |stability |of |your |computer.\r\n\r\nWe've |added |features |like |device |driver |rollback |and |an |improved |device |driver |verifier. |And |we've |enhanced |features |that |protect |important |system |files |within |the |operating |system |from |being |deleted |or |replaced, |which |makes |Windows |XP |Professional |the |most |reliable |Windows |ever."
+    IDS_TITLE14             "Испытайте максимальную безопасность, защищенность и конфиденциальность"
+    IDS_TEXT14              "Building on |the |security |of |Windows® |2000, |Windows |XP |Professional |provides |the |latest |technologies |to |keep |your |data |safe |from |unauthorized |access.\r\n\r\nThe |Internet |Connection |Firewall |protects |your |computer |from |hackers |when |it's |connected |to |the |Internet. |Built-in |policies |also |help |protect |your |computer |from |certain |types |of |e-mail |viruses.\r\n\r\nIf |you |need |to |encrypt |your |data, |Windows |XP |Professional |offers |an |encrypting |file |system, |which |has |been |improved |to |work |seamlessly |with |offline |data."
+    IDS_TITLE15             "Будьте уверены в большей доступности"
+    IDS_TEXT15              "Windows® |XP |Professional |provides |accessibility |features |that |make |it |easier |for |people |to |use |computers.\r\n\r\nThe |Accessibility |Wizard |helps |you |customize |your |computer |screen, |keyboard, |and |mouse |to |fit |your |needs.\r\n\r\nTo |make |items |on |the |screen |easier |to |see, |you |can |increase |the |contrast, |enlarge |the |text, |and |have |your |mouse |pointer |leave |a |trail. |You |can |customize |keyboard |options |and |replace |computer |sounds |with |visual |alerts.\r\n\r\nWindows |XP |also |includes |basic |utilities |that |allow |you |to |magnify |the |screen |or |use |an |on-screen |keyboard. |You |can |start |these |utilities |from |the |Utility |Manager–|even |when |logging |on |to |your |computer–|by |pressing |the |Windows |logo |key |+ |U."
+    IDS_TITLE16             "Теперь получить помощь и помочь другим стало проще!"
+    IDS_TEXT16              "If |you |need |to |find |your |way |around |Windows® |XP |or |troubleshoot |a |problem, |then |you'll |appreciate |the |ease |of |finding |answers |in |the |content-|rich |new |world |of |Help |and |Support |Center.\r\n\r\nFrom |one |central |location, |you |can |find |your |system |configuration, |keep |your |computer |up |to |date, |check |for |software |and |hardware |compatibility, |and |search |across |multiple |sources |of |help |and |troubleshooting |content |on |the |Web |as |well |as |on |your |computer--|quickly |and |easily!\r\n\r\nIf |you |prefer |to |ask |friends |or |co-workers |to |help |fix |a |problem |on |your |computer, |just |send |them |a |Remote |Assistance |request. |Then, |with |your |permission, |they |can |use |their |own |computer |to |view |your |desktop |and |help |you |just |as |easily |as |if |they |were |in |the |same |room."
+    IDS_TITLE17             "Наслаждайтесь использованием ОС Заря!"
+    IDS_TEXT17              "If |you |would |like |more |details |on |the |new |features |built |into |Windows |XP, |the |Windows |Start |menu |can |point |you |to |several |options. |Click |Help |and |Support |to |find |articles, |overviews, |and |tutorials |on |specific |features.\r\n\r\nOr |click |Help |and |Support |and |type |“walkthroughs” |into |the |Search |box |to |find |articles |that |help |you |explore. |You |can |also |take |a |Tour |from |the |Start |menu |to |enjoy |a |visual |review |of |the |next |generation |of |Windows |for |home |and |business |computing.\r\n\r\nThank |you |for |purchasing |Windows |XP |Professional. |We |hope |that |you |enjoy |the |many |new |features |of |this |Windows |version." 
+END
+

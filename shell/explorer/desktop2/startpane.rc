@@ -1,0 +1,88 @@
+//This file is included from the webvw.rc so all paths to files in this file 
+// should be relative to webvw directory instead of this directory
+/* UTF-8 */
+#pragma code_page(65001)
+STRINGTABLE
+BEGIN
+    IDS_STARTPANE_INFOTIP_SEARCH    "Открывает окно, в котором можно выбрать параметры поиска и работать с результатами поиска."
+    IDS_STARTPANE_INFOTIP_HELP      "Открывает центральное место для разделов справки, учебных пособий, средств устранения неполадок и других служб поддержки."
+    IDS_STARTPANE_INFOTIP_WINSECURITY ""
+    IDS_STARTPANE_INFOTIP_FILERUN   "Открывает программу, папку, документ или веб-сайт."
+    IDS_STARTPANE_INFOTIP_CLIENTINET "Открывает ваш интернет-браузер."
+    IDS_STARTPANE_INFOTIP_CLIENTMAIL "Открывает программу электронной почты, чтобы вы могли отправить или прочитать сообщение.."
+
+    IDS_STARTPANE_TITLE_SEARCH    "Поиск"
+    IDS_STARTPANE_TITLE_HELP      "Помощь и поддержка"
+    IDS_STARTPANE_TITLE_WINSECURITY "Безопасность Windows"
+    IDS_STARTPANE_TITLE_FILERUN   "Выпослнить..."
+    IDS_STARTPANE_TITLE_CLIENTINET "Internet"
+    IDS_STARTPANE_TITLE_CLIENTMAIL "E-mail"
+
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SFTHOST_OFFERREMOVEITEM "The item you selected is unavailable.  \
+It might have been moved, renamed, or removed.  \
+Do you want to remove it from the list?"
+
+    IDS_SFTHOST_REMOVEFROMLIST  "Убрать из списка"
+    IDS_SFTHOST_SHOWONDESKTOP   "Показать на рабочем столе"
+
+    IDS_STARTPANE_MOREPROGRAMS  "Все Программы"
+    IDS_STARTPANE_MOREPROGRAMS_TIP "Отображает список программ на вашем компьютере."
+    IDS_STARTPANE_MOREPROGRAMS_BALLOONTITLE "Установлены новые программы."
+    IDS_STARTPANE_SPECIALITEMSTIP "If you want to \
+put the Internet or E-mail icons \
+back on your Start menu, right-click the Start button, click Properties, \
+click Customize, and select the appropriate check box."
+
+    IDS_STARTPANE_CLIPPED_TITLE     "Some items cannot be shown"
+    IDS_STARTPANE_CLIPPED_TEXT      "There is not enough room to show all the items you have added \
+to the Start menu.  To display them, please choose smaller menu icons, \
+choose a smaller number of items, or unpin some items."
+
+    IDS_LOGOFF_TEXT_FRIENDLY    "|Заблокировать Компьютер|Выйти|Выключите Компьютер|Отключить||"
+    IDS_LOGOFF_TEXT_DOMAIN      "|Заблокировать Компьютер|Выйти|Выключить|Отключить||"
+
+    IDS_LOGOFF_TIP_EJECT       "Снимает ноутбук или ноутбук с док-станции.."
+    IDS_LOGOFF_TIP_LOGOFF      "Provides options for closing your programs and logging off, or for leaving your programs running and switching to another user."
+    IDS_LOGOFF_TIP_SHUTDOWN    "Provides options for turning off or restarting your computer, or for activating Stand By or Hibernate modes."
+    IDS_LOGOFF_TIP_DISCONNECT  "Disconnects your session.  You can reconnect to the session when you log on again."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CUSTOMTIP_MYDOCS    "Opens the My Documents folder, where you can store letters, reports, notes, and other kinds of documents."
+    IDS_CUSTOMTIP_RECENT    "Displays recently opened documents and folders."
+    IDS_CUSTOMTIP_MYMUSIC   "Opens the My Music folder, where you can store music and other audio files."
+    IDS_CUSTOMTIP_MYPICS    "Opens the My Pictures folder, where you can store digital photos, images, and graphics files."
+    IDS_CUSTOMTIP_MYNETPLACES "Gives access to, and information about, folders and files on other computers."
+    IDS_CUSTOMTIP_MYCOMP    "Gives access to, and information about, the disk drives, cameras, scanners, and other hardware connected to your computer."
+    IDS_CUSTOMTIP_CONNECTTO "Connects to other computers, networks, and the Internet."
+    IDS_CUSTOMTIP_CTRLPANEL "Provides options for you to customize the appearance and functionality of your computer, add or remove programs, and set up network connections and user accounts."
+
+    IDS_STARTPANE_CONNECTTO         "Connect &To"
+    IDS_STARTPANE_CONTROLPANEL      "Панель Управления"
+    IDS_STARTPANE_FAVORITES         "Избранное"
+    IDS_STARTPANE_RECENT            "Мои недавние документы"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STARTPANE_TOTALHEIGHT       "440"
+    IDS_STARTPANE_TOTALWIDTH        "380"
+    IDS_STARTPANE_USERHEIGHT        "40"
+    IDS_STARTPANE_MOREPROGHEIGHT    "30"
+    IDS_STARTPANE_LOGOFFHEIGHT      "40"
+END
+
+MENU_CONNECTTO MENUEX PRELOAD DISCARDABLE
+BEGIN
+                MENUITEM "", -1,               MFT_SEPARATOR
+                MENUITEM "Показать все подключения", IDM_OPENCONFOLDER
+END
+
+
+IDB_LOGOFF_NORMAL BITMAP "desktop2\\LogoffButtons.bmp"
+IDB_LOGOFF_HOT    BITMAP "desktop2\\LogoffButtonsHot.bmp"

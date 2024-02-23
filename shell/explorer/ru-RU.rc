@@ -1,0 +1,238 @@
+
+
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+MENU_TRAYCONTEXT MENU PRELOAD DISCARDABLE
+BEGIN
+        POPUP ""
+        BEGIN
+// WARNING -- CTray::BuildContextMenu assumes position of these menu items
+                MENUITEM "Изменить дату/Время",           IDM_SETTIME
+                MENUITEM "Настройка уведомлений...", IDM_NOTIFYCUST
+                MENUITEM SEPARATOR
+// END WARNING
+                MENUITEM "Каскадные окна",            IDM_CASCADE
+                MENUITEM "Разместить окна по горизонтали",  IDM_HORIZTILE
+                MENUITEM "Разместить окна по вертикали",    IDM_VERTTILE
+                MENUITEM "Показать рабочий стол",           IDM_TOGGLEDESKTOP   
+                MENUITEM "Отменить",   IDM_UNDO
+                MENUITEM SEPARATOR
+                MENUITEM "Диспетчер задач",               IDM_SHOWTASKMAN
+                MENUITEM SEPARATOR
+                MENUITEM "Заблокировать панель задач",           IDM_LOCKTASKBAR
+                MENUITEM "Параметры",                 IDM_TRAYPROPERTIES
+        END
+END
+
+
+MENU_GROUPCONTEXT MENUEX PRELOAD DISCARDABLE
+BEGIN
+        POPUP "", -1
+        BEGIN
+                MENUITEM "Каскад",           IDM_CASCADE
+                MENUITEM "Плитка горизонтально", IDM_HORIZTILE
+                MENUITEM "Плитка вертикально",   IDM_VERTTILE
+                MENUITEM "Свернуть группу",    IDM_MINIMIZE
+                MENUITEM "", -1,               MFT_SEPARATOR
+                MENUITEM "Закрыть группу",       IDM_CLOSE
+        END
+END
+
+// NB - ToolbarMenu() relies on the order of these menu items.
+// REVIEW HACK Note the spaces after (Empty), these are intentional.
+
+// WARNING:  if you change the order of this, or add new items,
+//           you'll need to change the table in StartMenu_CatMenu
+//           too.
+
+MENU_START MENUEX DISCARDABLE
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "", -1, MFT_SEPARATOR
+        POPUP "&Программы",                      IDM_PROGRAMS
+        BEGIN
+            MENUITEM "(Empty)    ",                     IDM_PROGRAMSINIT,,MFS_GRAYED
+        END
+
+        POPUP "Избранное",                      IDM_FAVORITES
+        BEGIN
+            MENUITEM "(Empty)    ",                     -1,,MFS_GRAYED
+        END
+
+        POPUP "&Документы",                     IDM_RECENT
+        BEGIN
+            MENUITEM "(Empty)    ",                     IDM_RECENTINIT,,MFS_GRAYED
+        END
+        POPUP "&Параметры",                      IDM_SETTINGS
+        BEGIN
+            MENUITEM "Панель управления",                  IDM_CONTROLS
+            MENUITEM "", -1, MFT_SEPARATOR
+#ifdef WINNT
+            MENUITEM "Безопасность Windows...",        IDM_MU_SECURITY
+            MENUITEM "Сетевые соединения", IDM_NETCONNECT
+#else
+            MENUITEM "Dial-up Сеть",             IDM_NETCONNECT
+#endif
+            // MENUITEM "Стартовое меню",                  IDM_PROGRAMSFOLDER
+            MENUITEM "Принтеры и факсы",             IDM_PRINTERS
+            // MENUITEM "Шрифты",                       IDM_FONTS
+            // MENUITEM "", -1, MFT_SEPARATOR
+            MENUITEM "Панель задач и меню «Пуск»",       IDM_TRAYPROPERTIES
+
+        END
+        POPUP "Поиск",                          IDM_MENU_FIND
+        BEGIN
+            MENUITEM "", -1, MFT_SEPARATOR
+        END
+
+        MENUITEM "Помощь и поддержка",           IDM_HELPSEARCH
+        MENUITEM "&Выполнить...",                     IDM_FILERUN
+        MENUITEM "",                            IDM_SEP2,       MFT_SEPARATOR
+        MENUITEM "Синхронизировать",                 IDM_CSC
+        MENUITEM "Выйти %s...",              IDM_LOGOFF
+        MENUITEM "Отключить...",              IDM_MU_DISCONNECT
+        MENUITEM "Заблокировать компьютер",            IDM_EJECTPC
+        MENUITEM "Выключить...",               IDM_EXITWIN
+    END
+END
+
+MENU_STARTPANECONTEXT MENUEX PRELOAD DISCARDABLE
+BEGIN
+        POPUP "", -1
+        BEGIN
+                MENUITEM "Параметры",        IDSYSPOPUP_STARTMENUPROP
+        END
+END
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+
+#ifdef WINNT
+
+// Neither of these two strings should exceed MAX_PATH in length
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_OKTOKILLAPP1     "Приложение либо слишком занято, либо не может ответить на ваш запрос о закрытии."
+    IDS_OKTOKILLAPP2     "Принудительное закрытие может привести к потере данных приложения. Вы хотите принудительно закрыть его?"
+END
+
+#endif
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_STARTBUTTONTIP          "Нажмите здесь, чтобы начать"
+
+    IDS_UNDOTEMPLATE            "Отменить %s"
+    IDS_CASCADE                 "Каскад"
+    IDS_TILE                    "Плитка"
+    IDS_MINIMIZEALL             "Свернуть все"
+    IDS_SHOWDEMOTEDTIP          "Показать скрытые значки"
+    IDS_HIDEDEMOTEDTIP          "Спрятать"
+    IDS_BANGICONINFOTITLE       "Скрытие значков неактивных уведомлений..."
+    IDS_BANGICONINFOTIP1        "Чтобы увидеть скрытые значки, нажмите эту кнопку."
+    IDS_TRAYNOTIFYTITLE         "Область уведомлений"
+    IDS_TASKBANDTITLE           "Запуск приложений"
+    IDS_HIDEDESKTOP             "Показать открытые окна"
+END
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_CABINET             "Windows Explorer"
+    IDS_STARTMENU           "Start Menu"
+    IDS_WINDOWS             "Windows"
+#ifdef WINNT
+    IDS_WINININORUN         "Не удалось загрузить или запустить «%1», указанный в реестре. Убедитесь, что файл существует на вашем компьютере, или удалите ссылку на него в реестре."
+#else
+    IDS_WINININORUN         "Не удалось загрузить или запустить «%1», указанный в файле WIN.INI. Убедитесь, что файл существует на вашем компьютере, или удалите ссылку на него в файле WIN.INI."
+#endif
+    IDS_TASKBAR             "Панель задач"
+    IDS_DESKTOP             "Рабочий стол"
+    IDS_CANTFINDSPECIALDIR  "Невозможно выполнить команду.\nПапка «%1» удалена."
+    IDS_NOTINITED           "Мой компьютер или проводник Windows еще не инициализированы должным образом. Попробуйте позже."
+    IDS_OUTOFMEM            "Недостаточно памяти для завершения этой операции."
+#ifdef FULL_DEBUG
+    IDS_START               "unicode debug"
+    IDS_STARTCLASSIC        "Unicode Debug"
+#else
+    IDS_START               " "
+    IDS_STARTCLASSIC        " "
+#endif
+
+    IDS_STARTMENUANDTASKBAR "Свойства панели задач и меню «Пуск»"
+
+    IDS_STARTMENUBALLOON_TIP "Вы можете получить доступ ко всем своим программам, документам и настройкам из меню «Пуск». Нажмите кнопку «Пуск», чтобы начать."
+    IDS_STARTMENUBALLOON_TITLE "Нажмите кнопку «Пуск»."
+
+    IDS_EXCEPTIONMSG        "Произошла внутренняя ошибка, и одно из используемых вами окон было закрыто."
+    IDS_RESTRICTIONSTITLE   "Ограничения"
+    IDS_RESTRICTIONS        "Эта операция была отменена из-за ограничений, действующих на этом компьютере. Пожалуйста, обратитесь к системному администратору."
+
+END
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_DISPLAY_ERROR "Windows не удалось изменить параметры отображения для новой конфигурации. Верните компьютер в предыдущее состояние, завершите работу Windows и перезагрузите компьютер в нужной конфигурации."
+    IDS_DISPLAY_WARN "Если вы продолжите, возможно, возникла проблема с настройками дисплея. Чтобы безопасно перейти на новую конфигурацию, следует завершить работу Windows и перезагрузить компьютер в нужной конфигурации. Вы все равно хотите продолжить?"
+    IDS_TASKDROP_ERROR "Вы не можете поместить элемент на кнопку на панели задач.\n\nОднако, если вы перетащите элемент на кнопку, не отпуская кнопку мыши, через мгновение окно откроется, и вы сможете переместить элемент внутрь окна."
+
+    IDS_ALREADYAUTOHIDEBAR "Панель инструментов уже скрыта на этой стороне экрана.\nНа каждой стороне может быть только одна автоматически скрываемая панель инструментов."
+    IDS_COMMON      " (Common)"
+    IDS_BETAEXPIRED         "Срок действия предварительной версии «Internet Explorer 4.0» Desktop/Explorer истек. Пожалуйста, обновите последнюю версию Internet Explorer 4.0 с сайта WWW.MICROSOFT.COM."
+    IDS_RUNDLGTITLE   "Run"
+
+    // This has to be in sync with IDM_LOGOFF
+    IDS_LOGOFFNOUSER        "Выйти..."
+    // This has to be in sync with IDM_EXITWIN
+    IDS_TURNOFFCOMPUTER     "Выключить ПК..."
+#ifdef WINNT
+   IDS_OPENCOMMON    "Открыть всех пользователей"
+   IDS_EXPLORECOMMON "E&xplore All Users"
+#endif
+    IDS_STARTMENUPROP   "Свойства"
+
+#ifdef WINNT
+    //IDS_HELP_CMD            "hh.exe>%systemroot%\\help\\windows.chm"
+	// on Whistler, we use Help and Support
+    IDS_HELP_CMD            "helpctr.exe>-FromStartHelp"
+#else
+    //  on millennium, we use the Help AC
+    IDS_HELP_CMD            "helpctr.exe"
+#endif
+    IDS_FIXSCREENRES_TITLE  "Настройки отображения"
+    IDS_FIXSCREENRES_TEXT   "Разрешение экрана вашего компьютера и глубина цвета в настоящее время установлены на очень низкий уровень. Вы можете получить лучшее изображение, увеличив эти настройки. Для этого нажмите на этот шарик."
+    IDS_OFFERTOUR_TITLE     "Обзор Windows XP"
+    IDS_OFFERTOUR_TEXT      "Чтобы узнать о новых интересных функциях XP, нажмите здесь. Чтобы просмотреть обзор позже, нажмите «Все программы» в меню «Пуск», а затем нажмите «Стандартные»."
+
+    IDS_CLEANBOOTMSG        "Windows работает в безопасном режиме.\n\nЭтот специальный диагностический режим Windows позволяет устранить проблему, которая может быть вызвана настройками вашей сети или оборудования. Убедитесь, что эти параметры верны на панели управления, а затем попробуйте снова запустить Windows. В безопасном режиме некоторые ваши устройства могут быть недоступны."
+    IDS_CLEANBOOTMSGRESTORE "Windows работает в безопасном режиме.\n\nЭтот специальный диагностический режим Windows позволяет устранить проблему, которая может быть вызвана настройками вашей сети или оборудования. Убедитесь, что эти параметры верны на панели управления, а затем попробуйте снова запустить Windows. В безопасном режиме некоторые ваши устройства могут быть недоступны.\n\nЧтобы продолжить работу в безопасном режиме, нажмите Да. Если вы предпочитаете использовать восстановление системы для восстановления вашего компьютера до предыдущего состояния, нажмите «Нет»."
+    IDS_BOGUSLABELS         "|Go||"
+END
+
+//  MFU strings
+//
+//  We need to put all of the strings in here, even though only one or two
+//  of them will actually be used.  There is a single MUI package that
+//  is used for both Win32 and Win64, so you can't put #ifdef WIN64 in a
+//  resource file.
+//
+
+STRINGTABLE
+BEGIN
+
+    MFU_ENUMRC(PRO32ALL)
+    MFU_ENUMRC(PRO64ALL)
+    MFU_ENUMRC(SRV32ADM)
+    MFU_ENUMRC(SRV64ADM)
+
+END
