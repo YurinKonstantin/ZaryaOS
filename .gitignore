@@ -1,0 +1,5 @@
+obj/
+build.log
+build.wrn
+build.err
+*~
