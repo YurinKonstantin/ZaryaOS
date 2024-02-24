@@ -19,9 +19,9 @@
 - Если вы используете ПК x64, выполните `tools\razzle64 free offline` Если 32 разрядная машина то  `tools\razzle free offline`
 - Запустите tools\prebuild
 - Выполните сборку `build /cZP -M 4` Где (-M 4 для использования всех 4 ядер процессора)
-Допускаются ошибки и warning, но для ibraries built ошибок быть не должно
+Допускаются ошибки и warning, но для libraries built ошибок быть не должно
 
-- Извлеките отсутствующие двоичные файлы в D:\binaries.x86fre Скачать https://disk.yandex.ru/d/cz0CHU7RBWA_6g. При дублекате выберите пропустить. Повторяющееся не переписывать.
+- Извлеките отсутствующие двоичные файлы в D:\binaries.x86fre Скачать https://disk.yandex.ru/d/0jLvQL0FCOSZpQ При дублекате выберите пропустить. Повторяющееся не переписывать.
 - Выполните `tools\postbuild -full`
 - Выполните `tools\oscdimg pro` для создания ISO-файла XP Professional Возможны варианты Home Edition/Server 2003 Standard Edition  Вместо pro используйте per|srv
 
