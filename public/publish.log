@@ -476,3 +476,6 @@ D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\ad
 D:\srv03rtm\public\internal\base\lib\i386\winreg.lib D:\srv03rtm\base\screg\winreg\client obj\i386\winreg.lib 1709195037 
 D:\srv03rtm\public\internal\Shell\lib\i386\shlproxy.lib D:\srv03rtm\shell\published\inc obj\i386\shlproxy.lib 1709195924 
 D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1709197091 
+D:\srv03rtm\public\internal\base\lib\i386\winreg.lib D:\srv03rtm\base\screg\winreg\client obj\i386\winreg.lib 1709387490 
+D:\srv03rtm\public\internal\Shell\lib\i386\shlproxy.lib D:\srv03rtm\shell\published\inc obj\i386\shlproxy.lib 1709388474 
+D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1709389648 
