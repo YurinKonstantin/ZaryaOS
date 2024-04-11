@@ -104,7 +104,7 @@ copy ds\nw\lib\ia64\nw4crypt.lib ds\nw\lib\obj\ia64
 
 copy ds\security\services\ca\tools\certut\amd64\cast.lib ds\security\services\ca\tools\certut\obj\amd64
 copy ds\security\services\ca\tools\certut\i386\cast.lib ds\security\services\ca\tools\certut\obj\i386
-copy ds\security\services\ca\tools\certut\obj\ia64\cast.lib ds\security\services\ca\tools\certut\obj\ia64
+copy ds\security\services\ca\tools\certut\ia64\cast.lib ds\security\services\ca\tools\certut\obj\ia64
 
 copy inetcore\outlookexpress\external\i386\9xmig.dll inetcore\outlookexpress\external\obj\i386
 copy inetcore\outlookexpress\external\i386\csapi3t1.dll inetcore\outlookexpress\external\obj\i386
