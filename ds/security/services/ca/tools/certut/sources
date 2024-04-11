@@ -63,7 +63,7 @@ TARGETLIBS= \
     $(XELIB_PATH)\$(O)\xelib.lib \
     $(SDK_LIB_PATH)\comctl32.lib \
     $(DS_LIB_PATH)\rsa32.lib \
-    objLib\*\cast.lib \
+    obj\*\cast.lib \
     $(SDK_LIB_PATH)\comdlg32.lib \
     $(SDK_LIB_PATH)\crypt32.lib \
     $(SDK_LIB_PATH)\cryptnet.lib \

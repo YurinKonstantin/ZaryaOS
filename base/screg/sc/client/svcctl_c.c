@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 6.00.0366 */
-/* at Sat Mar 02 16:35:31 2024
+/* at Thu Apr 11 10:59:48 2024
  */
 /* Compiler settings for .\svcctl.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
@@ -4503,28 +4503,6 @@ static const GENERIC_BINDING_ROUTINE_PAIR BindingRoutines[ GENERIC_BINDING_TABLE
         };
 
 
-static void __RPC_USER svcctl_RGetServiceDisplayNameWExprEval_0000( PMIDL_STUB_MESSAGE pStubMsg )
-{
-    #pragma pack(4)
-    struct _PARAM_STRUCT
-        {
-        
-        /* [in] */ SC_RPC_HANDLE hSCManager;
-        
-        /* [string][in] */ wchar_t *lpServiceName;
-        
-        /* [size_is][string][out] */ wchar_t *lpDisplayName;
-        
-        /* [out][in] */ LPBOUNDED_DWORD lpcchBuffer;
-        DWORD _RetVal;
-        };
-    #pragma pack()
-    struct _PARAM_STRUCT *pS	=	( struct _PARAM_STRUCT * )pStubMsg->StackTop;
-    
-    pStubMsg->Offset = 0;
-    pStubMsg->MaxCount = ( unsigned long ) ( *pS->lpcchBuffer + 1 );
-}
-
 static void __RPC_USER svcctl_RGetServiceKeyNameWExprEval_0001( PMIDL_STUB_MESSAGE pStubMsg )
 {
     #pragma pack(4)
@@ -4536,6 +4514,28 @@ static void __RPC_USER svcctl_RGetServiceKeyNameWExprEval_0001( PMIDL_STUB_MESSA
         /* [string][in] */ wchar_t *lpDisplayName;
         
         /* [size_is][string][out] */ wchar_t *lpServiceName;
+        
+        /* [out][in] */ LPBOUNDED_DWORD lpcchBuffer;
+        DWORD _RetVal;
+        };
+    #pragma pack()
+    struct _PARAM_STRUCT *pS	=	( struct _PARAM_STRUCT * )pStubMsg->StackTop;
+    
+    pStubMsg->Offset = 0;
+    pStubMsg->MaxCount = ( unsigned long ) ( *pS->lpcchBuffer + 1 );
+}
+
+static void __RPC_USER svcctl_RGetServiceDisplayNameWExprEval_0000( PMIDL_STUB_MESSAGE pStubMsg )
+{
+    #pragma pack(4)
+    struct _PARAM_STRUCT
+        {
+        
+        /* [in] */ SC_RPC_HANDLE hSCManager;
+        
+        /* [string][in] */ wchar_t *lpServiceName;
+        
+        /* [size_is][string][out] */ wchar_t *lpDisplayName;
         
         /* [out][in] */ LPBOUNDED_DWORD lpcchBuffer;
         DWORD _RetVal;
