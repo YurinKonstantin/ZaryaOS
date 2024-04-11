@@ -35,6 +35,90 @@ del base\ntos\ex\up\obj\amd64\exinit.obj
 del base\ntos\ex\up\obj\amd64\systime.obj
 
 echo.
+If exist "ds\nw\lib\obj\amd64" ( 
+    Echo "Создали ds\nw\lib\obj\amd64"
+) Else ( 
+    mkdir "ds\nw\lib\obj\amd64"
+)
+
+If exist "ds\nw\lib\obj\i386" ( 
+    Echo "Создали ds\nw\lib\obj\i386"
+) Else ( 
+    mkdir "ds\nw\lib\obj\i386"
+)
+
+If exist "ds\nw\lib\obj\ia64" ( 
+    Echo "Создали ds\nw\lib\obj\ia64"
+) Else ( 
+    mkdir "ds\nw\lib\obj\ia64"
+)
+
+
+
+If exist "ds\security\services\ca\tools\certut\obj\amd64" ( 
+    Echo "Создали ds\security\services\ca\tools\certut\obj\amd64"
+) Else ( 
+    mkdir "ds\security\services\ca\tools\certut\obj\amd64"
+)
+
+If exist "ds\security\services\ca\tools\certut\obj\i386" ( 
+    Echo "Создали ds\security\services\ca\tools\certut\obj\i386"
+) Else ( 
+    mkdir "ds\security\services\ca\tools\certut\obj\i386"
+)
+
+If exist "ds\security\services\ca\tools\certut\obj\ia64" ( 
+    Echo "Создали ds\security\services\ca\tools\certut\obj\ia64"
+) Else ( 
+    mkdir "ds\security\services\ca\tools\certut\obj\ia64"
+)
+
+
+
+If exist "inetcore\outlookexpress\external\obj\i386" ( 
+    Echo "Создали dinetcore\outlookexpress\external\obj\i386"
+) Else ( 
+    mkdir "inetcore\outlookexpress\external\obj\i386"
+)
+
+
+If exist "windows\advcore\duser\directui\engine\parser\obj\amd64" ( 
+    Echo "Создали windows\advcore\duser\directui\engine\parser\obj\amd64"
+) Else ( 
+    mkdir "windows\advcore\duser\directui\engine\parser\obj\amd64"
+)
+
+If exist "windows\advcore\duser\directui\engine\parser\obj\i386" ( 
+    Echo "Создали windows\advcore\duser\directui\engine\parser\obj\i386"
+) Else ( 
+    mkdir "windows\advcore\duser\directui\engine\parser\obj\i386"
+)
+
+
+
+
+echo Copy...
+copy ds\nw\lib\amd64\nw4crypt.lib ds\nw\lib\obj\amd64
+copy ds\nw\lib\i386\nw4crypt.lib ds\nw\lib\obj\i386
+copy ds\nw\lib\ia64\nw4crypt.lib ds\nw\lib\obj\ia64
+
+copy ds\security\services\ca\tools\certut\amd64\cast.lib ds\security\services\ca\tools\certut\obj\amd64
+copy ds\security\services\ca\tools\certut\i386\cast.lib ds\security\services\ca\tools\certut\obj\i386
+copy ds\security\services\ca\tools\certut\obj\ia64\cast.lib ds\security\services\ca\tools\certut\obj\ia64
+
+copy inetcore\outlookexpress\external\i386\9xmig.dll inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\csapi3t1.dll inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\csapi3t1.pdb inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\mapistub.dll inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\newstub.dll inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\fixmapi.exe inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\newfix.exe inetcore\outlookexpress\external\obj\i386
+copy inetcore\outlookexpress\external\i386\polmod.exe inetcore\outlookexpress\external\obj\i386
+
+copy windows\advcore\duser\directui\engine\parser\i386\parse.obj windows\advcore\duser\directui\engine\parser\obj\i386
+copy windows\advcore\duser\directui\engine\parser\amd64\parse.obj windows\advcore\duser\directui\engine\parser\obj\amd64
+
+
 echo Setting Read-only attribute on required objects/libs...
 attrib /S /D +r ds\security\services\ca\tools\certut\obj\*.lib
 attrib /S /D +r inetcore\outlookexpress\external\obj\*.*
