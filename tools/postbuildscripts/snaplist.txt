@@ -1,6 +1,6 @@
-; Snaplist.txt - Defines the list of folders/files to exclude from the US build for international.
+; Snaplist.txt - Определяет список папок/файлов, которые необходимо исключить из международной сборки для США.
 ;
-; Excludes - File or folder name. Path is relative to the root of bin.
+; Excludes - Имя файла или папки. Путь указывается относительно корня корзины.
 ; Type     - 'D' for Directory, 'F' for File.
 ; Comment  - The contents of the file / folder, or any comment.
 Excludes                                                      Type     Comment

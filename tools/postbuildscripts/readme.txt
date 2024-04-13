@@ -1,27 +1,25 @@
 
-This directory contains "build rules" you can use for your particular project.
+Этот каталог содержит «правила сборки», которые вы можете использовать для своего конкретного проекта.
 
-Typically, a build rule script executes various post-build.exe operations on a set of
-existing binaries. For example, a build rule script can invoke iexpress.exe in order
-to generate a cab file or a self-extracting executable.
+Обычно сценарий правила сборки выполняет различные операции post-build.exe над набором
+существующие двоичные файлы. Например, сценарий правила сборки может вызывать iexpress.exe по порядку.
+для создания CAB-файла или самораспаковывающегося исполняемого файла.
 
-E-mail MLekas or ntball with questions regarding the US builds and MattHoe or ntbintl
-with questions regarding the International builds.
 
-To add a new build rule script:
+Чтобы добавить новый скрипт правила сборки:
 
-1. Copy "template" to <your_project_build_rule>.cmd.
+1. Скопируйте "template" в <your_project_build_rule>.cmd.
 
-2. Edit <your_project_build_rule>.cmd according to the guidelines below.
+2. Изменить <your_project_build_rule>.cmd согласно приведенным ниже рекомендациям.
 
-   a. Build rule scripts must be general enough to run in various contexts.
+   a. Сценарии правил сборки должны быть достаточно общими, чтобы их можно было выполнять в различных контекстах.
 
-      The build rule scripts are part of the US Windows 2000 build procedures.
-      The Redmond-based and the Dublin-based International Windows 2000 builds use them
-      too. Some of the build rule scripts are released with the source release kits.
-      These various contexts need to be considered when implementing the build rule scripts.
+      Сценарии правил сборки являются частью процедур сборки Windows 2000 для США.
+       Они используются в сборках International Windows 2000 в Редмонде и Дублине.
+       слишком. Некоторые сценарии правил сборки выпускаются вместе с пакетами выпуска исходного кода.
+       Эти различные контексты необходимо учитывать при реализации сценариев правил сборки.
 
-      For example, the build rule scripts should avoid using hard-coded machine names:
+       Например, в сценариях правил сборки следует избегать использования жестко закодированных имен компьютеров:
 
       * If your script propagates binaries from one build machine to another,
          call %_ntbindir%\bldrules\localbrs.bat, then use variable names instead of

@@ -1,39 +1,36 @@
-; This file is used to specify where every file built by the NT build lab is
-; binplaced relative to the root of the distribution point.  If a file is not
-; listed, it will end up in the dump directory.
+; Этот файл используется для указания места размещения 
+; каждого файла, созданного лабораторией сборки NT, относительно корня точки распространения. Если файл не
+; в списке, он окажется в каталоге дампа.
 ;
-; The format is like this:
+; Формат такой:
 ;
 ; <imagename>    <class name>
 ;
-; where <imagename> is the filename.ext and <class name> is the directory off
-; the root of the distribution point (retail is a placeholder for the root).
-; If there are multiple class names for a single image, use a colon to separate
-; each.
+; где <imagename> — это имя файла.ext, а <class name> — это удаленный каталог.
+; корень точки распространения (розничная торговля — это заполнитель корня).
+; Если для одного изображения имеется несколько имен классов, используйте двоеточие для разделения.
+; каждый.
 ;
-; All bits that ship in the NT base product and are installed with winnt32,
-; must have a class name of retail.
+;Все компоненты, поставляемые в базовом продукте NT и устанавливаемые вместе с winnt32.
+; должно иметь имя класса розничной торговли.
 ;
-; If you add a new file to the list, please refrain from creating your own
-; special section.  Doing so makes it difficult to detect duplicates.  If
-; you're unable to add your image due to a collision with an existing name,
-; work it out with the other developer.  Options include creating another
-; placefil.txt for your project or using the ALT_PROJECT_TARGET macro in your
-; sources file to change the base of the distribution point (doing so means
-; your project will not install as part of base NT).
+; Если вы добавляете в список новый файл, пожалуйста, воздержитесь от создания своего специального раздела. 
+;Это затрудняет обнаружение дубликатов. Если вы не можете добавить свое изображение из-за конфликта с существующим именем,
+; решите этот вопрос с другим разработчиком. Варианты включают создание другого файла Placefil.txt для вашего проекта 
+; или использование макроса ALT_PROJECT_TARGET в исходном файле для изменения базы точки распространения 
+; (это означает, что ваш проект не будет установлен как часть базовой NT).
 ;
 ;     sort /+17 < placefil.txt > placefil.srt
 ;
-; will generate a list sorted by class name if you want.
+; сгенерирует список, отсортированный по имени класса, если хотите.
 ;
 ; IMPORTANT NOTE:
 ;
-; If you add a file to the system, YOU MUST make sure layout.inf is updated
-; before you start depending on it or else you will cause a BVT break. Do
-; not attempt to modify layout.inf yourself, but follow instructions on:
-;     http://winweb/setup/addtob/default.htm
+; Если вы добавляете файл в систему, ВЫ ДОЛЖНЫ убедиться, что файл Layout.inf обновлен, 
+; прежде чем начинать работу, в зависимости от этого, иначе это приведет к сбою BVT. 
+; Не пытайтесь изменить файл layout.inf самостоятельно
 ;
-;        PLEASE KEEP THIS LIST SORTED
+;        ПОЖАЛУЙСТА, СОХРАНЯЙТЕ ЭТОТ СПИСОК
 ;---------------------------------------------
 _POP3_00.htm	 retail
 _POP3_01.htm	 retail
