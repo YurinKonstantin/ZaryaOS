@@ -1,4 +1,4 @@
-; This is a text file for copying ts client files
+; Это текстовый файл для копирования файлов клиента ts.
 
 ; The first column is the source name on the x86 machine.
 ; files are copied unrenamed to the IA64 machine

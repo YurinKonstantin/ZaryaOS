@@ -1,42 +1,41 @@
-(This file lives in the root enlist of the windows tree in the tools\sample directory)
-This directory contains the following templates and sample files --
+ (Этот файл находится в корневом списке дерева Windows в каталоге Tools\sample)
+Этот каталог содержит следующие шаблоны и файлы примеров:
 
-makefile     -- The default makefile used throughout Windows.  Generally this 
-                file does not need to be editted and can/should be used as is.
+makefile     -- Makefile по умолчанию, используемый в Windows. Обычно этот файл не нуждается в редактировании и может/должен использоваться как есть.
 
-sources.tpl  -- A template for creating your own sources file to build your
-                project.
+sources.tpl  -- Шаблон для создания собственного файла исходного кода для сборки вашего
+                 проект.
 
-sources.lib  -- A sample sources file for building multiple console apps from
-                a library.
+sources.lib  -- Пример исходного файла для создания нескольких консольных приложений из
+                 библиотека.
 
-sources.exe  -- A sample sources file for build a windows app.
+sources.exe  -- Пример исходного файла для создания приложения Windows.
 
-dirs.txt         -- A sample dirs file.
+dirs.txt         -- Пример файла dirs.
 
 
-Other usefull files that are not in this directory --
+Другие полезные файлы, которых нет в этом каталоге --
 
 http://winweb/wem/docs/NewcomerOrientation1.doc -- A newcomer doc for SDE, SDET and STEs
 http://winweb/wem -- The windows Engineering Manual
 
-build.hlp    -- Old help file on using the NT build process.  It is availible
-                in the idw directory of the release servers:
-                \\winbuilds\release\usa\main\latest.idw\x86fre\bin\idw
-                It lives in the sdktools project: sdktools\build
+build.hlp    -- Старый файл справки по использованию процесса сборки NT. Это доступно
+                 в каталоге idw серверов выпуска:
+                 \\winbuilds\release\usa\main\latest.idw\x86fre\bin\idw
+                 Он находится в проекте sdktools: sdktools\build.
 
-build.htm    -- Contains updates to the build process that are not in build.hlp
-                or are explained further.  It lives in the sdktools project:
-                sdktools\build
+build.htm    -- Содержит обновления процесса сборки, которых нет в build.hlp.
+                 или объясняются далее. Он находится в проекте sdktools:
+                 sdktools\build
 
-makefile.def -- Contains all the standard definitions used by default when
-                building in the windows SD environment.  It lives in the
-                root enlistment for Windows in the tools directory.
+makefile.def -- Содержит все стандартные определения, используемые по умолчанию при
+                 сборка в среде Windows SD. Оно живет в
+                 корневое подключение для Windows в каталоге инструментов.
 
-i386mk.inc  -- Contains other Macros that should be used when referencing binaries
-               in your sources files.  (ia64mk.inc for IA64) It lives in the
-               tools directory.
+i386mk.inc  -- Содержит другие макросы, которые следует использовать при ссылке на двоичные файлы.
+                в ваших исходных файлах. (ia64mk.inc для IA64) Он живет в
+                каталог инструментов.
 
-projects.inc-- Contains other Macros that should be used when referencing files in
-               your sources files (project.tst.inc for test projects)  It lives in
-               the tools directory.
+projects.inc-- Содержит другие макросы, которые следует использовать при ссылке на файлы в
+                ваши исходные файлы (project.tst.inc для тестовых проектов). Он находится в
+                каталог инструментов.

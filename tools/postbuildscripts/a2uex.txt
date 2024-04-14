@@ -1,5 +1,5 @@
 
-; Exclusion list from the Unicode conversion.
+; Список исключений из преобразования Unicode.
 ;
 ; Used by a2u.pl. International builds specific.
 ;

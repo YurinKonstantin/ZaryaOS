@@ -1,37 +1,36 @@
 ;=========================
-; KEEP THIS FILE SORTED...
+; СОХРАНИТЕ ЭТОТ ФАЙЛ В ОТНОШЕНИИ...
 ;=========================
 ;
-; This is where you add new files or remove old files from public.
+; Здесь вы добавляете новые файлы или удаляете старые файлы из общего доступа.
 ;
-; Here's how it works.  Below is a comma delimited list of operations to perform.
-; If there are conflicting operations on the same file (for instance an add AND a
-; delete) both will be discarded so check to see if the file is already listed before
-; you add your change.
+; Вот как это работает. Ниже приведен список операций, разделенных запятыми, которые необходимо выполнить.
+; Если с одним и тем же файлом есть конфликтующие операции (например, добавление И удаление),
+; обе они будут отменены, поэтому проверьте, есть ли файл уже в списке, прежде чем добавлять изменения.
 ;
-; NOTE: DON'T USE TABS TO CREATE WHITE SPACE IN YOUR ENTRIES.
+; ПРИМЕЧАНИЕ. НЕ ИСПОЛЬЗУЙТЕ ВКЛАДКИ ДЛЯ СОЗДАНИЯ БЕЛОГО ПРОСТРАНСТВА В ВАШИХ ЗАПИСАХ.
 ;
 ;=========================
-; KEEP THIS FILE SORTED...
+; СОХРАНИТЕ ЭТОТ ФАЙЛ В ОТНОШЕНИИ...
 ;=========================
 ;
-; Note: A ';' in column one is used for comments.  Fields should be space (NOT TAB) separated.
+; Note: A ';' в первом столбце используется для комментариев. Поля должны быть разделены пробелом (НЕ TAB).
 ;
-; Field #       What it is
+; Field #      Что это
 ; =======       ===========
-;    1          The file name to add/delete.  Any valid name under public
-;               is allowed.  * will be replaced with i386/amd64/ia64
-;               if the same file s/b added or deleted for all architectures.
+;    1          Имя файла для добавления/удаления. Любое допустимое имя под общедоступным
+; 		позволено. * будет заменено на i386/amd64/ia64
+; 		если один и тот же файл s/b добавлен или удален для всех архитектур.
 ;
-;    2          The operation.  Valid values are add or del (changes
-;               are done automatically from the build machines already).
+;    2          Операция. Допустимые значения: add или del.
+;               (изменения уже вносятся автоматически со сборочных машин).
 ;
-;    3          Your email name (so we have a log of who changed what).
+;    3          Ваш адрес электронной почты (чтобы у нас был журнал того, кто что изменил).
 ;
-;    4          Comment - Why this file needs to be in public (this will be
-;               recorded in the public change record)
+;    4          Комментарий: почему этот файл должен быть общедоступным
+;               (это будет записано в общедоступной записи изменений)
 
-ddk\inc\csq.h,                         add, SKupec, Now valid in .NET
+ddk\inc\csq.h,                         add, SKupec, Сейчас действует в .NET
 ddk\inc\ddk_ext.h,                     add, SKupec, New DDK Verifier Extensions
 ddk\inc\fscanapi.h,                    del, coopp, WIA scanner sample no longer needs this header
 ddk\inc\hbaapi.mof,                    add, AlanWar, HBA API MOF definitions

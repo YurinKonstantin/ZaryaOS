@@ -1,4 +1,4 @@
-;This text file lists the machines you want to automatically boot test (clean install).
+;В этом текстовом файле перечислены машины, которые вы хотите автоматически протестировать при загрузке (чистая установка).
 ;Column1: Branch name, i.e., lab03M  Column2: Architecture (ia64 axp64 x86)
 ;Column3: Debug type (fre chk)
 ;Column4: Product flavor (per pro srv ads dtc)

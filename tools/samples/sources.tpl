@@ -1,8 +1,8 @@
-# !!!!!!!!!!!!!!!!!!!!! WHAT YOU NEED TO DO !!!!!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!!!!!!!!!!! ЧТО ТЕБЕ НЕОБХОДИМО СДЕЛАТЬ!!!!!!!!!!!!!!!!!!!!!
 #
-# - replace the xxxxx in the MAJORCOMP= and MINORCOMP= macros below
-#   with your components major and minor component name
-#   (e.g. MAJORCOMP=video, MINORCOMP=displays etc.).
+# - замените xxxxx в макросах MAJORCOMP= и MINORCOMP= ниже.
+# с именем основного и второстепенного компонента вашего компонента
+# (например, MAJORCOMP=видео, MINORCOMP=дисплеи и т. д.).
 #
 # - replace the xxxxx in the TARGETNAME= macro below with your target name
 #   (e.g. serial, atdisk, xga, etc.).

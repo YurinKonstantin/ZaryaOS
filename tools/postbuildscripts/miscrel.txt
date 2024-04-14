@@ -1,9 +1,9 @@
 
 ;
-; Used by release for copying micellanenous files from builds.
+; Используется выпуском для копирования разных файлов из сборок.
 ;
-; This text file maps the language release root between Build machine and 
-; release servers/conglomerator.
+; Этот текстовый файл сопоставляет корень языковой версии между машиной сборки и
+; релиз серверов/конгломератора.
 ; Used by MiscRel.cmd to perform remote copy.
 ;
 ; Description of fields:

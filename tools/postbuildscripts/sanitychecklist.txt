@@ -1,9 +1,9 @@
 ;
 ;
-; This file should list all of the files we want to sanity check the
-; Unicode signature on. Each line in this file should list a path to a
-; file that is relative to %_NTDRIVE%%_NTROOT%. No leading backslashes
-; should be used; they will be inserted automagically.
+; В этом файле должны быть перечислены все файлы, которые мы хотим проверить на работоспособность.
+; Подпись Unicode включена. В каждой строке этого файла должен быть указан путь к
+; файл, относящийся к %_NTDRIVE%%_NTROOT%. Нет ведущей обратной косой черты
+; должен быть использован; они будут вставлены автоматически.
 ;
 ;
 mergedcomponents\setupinfs\usa\intl.txt

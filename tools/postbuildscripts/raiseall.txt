@@ -1,6 +1,6 @@
 ;
 ; Used by DFS mapping for Windows 
-; This text file lists the link associated with the share and location.
+; В этом текстовом файле перечислены ссылки, связанные с общим ресурсом и местоположением.
 ;
 ; Description of fields:
 ;

@@ -1,4 +1,4 @@
-How to make a pseudoloc build - psu or mir
+Как сделать сборку псевдолока - psu или mir
 
 The build machines are \\bld_wpxf1 and \\bld_wpxc1.
 You can use either for any build - just be sure to use the right razzle.
