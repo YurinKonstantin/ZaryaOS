@@ -94,6 +94,7 @@ IconIndex  = 88
 "%RIPPLE_JPG_NAME%",ripple.jpg
 "%AZUL_JPG_NAME%",azul.jpg
 "%FOLLOW_JPG_NAME%",follow.jpg
+"%AZUM_JPG_NAME%",azum.jpg
 
 ;
 ; Ok, this is where things get really ugly.

@@ -1968,6 +1968,7 @@ azman.msc        retail
 azroles.dll      retail
 azroleui.dll     retail
 azul.jpg         retail    ; Shell
+azum.jpg         retail    ; Shell
 b1.t4            retail
 b1cbase.pdb      symbols\retail\sys
 b1cbase.sys      retail
