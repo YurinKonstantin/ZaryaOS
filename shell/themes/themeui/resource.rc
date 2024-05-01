@@ -44,6 +44,7 @@ BEGIN
     IDS_PLUSTHEMESITE                               "More themes online..."         // This is the display name for the link to download more themes.
     IDS_THEME_CLASSIC_DISPNAME                      "Windows Classic"               // This is the localizable display name for the "Windows Classic.theme"
     IDS_THEME_PRO_DISPNAME                          "Windows XP"                    // This is the localizable display name for the "Luna.theme"
+    IDS_THEME_ZARYA_DISPNAME                        "Zaray Theme"
     IDS_THEME_PER_DISPNAME                          "Consumer"                      // This is the localizable display name for the "Consumer.theme"
     IDS_SCHEME_SIZE_NORMAL_CANONICAL                "Normal"                        // Localize: The "Font" size for legacy appearance schemes.
     IDS_SCHEME_SIZE_LARGE_CANONICAL                 "Large"                         // Localize: The "Font" size for legacy appearance schemes.

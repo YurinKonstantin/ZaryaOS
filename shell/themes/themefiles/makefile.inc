@@ -5,3 +5,5 @@ $(O)\luna.the : Luna.theme
 
 $(O)\classic.the : classic.theme
     copy $** $@
+$(O)\Zaray.the : Zaray.theme
+    copy $** $@

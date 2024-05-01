@@ -19456,5 +19456,7 @@ zoneoc.dll       retail   ; Zone Internet Games
 zoomin.exe       mstools
 zrtdll.dll       mstools
 zser32.dll       mstools
+Zaray.mst         retail
+Zaray.the         retail
 zune.mst         retail
 zwapi.exe        bldtools

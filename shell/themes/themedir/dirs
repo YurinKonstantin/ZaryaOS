@@ -4,4 +4,5 @@ DIRS=\
     Luna         \
     Embedded     \
     Zune         \
-    ShellStyle
+    ShellStyle   \
+    Zaray

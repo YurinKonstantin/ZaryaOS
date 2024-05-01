@@ -347,6 +347,10 @@ _7    = %bootname7%,"%boottagfile7%",,""
 @@:@@:253 = WinSxS\Policies\x86_policy.1.0.Microsoft.Windows.GdiPlus_6595b64144ccf1df_x-ww_4e8510ac
 @@:@m:254 = WinSxS\Policies\ia64_policy.1.0.Microsoft.Windows.GdiPlus_6595b64144ccf1df_x-ww_28e6820c
 
+@@:@@:255 = Resources\Themes\Zune
+@@:@@:256 = Resources\Themes\Embedded
+@@:@@:257 = Resources\Themes\Zaray
+
 @*:
 @*: filename_on_source = diskid(0),subdir(1),size(2),checksum(3),spare(4),spare(5)
 @*:
@@ -5177,6 +5181,10 @@ _7    = %bootname7%,"%boottagfile7%",,""
 @s:lug.chm      = 1,,,,,,,21,0,0
 @@:@3:luna.mst  = 1,,,,,,,68,0,0,luna.msstyles    ;Resources\Theme\...
 @@:@3:luna.the  = 1,,,,,,,129,0,0,Luna.theme      ;Resources\Theme
+@@:@3:zune.mst  = 1,,,,,,,255,0,0,zune.msstyles    ;Resources\Theme\...
+@@:@3:embedded.mst  = 1,,,,,,,256,0,0,Embedded.msstyles    ;Resources\Theme\...
+@@:@3:Zaray.mst  = 1,,,,,,,257,0,0,Zaray.msstyles    ;Resources\Theme\...
+@@:@3:Zaray.the  = 1,,,,,,,129,0,0,Zaray.theme      ;Resources\Theme
 @@:lusrmgr.msc  = 1,,,,,,,2,0,0
 @@:@i:lwadihid.sys = 1,,,,,,,,3,3
 @@:lwait.cur    = 1,,,,,,,,3,3

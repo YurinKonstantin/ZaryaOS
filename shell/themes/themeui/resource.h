@@ -94,6 +94,7 @@
 #define IDS_PLEASEWAIT                                  2050
 #define IDS_THEMEFILE_WALLPAPER_PATH_PER                2051
 #define IDS_THEMEFILE_WALLPAPER_PATH_SRV                2052
+#define IDS_THEME_ZARYA_DISPNAME                        2053
 
 // Effects strings
 //#define IDS_HELPFILE                                    2600  // AVAILABLE

@@ -5,4 +5,5 @@ DIRS=\
     bla     \
     srv     \
     ent     \
-    dtc
+    dtc     \
+    Zaray
