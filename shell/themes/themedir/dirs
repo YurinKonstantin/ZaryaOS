@@ -1,8 +1,2 @@
 DIRS=\
-    Professional \
-    Mallard 	 \
     Luna         \
-    Embedded     \
-    Zune         \
-    ShellStyle   \
-    Zaray

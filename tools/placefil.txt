@@ -2115,7 +2115,6 @@ bldsam2.exe      idw
 blip.wav         retail    ; Net Meeting
 bliss.jpg        retail    ; Shell Images
 blocks.wav       idw
-blue_ss.dll      retail    ; support dll for luna blue
 blueday.bmp      retail
 bluehill.jpg     retail    ; Shell Images
 blulac16.bmp     retail
@@ -2971,7 +2970,6 @@ cl546x.dll       retail
 cl546xm.sys      retail
 clap.wav         idw
 class2.sys       retail
-class_ss.dll     retail    ; support dll for classic mode
 classic.the      retail    ; classic theme
 classic.wmz      retail    ; Windows Media Player
 classpnp.c       pp\classnp.sys ; Classpnp type information for the debugger
@@ -5119,7 +5117,6 @@ em2ms.exe        reskit\bin
 em556n4.sys      retail
 emaD.chm         retail  ;ema_d.chm/ema.chm
 emaE.chm             retail
-embedded.mst     retail
 empci.sys        retail
 empty.exe        idw
 empty_pb.mdb     retail
@@ -7332,7 +7329,6 @@ hnwse.cur        retail
 hol_ltr.gif      retail    ; outlook express
 hol_ltr.htm      retail    ; outlook express
 home.jpg         retail    ; Shell Images
-home_ss.dll      retail    ; support dll for luna homestead
 homepage.inf     retail    ; ie sysdir
 hook.dll         mstools
 horns.wav        idw
@@ -10242,7 +10238,6 @@ mergemod.dll     msi_bins  ; Darwin
 mergemod.msm     msi_bins  ; darwin
 merlin.acs       retail    ; msagent character
 metadata.dll     inetsrv
-metal_ss.dll     retail    ; support dll for luna metallic
 metronom.ani     retail
 mf.inf           retail
 mf.sys           retail
@@ -19456,7 +19451,4 @@ zoneoc.dll       retail   ; Zone Internet Games
 zoomin.exe       mstools
 zrtdll.dll       mstools
 zser32.dll       mstools
-Zaray.mst         retail
-Zaray.the         retail
-zune.mst         retail
 zwapi.exe        bldtools

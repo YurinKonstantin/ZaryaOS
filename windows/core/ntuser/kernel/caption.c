@@ -1,3 +1,4 @@
+
 /****************************** Module Header ******************************\
 * Module Name: caption.c (aka wmcap.c)
 *
@@ -452,9 +453,9 @@ VOID DrawCaptionIcon(
         (hbrFill == gpsi->hbrGray) ||
         (pcursor->hbmUserAlpha != NULL)) {
 
-        rc.left   = lprc->left;
+        rc.left   = lprc->left-20;
         rc.top    = lprc->top;
-        rc.right  = lprc->left + cxySlot;
+        rc.right  = lprc->left + cxySlot-20;
         rc.bottom = lprc->top + cxySlot;
 
         FillRect(hdc, &rc, hbrFill);
