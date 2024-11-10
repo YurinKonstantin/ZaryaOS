@@ -18,6 +18,6 @@
 ;
 ;--
 
-MsgPressKey             db      0dh, 0ah, "Press any key to boot from CD."
+MsgPressKey             db      0dh, 0ah, "Press any key to boot"
                         db      0
 

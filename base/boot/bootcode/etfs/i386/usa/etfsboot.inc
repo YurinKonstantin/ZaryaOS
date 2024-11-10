@@ -27,7 +27,7 @@
 ;
 ;--
 
-MSG_BAD_BIOS            db      "CDBOOT: Cannot boot from CD - Code: "
+MSG_BAD_BIOS            db      "CDBOOT: Cannot boot - Code: "
 MSG_BAD_BIOS_CODE       db      "0"
                         db      0dh, 0ah, 0
 MSG_NO_NTLDR            db      "CDBOOT: Couldn't find NTLDR"

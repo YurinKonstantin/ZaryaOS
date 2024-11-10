@@ -16,4 +16,5 @@ DIRS=           \
     InetSrv     \
     PrintScan   \
     EndUser     \
-    MergedComponents
+    MergedComponents     \
+    AppUser

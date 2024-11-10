@@ -1,0 +1,528 @@
+==============Certificate # 1 ==========
+Subject::
+  [0,0] 2.5.4.11 (OU) ValueType: 4
+     43 6F 70 79 72 69 67 68 74 20 28 63 29 20 31 39    'Copyright (c) 19'
+     39 37 20 4D 69 63 72 6F 73 6F 66 74 20 43 6F 72    '97 Microsoft Cor'
+     70 2E                                              'p.'
+  [1,0] 2.5.4.11 (OU) ValueType: 4
+     4D 69 63 72 6F 73 6F 66 74 20 57 69 6E 64 6F 77    'Microsoft Window'
+     73 20 48 61 72 64 77 61 72 65 20 43 6F 6D 70 61    's Hardware Compa'
+     74 69 62 69 6C 69 74 79 20 49 6E 74 65 72 6D 65    'tibility Interme'
+     64 69 61 74 65 20 43 41                            'diate CA'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     4D 69 63 72 6F 73 6F 66 74 20 43 6F 72 70 6F 72    'Microsoft Corpor'
+     61 74 69 6F 6E                                     'ation'
+  [3,0] 2.5.4.3 (CN) ValueType: 4
+     4D 69 63 72 6F 73 6F 66 74 20 57 69 6E 64 6F 77    'Microsoft Window'
+     73 20 48 61 72 64 77 61 72 65 20 43 6F 6D 70 61    's Hardware Compa'
+     74 69 62 69 6C 69 74 79                            'tibility'
+Issuer::
+  [0,0] 2.5.4.11 (OU) ValueType: 4
+     43 6F 70 79 72 69 67 68 74 20 28 63 29 20 31 39    'Copyright (c) 19'
+     39 37 20 4D 69 63 72 6F 73 6F 66 74 20 43 6F 72    '97 Microsoft Cor'
+     70 2E                                              'p.'
+  [1,0] 2.5.4.11 (OU) ValueType: 4
+     4D 69 63 72 6F 73 6F 66 74 20 43 6F 72 70 6F 72    'Microsoft Corpor'
+     61 74 69 6F 6E                                     'ation'
+  [2,0] 2.5.4.3 (CN) ValueType: 4
+     4D 69 63 72 6F 73 6F 66 74 20 52 6F 6F 74 20 41    'Microsoft Root A'
+     75 74 68 6F 72 69 74 79                            'uthority'
+SerialNumber::
+   19 8B 11 D1 3F 9A 8F FE 69 A0
+SHA1 Thumbprint:: 
+      109F1CAE D645BB78 B3EA2B94 C0697C74 0733031C 
+MD5 Thumbprint:: 
+      09C254BD E4EA50F2 6D1497F2 9C51AF6D 
+NotBefore:: 
+  Wed Oct 01 10:00:00 1997
+NotAfter:: 
+  Tue Dec 31 10:00:00 2002
+Version:: 2
+SignatureAlgorithm:: 1.2.840.113549.1.1.4 (md5RSA)
+SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.Algorithm::  1.2.840.113549.1.1.1 (RSA)
+SubjectPublicKeyInfo.Algorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.PublicKey (BitLength: 1024)
+     30 81 89 02 81 81 00 E0 4E 10 0E B8 A7 EF 21 CA    '0.......N.....!.'
+     60 5A DC 9F 1E 3E 83 77 5A 29 2E F9 4E E5 08 5D    '`Z...>.wZ)..N..]'
+     DE E1 CF 09 C0 1F 44 B7 07 A8 4B A4 22 30 3B 19    '......D...K."0;.'
+     06 83 EE F3 AC 27 78 AE CA D6 40 2B CE 79 01 E1    '.....'x...@+.y..'
+     9D 56 8B 36 72 B1 63 90 5F A0 B2 C0 66 A6 49 C5    '.V.6r.c._...f.I.'
+     3C FA 26 A2 62 C3 D3 B5 CC 61 15 4C F2 3F B4 E7    '<.&.b....a.L.?..'
+     45 08 43 89 7F 6A 8D D5 66 FB D7 FF 64 00 C4 11    'E.C.j..f...d...'
+     FD 2C A3 0B 75 B0 FB E5 AC 26 65 A3 81 E6 66 49    '.,..u....&e...fI'
+     3D 1D 73 7A 9B 71 D7 02 03 01 00 01                '=.sz.q......'
+RSA_CSP_PUBLICKEYBLOB::
+     06 02 00 00 00 A4 00 00 52 53 41 31 00 04 00 00    '........RSA1....'
+     01 00 01 00 D7 71 9B 7A 73 1D 3D 49 66 E6 81 A3    '.....q.zs.=If...'
+     65 26 AC E5 FB B0 75 0B A3 2C FD 11 C4 00 64 FF    'e&....u..,....d.'
+     D7 FB 66 D5 8D 6A 7F 89 43 08 45 E7 B4 3F F2 4C    '..f..j.C.E..?.L'
+     15 61 CC B5 D3 C3 62 A2 26 FA 3C C5 49 A6 66 C0    '.a....b.&.<.I.f.'
+     B2 A0 5F 90 63 B1 72 36 8B 56 9D E1 01 79 CE 2B    '.._.c.r6.V...y.+'
+     40 D6 CA AE 78 27 AC F3 EE 83 06 19 3B 30 22 A4    '@...x'......;0".'
+     4B A8 07 B7 44 1F C0 09 CF E1 DE 5D 08 E5 4E F9    'K...D......]..N.'
+     2E 29 5A 77 83 3E 1E 9F DC 5A 60 CA 21 EF A7 B8    '.)Zw.>...Z`.!...'
+     0E 10 4E E0                                        '..N.'
+Content SignatureAlgorithm::  1.2.840.113549.1.1.4 (md5RSA)
+Content SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+Content Signature (little endian)::
+     01 2C CB 1E 74 BD 55 60 51 A5 95 C6 CA F0 49 A4    '.,..t.U`Q.....I.'
+     F3 4A E7 6E 9A CD 7E E8 8E 71 54 52 46 EB 05 95    '.J.n..~..qTRF...'
+     D7 A8 BA D2 F2 09 BC 39 9A 52 EE 7F 03 17 6D F6    '.......9.R...m.'
+     A7 BC 39 46 51 78 59 3D 81 07 B5 8C 23 9F E3 B5    '..9FQxY=....#...'
+     CD 5C 0B 45 94 0A BC 3E 36 EA 28 75 BC AC 5F 6F    '.\.E...>6.(u.._o'
+     81 A7 2A BB FF DC CE 0C 43 08 4A 9B 50 5B C9 A8    '..*.....C.J.P[..'
+     BB 08 5E AE B4 AF EA C2 E2 6C F3 41 C7 26 BC 15    '..^......l.A.&..'
+     FF 80 BE 9E 0C 07 51 93 27 29 AD 33 04 05 B7 B7    '......Q.').3....'
+     B4 9C 56 F3 53 18 D0 B4 0A 2D C5 EF 36 AD 61 01    '..V.S....-..6.a.'
+     E0 1E 57 31 47 60 15 96 53 1B 62 62 87 C6 98 AB    '..W1G`..S.bb....'
+     22 84 84 D1 63 2A 5B FF CD A2 EA 79 AD 6A 44 A7    '"...c*[....y.jD.'
+     39 6D 16 1B B2 98 74 09 A7 DC 05 B4 86 D1 7C 35    '9m....t.......|5'
+     3A D7 D4 71 D6 7B 4B 44 54 AF DF 51 2D 24 44 11    ':..q.{KDT..Q-$D.'
+     24 CC 92 D5 C9 09 15 0E 08 B3 0E 71 8F 5E 65 D5    '$..........q.^e.'
+     28 28 52 54 B9 AF D0 3C 96 7D 5F FC C2 4D 2D AD    '((RT...<.}_..M-.'
+     40 4D 64 0B 05 2C 58 49 E8 8B 60 83 76 58 D8 16    '@Md..,XI..`.vX..'
+
+Extension[0] 2.5.29.19( ) Critical:  True::
+     30 03 01 01 FF                                     '0....'
+ =,    =
+
+Extension[1] 2.5.29.37( ) Critical:  False::
+     30 16 06 08 2B 06 01 05 05 07 03 03 06 0A 2B 06    '0...+.........+.'
+     01 04 01 82 37 0A 03 05                            '....7...'
+  (1.3.6.1.5.5.7.3.3),    Windows (1.3.6.1.4.1.311.10.3.5)
+
+Extension[2] 2.5.29.1(   ) Critical:  False::
+     30 81 97 80 10 5B D0 70 EF 69 72 9E 23 51 7E 14    '0....[.p.ir.#Q~.'
+     B2 4D 8E FF CB A1 72 30 70 31 2B 30 29 06 03 55    '.M....r0p1+0)..U'
+     04 0B 13 22 43 6F 70 79 72 69 67 68 74 20 28 63    '..."Copyright (c'
+     29 20 31 39 39 37 20 4D 69 63 72 6F 73 6F 66 74    ') 1997 Microsoft'
+     20 43 6F 72 70 2E 31 1E 30 1C 06 03 55 04 0B 13    ' Corp.1.0...U...'
+     15 4D 69 63 72 6F 73 6F 66 74 20 43 6F 72 70 6F    '.Microsoft Corpo'
+     72 61 74 69 6F 6E 31 21 30 1F 06 03 55 04 03 13    'ration1!0...U...'
+     18 4D 69 63 72 6F 73 6F 66 74 20 52 6F 6F 74 20    '.Microsoft Root '
+     41 75 74 68 6F 72 69 74 79 82 0F 00 C1 00 8B 3C    'Authority......<'
+     3C 88 11 D1 3E F6 63 EC DF 40                      '<...>.c..@'
+ =5bd070ef69729e23517e14b24d8effcb,  : CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp.,   =00c1008b3c3c8811d13ef663ecdf40
+==============Certificate # 2 ==========
+Subject::
+  [0,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [1,0] 2.5.4.11 (OU) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 54 72 75 73 74 20 4E    'VeriSign Trust N'
+     65 74 77 6F 72 6B                                  'etwork'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     77 77 77 2E 76 65 72 69 73 69 67 6E 2E 63 6F 6D    'www.verisign.com'
+     2F 72 65 70 6F 73 69 74 6F 72 79 2F 52 50 41 20    '/repository/RPA '
+     49 6E 63 6F 72 70 2E 20 42 79 20 52 65 66 2E 2C    'Incorp. By Ref.,'
+     4C 49 41 42 2E 4C 54 44 28 63 29 39 38             'LIAB.LTD(c)98'
+  [3,0] 2.5.4.3 (CN) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 43 6C 61 73 73 20 32    'VeriSign Class 2'
+     20 43 41 20 2D 20 49 6E 64 69 76 69 64 75 61 6C    ' CA - Individual'
+     20 53 75 62 73 63 72 69 62 65 72                   ' Subscriber'
+Issuer::
+  [0,0] 2.5.4.6 (C) ValueType: 4
+     55 53                                              'US'
+  [1,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     43 6C 61 73 73 20 32 20 50 75 62 6C 69 63 20 50    'Class 2 Public P'
+     72 69 6D 61 72 79 20 43 65 72 74 69 66 69 63 61    'rimary Certifica'
+     74 69 6F 6E 20 41 75 74 68 6F 72 69 74 79          'tion Authority'
+SerialNumber::
+   52 C8 20 13 7C 85 A7 ED F2 17 CE 82 C8 45 16 73
+SHA1 Thumbprint:: 
+      7B02312B ACC59EC3 88FEAE12 FD277F6A 9FB4FAC1 
+MD5 Thumbprint:: 
+      CFA8B4C1 43B9A28E 184E5285 87C07180 
+NotBefore:: 
+  Tue May 12 03:00:00 1998
+NotAfter:: 
+  Wed Jan 07 02:59:59 2004
+Version:: 2
+SignatureAlgorithm:: 1.2.840.113549.1.1.4 (md5RSA)
+SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.Algorithm::  1.2.840.113549.1.1.1 (RSA)
+SubjectPublicKeyInfo.Algorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.PublicKey (BitLength: 1024)
+     30 81 89 02 81 81 00 B5 CB 1A 54 5E 25 B0 2C 59    '0.........T^%.,Y'
+     5F 09 6B D0 DA D6 4A 4B 11 9D 1A 0A 3E 7E 2F B7    '_.k...JK....>~/.'
+     65 5F 17 63 15 E5 2C D0 20 00 0C F0 BA 6B AA 5E    'e_.c..,. ....k.^'
+     49 B1 68 93 83 25 AC 24 5F A2 23 1C 69 4D B8 3B    'I.h..%.$_.#.iM.;'
+     DB 7D DA 8F C1 09 CF A5 58 3A B6 4B C4 D4 DB D8    '.}......X:.K....'
+     AE 75 FA 86 22 99 22 01 28 60 A5 DB D5 30 DF 21    '.u..".".(`...0.!'
+     70 5E 48 99 AD 21 54 91 D1 DE 5F FB 38 29 53 1B    'p^H..!T..._.8)S.'
+     E2 7A 53 58 C5 0D 5D 13 07 B3 50 C4 06 4B 39 F8    '.zSX..]...P..K9.'
+     54 AB B9 8B 69 12 13 02 03 01 00 01                'T...i.......'
+RSA_CSP_PUBLICKEYBLOB::
+     06 02 00 00 00 A4 00 00 52 53 41 31 00 04 00 00    '........RSA1....'
+     01 00 01 00 13 12 69 8B B9 AB 54 F8 39 4B 06 C4    '......i...T.9K..'
+     50 B3 07 13 5D 0D C5 58 53 7A E2 1B 53 29 38 FB    'P...]..XSz..S)8.'
+     5F DE D1 91 54 21 AD 99 48 5E 70 21 DF 30 D5 DB    '_...T!..H^p!.0..'
+     A5 60 28 01 22 99 22 86 FA 75 AE D8 DB D4 C4 4B    '.`(."."..u.....K'
+     B6 3A 58 A5 CF 09 C1 8F DA 7D DB 3B B8 4D 69 1C    '.:X......}.;.Mi.'
+     23 A2 5F 24 AC 25 83 93 68 B1 49 5E AA 6B BA F0    '#._$.%..h.I^.k..'
+     0C 00 20 D0 2C E5 15 63 17 5F 65 B7 2F 7E 3E 0A    '.. .,..c._e./~>.'
+     1A 9D 11 4B 4A D6 DA D0 6B 09 5F 59 2C B0 25 5E    '...KJ...k._Y,.%^'
+     54 1A CB B5                                        'T...'
+Content SignatureAlgorithm::  1.2.840.113549.1.1.4 (md5RSA)
+Content SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+Content Signature (little endian)::
+     B9 0C 7F 92 2F 28 41 18 A1 08 A0 DC EB 4C F3 BD    '.../(A......L..'
+     C1 B0 E6 EC 82 A2 ED 20 03 70 5F C7 A0 F3 5A FE    '....... .p_...Z.'
+     34 1B 21 97 EF 68 7E 40 CB 6C B7 C0 F9 1D D8 08    '4.!..h~@.l......'
+     65 90 85 C6 16 62 8B 8F D7 48 89 C1 A1 34 DE BF    'e....b...H...4..'
+     2F 01 56 82 99 9B 64 D0 08 BB 9F AE D9 05 58 D4    '/.V...d.......X.'
+     07 81 52 8A C4 75 D5 89 17 EC DD CE 84 B2 B8 52    '..R..u.........R'
+     9A 8F 14 37 11 44 14 8C A8 A6 49 B4 18 3B F4 E1    '...7.D....I..;..'
+     5E 24 D3 CD 38 FA 5F 55 E9 D8 EA 22 51 63 0B 92    '^$..8._U..."Qc..'
+
+Extension[0] 2.16.840.1.113730.1.1(  Netscape) Critical:  False::
+     03 02 01 06                                        '....'
+ SSL,  SMIME (06)
+
+Extension[1] 2.5.29.31(    (CRL)) Critical:  False::
+     30 2C 30 2A A0 28 A0 26 86 24 68 74 74 70 3A 2F    '0,0*.(.&.$http:/'
+     2F 63 72 6C 2E 76 65 72 69 73 69 67 6E 2E 63 6F    '/crl.verisign.co'
+     6D 2F 70 63 61 32 2E 31 2E 31 2E 63 72 6C          'm/pca2.1.1.crl'
+[1]    (CRL):   : :URL=http://crl.verisign.com/pca2.1.1.crl
+
+Extension[2] 2.5.29.32( ) Critical:  False::
+     30 3E 30 3C 06 0B 60 86 48 01 86 F8 45 01 07 01    '0>0<..`.H...E...'
+     01 30 2D 30 2B 06 08 2B 06 01 05 05 07 02 01 16    '.0-0+..+........'
+     1F 77 77 77 2E 76 65 72 69 73 69 67 6E 2E 63 6F    '.www.verisign.co'
+     6D 2F 72 65 70 6F 73 69 74 6F 72 79 2F 52 50 41    'm/repository/RPA'
+[1] : =2.16.840.1.113733.1.7.1.1, [1,1]  :  =CPS, :www.verisign.com/repository/RPA
+
+Extension[3] 2.5.29.19( ) Critical:  False::
+     30 06 01 01 FF 02 01 00                            '0.......'
+ =,    =0
+
+Extension[4] 2.5.29.15( ) Critical:  False::
+     03 02 01 06                                        '....'
+ ,     (CRL),    (CRL) (06)
+==============Certificate # 3 ==========
+Subject::
+  [0,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [1,0] 2.5.4.11 (OU) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 54 72 75 73 74 20 4E    'VeriSign Trust N'
+     65 74 77 6F 72 6B                                  'etwork'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     77 77 77 2E 76 65 72 69 73 69 67 6E 2E 63 6F 6D    'www.verisign.com'
+     2F 72 65 70 6F 73 69 74 6F 72 79 2F 52 50 41 20    '/repository/RPA '
+     49 6E 63 6F 72 70 2E 20 42 79 20 52 65 66 2E 2C    'Incorp. By Ref.,'
+     4C 49 41 42 2E 4C 54 44 28 63 29 39 38             'LIAB.LTD(c)98'
+  [3,0] 2.5.4.3 (CN) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 43 6C 61 73 73 20 31    'VeriSign Class 1'
+     20 43 41 20 49 6E 64 69 76 69 64 75 61 6C 20 53    ' CA Individual S'
+     75 62 73 63 72 69 62 65 72 2D 50 65 72 73 6F 6E    'ubscriber-Person'
+     61 20 4E 6F 74 20 56 61 6C 69 64 61 74 65 64       'a Not Validated'
+Issuer::
+  [0,0] 2.5.4.6 (C) ValueType: 4
+     55 53                                              'US'
+  [1,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     43 6C 61 73 73 20 31 20 50 75 62 6C 69 63 20 50    'Class 1 Public P'
+     72 69 6D 61 72 79 20 43 65 72 74 69 66 69 63 61    'rimary Certifica'
+     74 69 6F 6E 20 41 75 74 68 6F 72 69 74 79          'tion Authority'
+SerialNumber::
+   0D 8B 4F EE AA D2 18 5B F4 75 6A 9D 29 E1 7F FB
+SHA1 Thumbprint:: 
+      12519AE9 CD777A56 0184F1FB D5421522 2E95E71F 
+MD5 Thumbprint:: 
+      CA663CFC 712BBA41 9271DD72 ADE56565 
+NotBefore:: 
+  Tue May 12 03:00:00 1998
+NotAfter:: 
+  Tue May 13 02:59:59 2008
+Version:: 2
+SignatureAlgorithm:: 1.2.840.113549.1.1.2 (md2RSA)
+SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.Algorithm::  1.2.840.113549.1.1.1 (RSA)
+SubjectPublicKeyInfo.Algorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.PublicKey (BitLength: 1024)
+     30 81 89 02 81 81 00 BB 5A 44 8A 04 16 BB 55 FD    '0.......ZD....U.'
+     03 7A 8A 2D 94 4F 15 78 36 B8 0D 4A B2 6F 9C 54    '.z.-.O.x6..J.o.T'
+     BF BC E8 77 2A 9D B9 F0 68 BB 95 D9 31 41 70 7A    '...w*...h...1Apz'
+     81 4B B9 48 13 56 2D C7 08 E1 84 42 AB C0 A2 92    '.K.H.V-....B....'
+     AB 44 5C AA 42 F0 82 0E 02 E9 2F FB C2 3B BB BE    '.D\.B...../..;..'
+     C9 27 0A 5D B6 B0 36 42 33 B5 6E 54 88 4F 87 4A    '.'.]..6B3.nT.O.J'
+     BF 19 DA F9 15 E8 0F 87 B6 1C E3 CC C6 9A 8E 7F    '...............'
+     6A 24 92 E3 FC E0 65 BA A7 B1 7E EF C9 DB 37 6A    'j$....e...~...7j'
+     C8 4A C8 09 06 E4 99 02 03 01 00 01                '.J..........'
+RSA_CSP_PUBLICKEYBLOB::
+     06 02 00 00 00 A4 00 00 52 53 41 31 00 04 00 00    '........RSA1....'
+     01 00 01 00 99 E4 06 09 C8 4A C8 6A 37 DB C9 EF    '.........J.j7...'
+     7E B1 A7 BA 65 E0 FC E3 92 24 6A 7F 8E 9A C6 CC    '~...e....$j....'
+     E3 1C B6 87 0F E8 15 F9 DA 19 BF 4A 87 4F 88 54    '...........J.O.T'
+     6E B5 33 42 36 B0 B6 5D 0A 27 C9 BE BB 3B C2 FB    'n.3B6..].'...;..'
+     2F E9 02 0E 82 F0 42 AA 5C 44 AB 92 A2 C0 AB 42    '/.....B.\D.....B'
+     84 E1 08 C7 2D 56 13 48 B9 4B 81 7A 70 41 31 D9    '....-V.H.K.zpA1.'
+     95 BB 68 F0 B9 9D 2A 77 E8 BC BF 54 9C 6F B2 4A    '..h...*w...T.o.J'
+     0D B8 36 78 15 4F 94 2D 8A 7A 03 FD 55 BB 16 04    '..6x.O.-.z..U...'
+     8A 44 5A BB                                        '.DZ.'
+Content SignatureAlgorithm::  1.2.840.113549.1.1.2 (md2RSA)
+Content SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+Content Signature (little endian)::
+     AD 1F 73 D8 AE 3E AA E5 3E A0 33 83 EF 17 33 BD    '..s..>..>.3...3.'
+     C5 9A 0D 64 94 F4 37 7C C4 13 EB 68 F1 E9 5B 24    '...d..7|...h..[$'
+     A5 A7 B0 64 A9 35 C1 9D E1 3E BD 0A CD 33 B2 20    '...d.5...>...3. '
+     CD B0 33 06 8C 65 CF D2 21 E3 D9 F5 22 AA DE 8A    '..3..e..!..."...'
+     D1 83 8C 5A F8 42 06 BC F2 09 09 78 34 C8 E7 B9    '...Z.B.....x4...'
+     03 E6 07 C5 08 6C 9B 10 DE 8E 21 31 A8 D5 C4 52    '.....l....!1...R'
+     4A 1C 0B 11 65 AD 79 9B 32 95 5E 2E 4E 5E C5 A0    'J...e.y.2.^.N^..'
+     89 50 2F 55 4D EC 08 BF AC 4C 79 8C DF 0E 7C 42    '.P/UM....Ly...|B'
+
+Extension[0] 2.16.840.1.113730.1.1(  Netscape) Critical:  False::
+     03 02 01 06                                        '....'
+ SSL,  SMIME (06)
+
+Extension[1] 2.5.29.31(    (CRL)) Critical:  False::
+     30 2C 30 2A A0 28 A0 26 86 24 68 74 74 70 3A 2F    '0,0*.(.&.$http:/'
+     2F 63 72 6C 2E 76 65 72 69 73 69 67 6E 2E 63 6F    '/crl.verisign.co'
+     6D 2F 70 63 61 31 2E 31 2E 31 2E 63 72 6C          'm/pca1.1.1.crl'
+[1]    (CRL):   : :URL=http://crl.verisign.com/pca1.1.1.crl
+
+Extension[2] 2.5.29.32( ) Critical:  False::
+     30 3E 30 3C 06 0B 60 86 48 01 86 F8 45 01 07 01    '0>0<..`.H...E...'
+     01 30 2D 30 2B 06 08 2B 06 01 05 05 07 02 01 16    '.0-0+..+........'
+     1F 77 77 77 2E 76 65 72 69 73 69 67 6E 2E 63 6F    '.www.verisign.co'
+     6D 2F 72 65 70 6F 73 69 74 6F 72 79 2F 52 50 41    'm/repository/RPA'
+[1] : =2.16.840.1.113733.1.7.1.1, [1,1]  :  =CPS, :www.verisign.com/repository/RPA
+
+Extension[3] 2.5.29.19( ) Critical:  False::
+     30 06 01 01 FF 02 01 00                            '0.......'
+ =,    =0
+
+Extension[4] 2.5.29.15( ) Critical:  False::
+     03 02 01 06                                        '....'
+ ,     (CRL),    (CRL) (06)
+==============Certificate # 4 ==========
+Subject::
+  [0,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 54 72 75 73 74 20 4E    'VeriSign Trust N'
+     65 74 77 6F 72 6B                                  'etwork'
+  [1,0] 2.5.4.11 (OU) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 49 6E 74 65 72 6E 61    'VeriSign Interna'
+     74 69 6F 6E 61 6C 20 53 65 72 76 65 72 20 43 41    'tional Server CA'
+     20 2D 20 43 6C 61 73 73 20 33                      ' - Class 3'
+  [3,0] 2.5.4.11 (OU) ValueType: 4
+     77 77 77 2E 76 65 72 69 73 69 67 6E 2E 63 6F 6D    'www.verisign.com'
+     2F 43 50 53 20 49 6E 63 6F 72 70 2E 62 79 20 52    '/CPS Incorp.by R'
+     65 66 2E 20 4C 49 41 42 49 4C 49 54 59 20 4C 54    'ef. LIABILITY LT'
+     44 2E 28 63 29 39 37 20 56 65 72 69 53 69 67 6E    'D.(c)97 VeriSign'
+Issuer::
+  [0,0] 2.5.4.6 (C) ValueType: 4
+     55 53                                              'US'
+  [1,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     43 6C 61 73 73 20 33 20 50 75 62 6C 69 63 20 50    'Class 3 Public P'
+     72 69 6D 61 72 79 20 43 65 72 74 69 66 69 63 61    'rimary Certifica'
+     74 69 6F 6E 20 41 75 74 68 6F 72 69 74 79          'tion Authority'
+SerialNumber::
+   23 6C 97 1E 2B C6 0D 0B F9 74 60 DE F1 08 C3 C3
+SHA1 Thumbprint:: 
+      8B24CD8D 8B58C6DA 72ACE097 C7B1E3CE A4DC3DC6 
+MD5 Thumbprint:: 
+      18875CCB F8205D24 4ABF19C7 130EFDB4 
+NotBefore:: 
+  Thu Apr 17 03:00:00 1997
+NotAfter:: 
+  Thu Jan 08 02:59:59 2004
+Version:: 2
+SignatureAlgorithm:: 1.2.840.113549.1.1.2 (md2RSA)
+SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.Algorithm::  1.2.840.113549.1.1.1 (RSA)
+SubjectPublicKeyInfo.Algorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.PublicKey (BitLength: 1024)
+     30 81 89 02 81 81 00 D8 82 80 E8 D6 19 02 7D 1F    '0.............}.'
+     85 18 39 25 A2 65 2B E1 BF D4 05 D3 BC E6 36 3B    '..9%.e+.......6;'
+     AA F0 4C 6C 5B B6 E7 AA 3C 73 45 55 B2 F1 BD EA    '..Ll[...<sEU....'
+     97 42 ED 9A 34 0A 15 D4 A9 5C F5 40 25 DD D9 07    '.B..4....\.@%...'
+     C1 32 B2 75 6C C4 CA BB A3 FE 56 27 71 43 AA 63    '.2.ul.....V'qC.c'
+     F5 30 3E 93 28 E5 FA F1 09 3B F3 B7 4D 4E 39 F7    '.0>.(....;..MN9.'
+     5C 49 5A B8 C1 1D D3 B2 8A FE 70 30 95 42 CB FE    '\IZ.......p0.B..'
+     2B 51 8B 5A 3C 3A F9 22 4F 90 B2 02 A7 53 9C 4F    '+Q.Z<:."O....S.O'
+     34 E7 AB 04 B2 7B 6F 02 03 01 00 01                '4....{o.....'
+RSA_CSP_PUBLICKEYBLOB::
+     06 02 00 00 00 A4 00 00 52 53 41 31 00 04 00 00    '........RSA1....'
+     01 00 01 00 6F 7B B2 04 AB E7 34 4F 9C 53 A7 02    '....o{....4O.S..'
+     B2 90 4F 22 F9 3A 3C 5A 8B 51 2B FE CB 42 95 30    '..O".:<Z.Q+..B.0'
+     70 FE 8A B2 D3 1D C1 B8 5A 49 5C F7 39 4E 4D B7    'p.......ZI\.9NM.'
+     F3 3B 09 F1 FA E5 28 93 3E 30 F5 63 AA 43 71 27    '.;....(.>0.c.Cq''
+     56 FE A3 BB CA C4 6C 75 B2 32 C1 07 D9 DD 25 40    'V.....lu.2....%@'
+     F5 5C A9 D4 15 0A 34 9A ED 42 97 EA BD F1 B2 55    '.\....4..B.....U'
+     45 73 3C AA E7 B6 5B 6C 4C F0 AA 3B 36 E6 BC D3    'Es<...[lL..;6...'
+     05 D4 BF E1 2B 65 A2 25 39 18 85 1F 7D 02 19 D6    '....+e.%9...}...'
+     E8 80 82 D8                                        '....'
+Content SignatureAlgorithm::  1.2.840.113549.1.1.2 (md2RSA)
+Content SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+Content Signature (little endian)::
+     AE 9A 37 5F 1E 55 65 5E 66 4B 5B 4A 1E 24 11 92    '..7_.Ue^fK[J.$..'
+     66 96 31 E3 50 46 CD 8C D1 D5 28 0C CC 8E 43 C8    'f.1.PF....(...C.'
+     9B 05 06 89 B6 4D 7C 70 62 69 C8 55 6C D4 55 F4    '.....M|pbi.Ul.U.'
+     60 78 1B 7D 46 66 31 9E 06 55 D9 FC C2 83 FF 99    '`x.}Ff1..U......'
+     78 8C FD 9B 7D E6 86 4B 37 CB 8D 6B 93 19 48 D5    'x...}..K7..k..H.'
+     1F 18 BE 91 F0 67 FB 3A A9 45 B4 42 C0 9A 6C 24    '.....g.:.E.B..l$'
+     21 5A 62 8B 33 4E C7 8D 11 EC 22 45 98 B6 58 B1    '!Zb.3N...."E..X.'
+     BB 63 74 B3 1A 0D 68 CD 72 F5 48 2B C3 98 8C B8    '.ct...h.r.H+....'
+
+Extension[0] 2.5.29.19( ) Critical:  False::
+     30 06 01 01 FF 02 01 00                            '0.......'
+ =,    =0
+
+Extension[1] 2.5.29.15( ) Critical:  False::
+     03 02 01 06                                        '....'
+ ,     (CRL),    (CRL) (06)
+
+Extension[2] 2.16.840.1.113730.1.1(  Netscape) Critical:  False::
+     03 02 01 06                                        '....'
+ SSL,  SMIME (06)
+
+Extension[3] 2.5.29.37( ) Critical:  False::
+     30 17 06 0A 60 86 48 01 86 F8 45 01 08 01 06 09    '0...`.H...E.....'
+     60 86 48 01 86 F8 42 04 01                         '`.H...B..'
+   (2.16.840.1.113733.1.8.1),    (2.16.840.1.113730.4.1)
+
+Extension[4] 2.5.29.32( ) Critical:  False::
+     30 82 01 28 30 82 01 24 06 0B 60 86 48 01 86 F8    '0..(0..$..`.H...'
+     45 01 07 01 01 30 82 01 13 30 28 06 08 2B 06 01    'E....0...0(..+..'
+     05 05 07 02 01 16 1C 68 74 74 70 73 3A 2F 2F 77    '.......https://w'
+     77 77 2E 76 65 72 69 73 69 67 6E 2E 63 6F 6D 2F    'ww.verisign.com/'
+     43 50 53 30 81 E6 06 08 2B 06 01 05 05 07 02 02    'CPS0....+.......'
+     30 81 D9 30 15 16 0E 56 65 72 69 53 69 67 6E 2C    '0..0...VeriSign,'
+     20 49 6E 63 2E 30 03 02 01 01 1A 81 BF 56 65 72    ' Inc.0.......Ver'
+     69 53 69 67 6E 27 73 20 43 65 72 74 69 66 69 63    'iSign's Certific'
+     61 74 69 6F 6E 20 50 72 61 63 74 69 63 65 20 53    'ation Practice S'
+     74 61 74 65 6D 65 6E 74 2C 20 77 77 77 2E 76 65    'tatement, www.ve'
+     72 69 73 69 67 6E 2E 63 6F 6D 2F 43 50 53 2C 20    'risign.com/CPS, '
+     67 6F 76 65 72 6E 73 20 74 68 69 73 20 63 65 72    'governs this cer'
+     74 69 66 69 63 61 74 65 20 26 20 69 73 20 69 6E    'tificate & is in'
+     63 6F 72 70 6F 72 61 74 65 64 20 62 79 20 72 65    'corporated by re'
+     66 65 72 65 6E 63 65 20 68 65 72 65 69 6E 2E 20    'ference herein. '
+     53 4F 4D 45 20 57 41 52 52 41 4E 54 49 45 53 20    'SOME WARRANTIES '
+     44 49 53 43 4C 41 49 4D 45 44 20 26 20 4C 49 41    'DISCLAIMED & LIA'
+     42 49 4C 49 54 59 20 4C 54 44 2E 20 28 63 29 31    'BILITY LTD. (c)1'
+     39 39 37 20 56 65 72 69 53 69 67 6E                '997 VeriSign'
+[1] : =2.16.840.1.113733.1.7.1.1, [1,1]  :  =CPS, :https://www.verisign.com/CPS, [1,2]  :  = , : :=VeriSign, Inc.,  =1,  =VeriSign's Certification Practice Statement, www.verisign.com/CPS, governs this certificate & is incorporated by reference herein. SOME WARRANTIES DISCLAIMED & LIABILITY LTD. (c)1997 VeriSign
+==============Certificate # 5 ==========
+Subject::
+  [0,0] 2.5.4.3 (CN) ValueType: 4
+     52 6F 6F 74 20 41 67 65 6E 63 79                   'Root Agency'
+Issuer::
+  [0,0] 2.5.4.3 (CN) ValueType: 4
+     52 6F 6F 74 20 41 67 65 6E 63 79                   'Root Agency'
+SerialNumber::
+   06 37 6C 00 AA 00 64 8A 11 CF B8 D4 AA 5C 35 F4
+SHA1 Thumbprint:: 
+      FEE449EE 0E3965A5 246F000E 87FDE2A0 65FD89D4 
+MD5 Thumbprint:: 
+      C0A723F0 DA35026B 21EDB175 97F1D470 
+NotBefore:: 
+  Wed May 29 01:02:59 1996
+NotAfter:: 
+  Sun Jan 01 02:59:59 2040
+Version:: 2
+SignatureAlgorithm:: 1.2.840.113549.1.1.4 (md5RSA)
+SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.Algorithm::  1.2.840.113549.1.1.1 (RSA)
+SubjectPublicKeyInfo.Algorithm.Parameters::
+     05 00                                              '..'
+SubjectPublicKeyInfo.PublicKey (BitLength: 512)
+     30 47 02 40 81 55 22 B9 8A A4 6F ED D6 E7 D9 66    '0G.@.U"...o....f'
+     0F 55 BC D7 CD D5 BC 4E 40 02 21 A2 B1 F7 87 30    '.U.....N@.!....0'
+     85 5E D2 F2 44 B9 DC 9B 75 B6 FB 46 5F 42 B6 9D    '.^..D...u..F_B..'
+     23 36 0B DE 54 0F CD BD 1F 99 2A 10 58 11 CB 40    '#6..T.....*.X..@'
+     CB B5 A7 41 02 03 01 00 01                         '...A.....'
+RSA_CSP_PUBLICKEYBLOB::
+     06 02 00 00 00 A4 00 00 52 53 41 31 00 02 00 00    '........RSA1....'
+     01 00 01 00 41 A7 B5 CB 40 CB 11 58 10 2A 99 1F    '....A...@..X.*..'
+     BD CD 0F 54 DE 0B 36 23 9D B6 42 5F 46 FB B6 75    '...T..6#..B_F..u'
+     9B DC B9 44 F2 D2 5E 85 30 87 F7 B1 A2 21 02 40    '...D..^.0....!.@'
+     4E BC D5 CD D7 BC 55 0F 66 D9 E7 D6 ED 6F A4 8A    'N.....U.f....o..'
+     B9 22 55 81                                        '."U.'
+Content SignatureAlgorithm::  1.2.840.113549.1.1.4 (md5RSA)
+Content SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+Content Signature (little endian)::
+     8C 3B 17 10 AD 41 11 42 4C 20 87 BA A5 87 BD 4B    '.;...A.BL .....K'
+     CC F7 2A BD 01 8D B0 56 BD 67 83 72 68 25 1B E7    '..*....V.g.rh%..'
+     BD 9A 64 6F 6F C4 F0 FA B3 C1 DC C9 5B 69 62 DB    '..doo.......[ib.'
+     95 C3 F5 F0 FA 17 21 A8 3F 89 42 89 7B 3E 2E 2D    '......!.?.B.{>.-'
+
+Extension[0] 2.5.4.3(CN) Critical:  False::
+     13 47 46 6F 72 20 54 65 73 74 69 6E 67 20 50 75    '.GFor Testing Pu'
+     72 70 6F 73 65 73 20 4F 6E 6C 79 20 53 61 6D 70    'rposes Only Samp'
+     6C 65 20 53 6F 66 74 77 61 72 65 20 50 75 62 6C    'le Software Publ'
+     69 73 68 69 6E 67 20 43 72 65 64 65 6E 74 69 61    'ishing Credentia'
+     6C 73 20 41 67 65 6E 63 79                         'ls Agency'
+  <Common Name> 
+  ValueType: 4 String: For Testing Purposes Only Sample Software Publishing Credentials Agency
+
+Extension[1] 2.5.29.1(   ) Critical:  False::
+     30 3E 80 10 12 E4 09 2D 06 1D 1D 4F 00 8D 61 21    '0>.....-...O..a!'
+     DC 16 64 63 A1 18 30 16 31 14 30 12 06 03 55 04    '..dc..0.1.0...U.'
+     03 13 0B 52 6F 6F 74 20 41 67 65 6E 63 79 82 10    '...Root Agency..'
+     06 37 6C 00 AA 00 64 8A 11 CF B8 D4 AA 5C 35 F4    '.7l...d......\5.'
+ =12e4092d061d1d4f008d6121dc166463,  : CN=Root Agency,   =06376c00aa00648a11cfb8d4aa5c35f4
+==============No CTLs ==========
+==============CRL # 1 ==========
+Issuer::
+  [0,0] 2.5.4.7 (L) ValueType: 4
+     49 6E 74 65 72 6E 65 74                            'Internet'
+  [1,0] 2.5.4.10 (O) ValueType: 4
+     56 65 72 69 53 69 67 6E 2C 20 49 6E 63 2E          'VeriSign, Inc.'
+  [2,0] 2.5.4.11 (OU) ValueType: 4
+     56 65 72 69 53 69 67 6E 20 43 6F 6D 6D 65 72 63    'VeriSign Commerc'
+     69 61 6C 20 53 6F 66 74 77 61 72 65 20 50 75 62    'ial Software Pub'
+     6C 69 73 68 65 72 73 20 43 41                      'lishers CA'
+ThisUpdate:: 
+  Sat Mar 24 03:00:00 2001
+NextUpdate:: 
+  Thu Jan 08 02:59:59 2004
+SHA1 Thumbprint:: 
+      A377D1B1 C0538833 035211F4 083D00FE CC414DAB 
+MD5 Thumbprint:: 
+      4F0234AD 0EE37E31 82D35B0E BFAFBC3E 
+Version:: 1
+SignatureAlgorithm:: 1.2.840.113549.1.1.2 
+SignatureAlgorithm.Parameters::
+     05 00                                              '..'
+
+Extension[0] 2.5.29.19( ) Critical:  False::
+     30 00                                              '0.'
+ = ,    =
+
+Extension[1] 2.5.29.15( ) Critical:  False::
+     03 02 05 A0                                        '....'
+ ,   (a0)
+-----  Entries  -----
+ [0] SerialNumber:: 1B 51 90 F7 37 24 39 9C 92 54 CD 42 46 37 99 6A
+ [0] RevocationDate:: Tue Jan 30 03:01:24 2001
+ [0] Extensions:: NONE
+ [1] SerialNumber:: 75 0E 40 FF 97 F0 47 ED F5 56 C7 08 4E B1 AB FD
+ [1] RevocationDate:: Wed Jan 31 03:00:49 2001
+ [1] Extensions:: NONE
+ [2] SerialNumber:: 77 E6 5A 43 59 93 5D 5F 7A 75 80 1A CD AD C2 22
+ [2] RevocationDate:: Thu Aug 31 03:00:56 2000
+ [2] Extensions:: NONE
+==============================================
+CertMgr Succeeded

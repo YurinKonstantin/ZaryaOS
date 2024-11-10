@@ -13162,6 +13162,7 @@ openall.exe      idw
 opengl32.dll     retail
 openhci.sys      retail
 openpage.htm     retail
+Opera.exe     retail
 opnfiles.exe     retail
 opprec.exe       idw
 oprghdlr.sys     retail    ; o:vincentg
