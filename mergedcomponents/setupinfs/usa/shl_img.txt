@@ -58,8 +58,8 @@ WIND_JPG_NAME                   = "Wind.jpg"
 CRYSTAL_JPG_NAME                = "Crystal.jpg"
 RIPPLE_JPG_NAME                 = "Ripple.jpg"
 AZUL_JPG_NAME                   = "Azul.jpg"
-AZUM_JPG_NAME                   = "Azum.jpg"
 FOLLOW_JPG_NAME                 = "Follow.jpg"
+ZARYA_JPG_NAME                 = "zarya.jpg"
 WINDOWSXP_JPG_NAME              = "Windows XP.jpg"
 
 ; Name for the subdir under Common Pictures where the samples are.

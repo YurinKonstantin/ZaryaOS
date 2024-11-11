@@ -606,3 +606,17 @@ D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\ad
 D:\srv03rtm\public\internal\base\lib\i386\winreg.lib D:\srv03rtm\base\screg\winreg\client obj\i386\winreg.lib 1731249651 
 D:\srv03rtm\public\internal\Shell\lib\i386\shlproxy.lib D:\srv03rtm\shell\published\inc obj\i386\shlproxy.lib 1731250535 
 D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1731251781 
+D:\srv03rtm\public\internal\Base\inc\ntstatus.dbg d:\srv03rtm\base\published obj\i386\ntstatus.dbg 1731273682 
+D:\srv03rtm\public\internal\Base\inc\winerror.dbg d:\srv03rtm\base\published obj\i386\winerror.dbg 1731273682 
+D:\srv03rtm\public\sdk\inc\bootefs.h d:\srv03rtm\base\boot\bootcode\etfs obj\i386\bootefs.h 1731273693 
+D:\srv03rtm\public\ddk\inc\hbapiwmi.h d:\srv03rtm\drivers\published\ddk\inc obj\i386\hbapiwmi.h 1731273865 
+D:\srv03rtm\net\http\inc\obj\i386\httpkrnl.h d:\srv03rtm\net\published\inc obj\i386\httpkrnl.h 1731273884 
+D:\srv03rtm\net\http\inc\obj\i386\httppkrnl.h d:\srv03rtm\net\published\inc obj\i386\httppkrnl.h 1731273884 
+D:\srv03rtm\public\internal\Windows\lib\i386\obj\DUser.lib D:\srv03rtm\windows\advcore\duser\engine\duser obj\i386\DUser.lib 1731274368 
+D:\srv03rtm\public\internal\base\lib\i386\winreg.lib D:\srv03rtm\base\screg\winreg\client obj\i386\winreg.lib 1731275027 
+D:\srv03rtm\DS\security\lib\obj\i386\sclogon2.lib D:\srv03rtm\ds\security\services\smartcrd\sclogon2 obj\i386\sclogon2.lib 1731275960 
+D:\srv03rtm\DS\lib\obj\i386\azrolesp.lib D:\srv03rtm\ds\security\azroles obj\i386\azrolesp.lib 1731276057 
+D:\srv03rtm\public\internal\Shell\lib\i386\shlproxy.lib D:\srv03rtm\shell\published\inc obj\i386\shlproxy.lib 1731276173 
+D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1731277449 
+D:\srv03rtm\public\internal\base\lib\i386\winreg.lib D:\srv03rtm\base\screg\winreg\client obj\i386\winreg.lib 1731299973 
+D:\srv03rtm\public\sdk\lib\i386\adsiis.tlb D:\srv03rtm\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1731302102 

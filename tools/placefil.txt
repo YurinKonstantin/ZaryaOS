@@ -1751,7 +1751,6 @@ article.chm  retail
 asc.sys          retail
 asc3350p.sys     retail
 asc3550.sys      retail
-ascent.jpg       retail    ; Shell Images
 asctrls.ocx      retail    ; ie sysdir
 ASFArchiver.pdb   symbols\retail\dll    ; wms.cab Windows Media Server Debug
 asfchop.dbg      symbols\retail\ocx   ; Windows Media Server Cab WMS4
@@ -1928,7 +1927,6 @@ autoshut.inf     retail
 autoshut.sys     retail
 autoulib.dll     retail
 autowrap.exe     idw
-autumn.jpg       retail    ; Shell Images
 auupdate.exe     retail     ; MSN Explorer
 aux16.dll        retail
 aux32_16.dll     retail
@@ -1967,8 +1965,6 @@ axp64_wks.h      congeal_scripts
 azman.msc        retail
 azroles.dll      retail
 azroleui.dll     retail
-azul.jpg         retail    ; Shell
-azum.jpg         retail    ; Shell
 b1.t4            retail
 b1cbase.pdb      symbols\retail\sys
 b1cbase.sys      retail
@@ -3879,7 +3875,6 @@ cryptmnu.dll     retail
 cryptnet.dll     retail    ; ispu
 cryptsvc.dll     retail
 cryptui.dll      retail    ; ispu
-crystal.jpg      retail    ; Shell Images
 cs.chm           retail
 cs3c72_1.ppd     retail    ; printer driver
 cs3c73_1.ppd     retail    ; printer driver
@@ -6301,7 +6296,6 @@ folder.gif       retail
 folderop.chm     retail
 foldrops.chm     retail
 fole2ui.dll      system
-follow.jpg       retail    ; Shell Images
 font.dat         retail
 font.inf         retail
 font.sys         retail
@@ -6373,7 +6367,6 @@ freecell.exe     retail
 freecell.hlp     retail
 freedisk.exe     retail
 frespace.exe     idw
-friend.jpg       retail    ; Shell Images
 friendly.dll     retail    ; netmon
 frlib.sys        retail
 frog.bmp         retail    ; Shell Images
@@ -7328,7 +7321,6 @@ hnw.sed          retail
 hnwse.cur        retail
 hol_ltr.gif      retail    ; outlook express
 hol_ltr.htm      retail    ; outlook express
-home.jpg         retail    ; Shell Images
 homepage.inf     retail    ; ie sysdir
 hook.dll         mstools
 horns.wav        idw
@@ -10578,7 +10570,6 @@ monitor8.inf     retail
 monitor9.inf     retail
 monitorc.inf     retail    ;JPN
 mono_522.ppd     retail
-moon.jpg         retail    ; Shell Images
 more.com         retail
 moricons.dll     retail
 mouclass.sys     retail
@@ -13435,7 +13426,6 @@ pdhdefs.txt      idw
 pdii.sys         drivers
 pdm.pdb          symbols\retail\dll
 pdump.exe        idw
-peace.jpg        retail    ; Shell Images
 peedy.acs        retail     ; msagent
 peer.exe         retail
 peer.hlp         retail
@@ -13708,7 +13698,6 @@ portmon.hlp      retail
 ports.dll        system
 posix.exe        retail
 potscfg.xml      retail
-power.jpg        retail    ; Shell Images
 powercfg.cpl     retail
 powerfil.sys     retail
 powerpnt.ppt     retail
@@ -13906,7 +13895,6 @@ ptserlv.sys      retail     ; PCTEL
 pubprn.vbs       retail
 pubquery.dll     retail
 pulist.exe       reskit\bin
-purplef.jpg      retail    ; Shell Images
 pview.exe        mstools
 pviewer.exe      mstools
 pviewer.ico      reskit\bin
@@ -14104,7 +14092,6 @@ r8100cfg.chm     retail
 r8100cfg.cpl     retail
 r81wdet.dll      retail
 radd5018.icm     retail
-radiance.jpg     retail    ; Shell Images
 radmin32.dll     retail
 raf261n3.ppd     retail
 raf261p3.ppd     retail
@@ -14217,7 +14204,6 @@ redir.exe        retail
 redircmp.exe     retail    ; Active Directory Computer Container Redirector
 redirect.dll     inetsrv
 redirusr.exe     retail    ; Active Directory User Container Redirector
-redmoon.jpg      retail    ; Shell Images
 reg.exe          retail
 reg32.dll        retail
 regapi.dll       retail    ; Terminal Server
@@ -14548,7 +14534,6 @@ rinx92j.gpd      retail
 rio8dRV.sys      retail    ; WMDM
 riodrv.sys       retail    ; WMDM
 ripagnt.dll      retail
-ripple.jpg       retail    ; Shell Images
 riprep.exe       retail    ; Remote Install Prep Tool
 riprep.inf       retail    ; Remote Install Prep Tool
 ripstat.exe      retail
@@ -16182,7 +16167,6 @@ stnx2450.gpd     retail
 stnx2460.gpd     retail
 stnx2480.gpd     retail
 stobject.dll     retail
-stoneh.jpg       retail    ; Shell Images
 stopwtch.ani     retail
 storag32.dll     system
 storage.dll      retail
@@ -17301,7 +17285,6 @@ tty.ini          retail          ; unidrv5 text only driver
 ttyres.dll       retail          ; unidrv5 text only driver
 ttyui.dll        retail          ; unidrv5 text only driver
 ttyui.hlp        retail
-tulips.jpg       retail    ; Shell Images
 tul.exe          idw       ; used by HTTP.sys
 tunes.bmp        retail    ; deluxe cd player
 tunmp.sys        retail
@@ -17750,7 +17733,6 @@ volresp.dll      inetsrv\scripts\samples
 volsnap.inf      retail
 volsnap.sys      retail
 volume.inf       retail
-vortec.jpg       retail    ; Shell Images
 vpctcom.sys      retail  ; PCTEL
 vpncon.chm       retail  ;vpn_.chm/vpnconcepts.chm
 vsavb7.olb       netfx    ; netfx
@@ -18369,7 +18351,7 @@ winchat.hlp	 retail
 winclip.dll      idw
 winclock.avi     retail
 wind64.chm               retail
-wind.jpg         retail    ; Shell Images
+gorod.jpg         retail    ; Shell Images
 windD.chm        retail  ;wind_d.chm/windows.chm
 windS.chm        retail  ;wind_s.chm/windows.chm
 windW.chm        retail  ;wind_w.chm
@@ -19431,6 +19413,7 @@ ync.exe          idw
 z.exe            idw
 zapotec.bmp      retail
 zaptec16.bmp     retail
+zarya.jpg     retail
 zawproxy.dll     retail
 zclientm.exe     retail   ; Zone Internet Games
 zcorem.dll       retail   ; Zone Internet Games

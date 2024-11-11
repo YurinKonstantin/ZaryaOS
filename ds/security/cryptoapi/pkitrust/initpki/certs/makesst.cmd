@@ -526,7 +526,7 @@ rem ----------------------------------------------------------------------------
 
 rem these certs are added 7/7/99
 set l_NAME=GlobalSign Root CA
-%l_CMGR% -eku "%l_EMAIL%,%l_SAUTH%,%l_CSIGN%,%l_TSTMP%" -name "%l_NAME%"              	GlobalS\root.crt			%l_AUTHROOTSTOREFILE%
+%l_CMGR% -eku "%l_EMAIL%,%l_SAUTH%,%l_CSIGN%,%l_TSTMP%" -name "%l_NAME%"              	GlobalS\root.cer			%l_AUTHROOTSTOREFILE%
 
 rem
 rem On 12/3/01 removed the SGC CA certs

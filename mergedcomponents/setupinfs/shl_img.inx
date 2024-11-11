@@ -76,25 +76,7 @@ IconIndex  = 88
 @@:@3:exclam.gif
 
 [Wallpaper.CopyFiles]
-"%MOON_JPG_NAME%",moon.jpg
-"%REDMOON_JPG_NAME%",redmoon.jpg
-"%VORTEC_JPG_NAME%",vortec.jpg
-"%ASCENT_JPG_NAME%",ascent.jpg
-"%AUTUMN_JPG_NAME%",autumn.jpg
-"%FRIEND_JPG_NAME%",friend.jpg
-"%HOME_JPG_NAME%",home.jpg
-"%PEACE_JPG_NAME%",peace.jpg
-"%POWER_JPG_NAME%",power.jpg
-"%PURPLEFLOWER_JPG_NAME%",purplef.jpg
-"%RADIANCE_JPG_NAME%",radiance.jpg
-"%STONEHENGE_JPG_NAME%",stoneh.jpg
-"%TULIPS_JPG_NAME%",tulips.jpg
-"%WIND_JPG_NAME%",wind.jpg
-"%CRYSTAL_JPG_NAME%",crystal.jpg
-"%RIPPLE_JPG_NAME%",ripple.jpg
-"%AZUL_JPG_NAME%",azul.jpg
-"%FOLLOW_JPG_NAME%",follow.jpg
-"%AZUM_JPG_NAME%",azum.jpg
+"%GOROD_JPG_NAME%",gorod.jpg
 
 ;
 ; Ok, this is where things get really ugly.
@@ -106,15 +88,15 @@ IconIndex  = 88
 ;
 
 ; "Bliss.jpg" is now the default luna wallpaper for per and pro
-@w:@3:default.jpg,bliss.jpg
+@w:@3:zarya.jpg,zarya.jpg
 @w:@3:"%WINDOWSXP_JPG_NAME%",winxp.jpg
 ; On IA64 we want "Windows XP.jpg" to be the default wallpaper instead of bliss
 @w:@6:default.jpg,winxp.jpg
-@w:@6:"%BLISS_JPG_NAME%",bliss.jpg
+@w:@6:"%ZARYA_JPG_NAME%",zarya.jpg
 
 ; on all other sku's "Windows XP.jpg" is the default luna wallpaper
 @s:default.jpg,winxp.jpg
-@s:"%BLISS_JPG_NAME%",bliss.jpg
+@s:"%ZARYA_JPG_NAME%",zarya.jpg
 
 
 ; Copy the soft-barrier "desktop.ini" file to WinDir, System32, ProgramFiles, and ProgramFiles(x86)
