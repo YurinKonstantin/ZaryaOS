@@ -1133,7 +1133,6 @@ Shell__Legacy_Registration_Wizard_{DCDFB5FE-4D63-4365-B68B-B4B2D7B2EF06}.sld    
 Shell__Legacy_Support_{94030B91-7AFD-4404-AFDA-917114961058}.sld                        mantis
 Shell__Luna_Visual_Style_{2C75973E-872A-473E-ACDA-A23FF08B724B}.sld                     mantis
 Shell__Namespaces_{7115CECD-E88C-43A6-B686-26A4750A95D8}.sld                            mantis
-Shell__TourStart_{E8F93D96-CA62-4D85-AFA3-A5A76766206E}.sld                             mantis
 Shell__Utility_Applets_{7B5024F1-40A2-4C03-A9F3-9F05F918F3F2}.sld                       mantis
 Shell__WordPad_Text_Converters.sld                                                      mantis
 sigverif_{402B3D89-3E3B-412F-8DA7-ECC98BC549EA}.sld                                     mantis
@@ -2109,7 +2108,6 @@ blank.htm        retail    ; Outlook Express
 blankbkg.gif     retail    ; Outlook Express
 bldsam2.exe      idw
 blip.wav         retail    ; Net Meeting
-bliss.jpg        retail    ; Shell Images
 blocks.wav       idw
 blueday.bmp      retail
 bluehill.jpg     retail    ; Shell Images

@@ -88,14 +88,14 @@ IconIndex  = 88
 ;
 
 ; "Bliss.jpg" is now the default luna wallpaper for per and pro
-@w:@3:zarya.jpg,zarya.jpg
+@w:@3:default.jpg,zarya.jpg
 @w:@3:"%WINDOWSXP_JPG_NAME%",winxp.jpg
 ; On IA64 we want "Windows XP.jpg" to be the default wallpaper instead of bliss
-@w:@6:default.jpg,winxp.jpg
+@w:@6:default.jpg,zarya.jpg
 @w:@6:"%ZARYA_JPG_NAME%",zarya.jpg
 
 ; on all other sku's "Windows XP.jpg" is the default luna wallpaper
-@s:default.jpg,winxp.jpg
+@s:default.jpg,zarya.jpg
 @s:"%ZARYA_JPG_NAME%",zarya.jpg
 
 

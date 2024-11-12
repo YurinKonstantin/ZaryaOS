@@ -3,8 +3,7 @@ DIRS    = \
           cleanup     \
           control     \
           grpconv     \
-          taskmgr     \
-          tourstart
+          taskmgr
 
 OPTIONAL_DIRS=
 

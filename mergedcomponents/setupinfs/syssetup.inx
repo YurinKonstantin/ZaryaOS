@@ -282,7 +282,6 @@ layoutfile=LAYOUT.INF
 @@:%cmd% = cmd.exe,cmd.exe,cmd.exe,0,"@%SystemRoot%\system32\shell32.dll,-22534","%SystemRoot%\system32\shell32.dll",22022
 %notepad% = notepad.exe,notepad.exe,,0,"@%SystemRoot%\system32\shell32.dll,-22563","%SystemRoot%\system32\shell32.dll",22051
 %synchronize% = mobsync.exe,mobsync.exe,,0,"@%SystemRoot%\system32\shell32.dll,-22574","%SystemRoot%\system32\shell32.dll",22062
-@w:%windowstour% = tourstart.exe,tourstart.exe,,0,"@%SystemRoot%\system32\tourstart.exe,-2","%SystemRoot%\system32\tourstart.exe",1
 @@:%compatwizard% = ,"hcp://system/compatctr/compatmode.htm",compatUI.dll,0, "@%systemRoot%\system32\compatUI.dll,-117", "%SystemRoot%\system32\compatUI.dll", 115
 
 [Entertainment]

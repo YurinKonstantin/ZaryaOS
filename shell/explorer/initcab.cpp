@@ -1927,7 +1927,7 @@ int ExplorerWinMain(HINSTANCE hInstance, HINSTANCE hPrev, LPTSTR pszCmdLine, int
 
                 _CheckScreenResolution();
 
-                _OfferTour();
+               // _OfferTour();
 
                 _FixWordMailRegKey();
 

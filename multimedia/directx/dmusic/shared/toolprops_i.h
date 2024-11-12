@@ -6,7 +6,7 @@
 
 
  /* File created by MIDL compiler version 6.00.0366 */
-/* at Mon Nov 11 07:21:44 2024
+/* at Tue Nov 12 07:29:01 2024
  */
 /* Compiler settings for ..\toolprops.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
