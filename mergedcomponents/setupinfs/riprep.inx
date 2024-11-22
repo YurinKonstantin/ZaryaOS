@@ -71,7 +71,6 @@ s,nntpsvc
 s,spooler
 s,sysmonlog
 s,tftpd
-s,tlntsvr
 s,trksvr
 s,trkwks
 s,uploadmgr

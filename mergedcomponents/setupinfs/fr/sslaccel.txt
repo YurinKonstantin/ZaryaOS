@@ -1,9 +1,0 @@
-
-;*******************************************************************************
-;  String Definitions
-;*******************************************************************************
-
-[Strings]
-Msft = "Microsoft"
-SECURITYACCELERATORCLASSNAME="Accélérateurs de sécurité"
-

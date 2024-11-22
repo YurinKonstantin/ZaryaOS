@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMMSI_DESC	= "WMI-provider för Windows Installer"
-WBEMMSI_TIP	= "Gör att klientprogram får tillgång till Windows Installer-information genom WMI (Windows Management Instrumentation)."

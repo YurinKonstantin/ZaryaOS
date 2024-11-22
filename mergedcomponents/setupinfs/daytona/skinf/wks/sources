@@ -1,5 +1,0 @@
-!include ..\..\..\sources.inc
-
-ALT_PROJECT=sk
-ALT_PROJECT_TARGET=sk
-

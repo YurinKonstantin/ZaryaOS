@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMCRRL_DESC	= "WMI eseménykorrelációs összetevõk"
-WBEMCRRL_TIP	= "Lehetõvé teszi a WMI eseményekhez tartozó eseménykorrelációs és feldolgozási szabályok, illetve sablonok konfigurálását."

@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMCRRL_DESC	= "WMI-Ereigniskorrelationskomponenten"
-WBEMCRRL_TIP	= "Ermöglicht die Konfiguration von Ereigniskorrelations- und -verarbeitungsregeln und -vorlagen für WMI-Ereignisse."

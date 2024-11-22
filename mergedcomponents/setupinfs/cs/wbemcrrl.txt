@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMCRRL_DESC	= "Souèásti pro korelaci událostí služby WMI"
-WBEMCRRL_TIP	= "Umožòuje nakonfigurovat korelaci událostí, pravidla zpracování a šablony pro události rozhraní WMI."

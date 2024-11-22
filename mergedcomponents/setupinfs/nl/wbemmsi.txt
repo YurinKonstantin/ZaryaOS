@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMMSI_DESC	= "WMI Windows Installer-provider"
-WBEMMSI_TIP	= "Hiermee hebben clienttoepassingen via WMI (Windows Management Instrumentation) toegang tot gegevens van Windows Installer."

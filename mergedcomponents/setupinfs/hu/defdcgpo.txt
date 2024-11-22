@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Vészhelyreállítási sablon az Alapértelmezett tartományvezérlõ csoportházirend-objektumhoz."

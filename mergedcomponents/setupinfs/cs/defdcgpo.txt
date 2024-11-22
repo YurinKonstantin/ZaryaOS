@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Šablona pro zotavení po havárii pro objekt GPO výchozího øadièe domény."

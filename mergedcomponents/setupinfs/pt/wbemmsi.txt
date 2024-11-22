@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMMSI_DESC	= "Fornecedor de instalador de Windows WMI"
-WBEMMSI_TIP	= "Permite que as aplicações cliente acedam a informações de instalador do Windows através da Windows Management Instrumentation (WMI)."

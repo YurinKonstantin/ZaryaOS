@@ -1,5 +1,0 @@
-
-[Strings]
-Msft            = "Microsoft"
-DHCPServer_Desc = "Microsoft DHCP Sunucusu"
-DHCPServer_Help = "DHCP (Dinamik Ana Makine Yapýlandýrma Ýletiþim Kuralý) Ýstemci Hizmeti kullanan diðer bilgisayarlara otomatik olarak IP adresleri atar."

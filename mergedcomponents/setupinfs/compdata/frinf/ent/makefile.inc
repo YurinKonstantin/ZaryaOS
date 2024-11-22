@@ -1,4 +1,0 @@
-PRODSWITCH=e
-ENTERPRISEFILES=1
-LANGUAGE=FR
-!include ..\..\makefile.inc

@@ -1,8 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-PSched_Desc   = "Harmonogram pakietów QoS"
-PSchedMP_Desc = "Sterownik miniport Harmonogramu pakietów"
-

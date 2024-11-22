@@ -4370,8 +4370,6 @@ HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\MSSQLSERVER/MSDE","
 HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\MSSQLSERVER/MSDE","TypesSupported",0x00010003,7
 HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\SysmonLog","EventMessageFile",0x00020002,"%SystemRoot%\System32\smlogsvc.exe"
 HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\SysmonLog","TypesSupported",0x00010003,7
-@@!p:HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\Tlntsvr","EventMessageFile",0x00020002,"%SystemRoot%\System32\tlntsvr.exe"
-@@!p:HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\Tlntsvr","TypesSupported",0x00010003,7
 HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\Userenv","EventMessageFile",0x00020002,"%SystemRoot%\System32\userenv.dll"
 HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\Userenv","TypesSupported",0x00010003,7
 HKLM,"SYSTEM\CurrentControlSet\Services\EventLog\Application\Userinit","EventMessageFile",0x00020002,"%SystemRoot%\System32\userinit.exe"

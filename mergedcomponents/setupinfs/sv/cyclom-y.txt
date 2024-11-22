@@ -1,7 +1,0 @@
-
-[Strings]
-Cyclades   = "Cyclades Corporation"
-
-Y_PCI   = "Cyclom-Y"
-
-Service_DispName = "Drivrutin för Cyclom-Y-uppräkning"

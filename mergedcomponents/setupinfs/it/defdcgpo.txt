@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Modello di ripristino d'emergenza per GPO controller di dominio predefinito."

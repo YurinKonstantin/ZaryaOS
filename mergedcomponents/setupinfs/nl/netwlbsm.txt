@@ -1,8 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-WLBS_Desc   = "Netwerktaakverdeling"
-WLBSMP_Desc = "Filtervoorziening voor een evenwichtige verdeling van netwerktaken"
-

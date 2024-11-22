@@ -1,5 +1,0 @@
-!include ..\..\..\sources.inc
-
-ALT_PROJECT=TST
-ALT_PROJECT_TARGET=TST
-

@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMFWRD_DESC	= "WMI eseménytovábbítási összetevõk"
-WBEMFWRD_TIP	= "Lehetõvé teszi a WMI-események több számítógépen történõ továbbításának konfigurálását."

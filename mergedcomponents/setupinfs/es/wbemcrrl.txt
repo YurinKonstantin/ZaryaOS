@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMCRRL_DESC	= "Componentes de correlación de eventos WMI"
-WBEMCRRL_TIP	= "Permite la configuración de correlación de eventos y el procesamiento de reglas y plantillas de eventos WMI."

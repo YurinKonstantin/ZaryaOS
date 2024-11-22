@@ -317,7 +317,6 @@ HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\Chat$","SharedFlag",0x00010003,1
 HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\Chat$","ShareName",0x00000002,"Chat$"
 HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\Chat$","ShareType",0x00010003,4
 HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\Chat$","StartAppFlag",0x00010003,1
-HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\Chat$","StaticDataLink",0x00000002,"WinChat|Chat"
 HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\CLPBK$","fuCmdShow",0x00010003,7
 HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\CLPBK$","ItemList",0x00010002
 HKLM,"SOFTWARE\Microsoft\NetDDE\DDE Shares\CLPBK$","NewStyleLink",0x00000002,""

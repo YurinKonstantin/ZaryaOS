@@ -1,7 +1,0 @@
-
-[Strings]
-Msft = "Microsoft"
-
-; Service names
-NetBIOS_Desc = "Interfaccia NetBIOS"
-

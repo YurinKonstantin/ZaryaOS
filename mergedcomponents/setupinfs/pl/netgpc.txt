@@ -1,7 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-GPC_Desc = "Rodzajowy klasyfikator pakietu"
-

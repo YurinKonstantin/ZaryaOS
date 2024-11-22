@@ -1,3 +1,0 @@
-
-[Strings]
-DisplayName="Generación de gráficos vectoriales (VML)"

@@ -9544,7 +9544,6 @@ logexts.dll      dbg\files\bin\winext
 logger.exe       dbg\files\bin
 logger32         mstools
 loghours.dll     retail
-login.cmd        retail
 logiscan.inf     retail
 logman.exe       retail
 logo.cub         msi_bins  ; darwin
@@ -16671,12 +16670,8 @@ tekph600.icm     retail
 telb450j.gpd     retail    ; printer driver
 telbp35j.gpd     retail
 telephon.cpl     retail
-telnet.dll       system
-telnet.exe       retail
-telnet.hlp       retail
 telnetS.hlp      srvinf
 telnetS.chm      retail  ;telnet.chm
-telnetW.chm      retail  ;telnet_w.chm/telnet.chm
 template.exe     retail
 template.inf     retail
 template.pmc     retail
@@ -16691,7 +16686,6 @@ templt31.ddf     retail
 templt31.inf     retail
 templt31.lst     retail
 tenet.exe        system
-termcap          retail
 termdd.sys       retail:prerebase    ; Terminal Server
 termmgr.dll      retail    ; tapi 3.0
 termsrv.chm      retail
@@ -16937,10 +16931,6 @@ tkpxe171.ppd     retail
 tkpxe391.ppd     retail
 tlib34.dll       system
 tlist.exe        idw:dbg\files\bin
-tlntadmn.exe     retail
-tlntsess.exe     retail
-tlntsvr.exe      retail
-tlntsvrp.dll     retail
 tloadobj.exe     retail
 tlocmgr.exe      reskit\bin
 tls236.dll       retail    ; Terminal Server Licensing
@@ -18343,9 +18333,6 @@ winbx.chm        lang
 winbx.ime        lang
 winbx.mb         lang
 wincha.ime       chp
-winchat.exe      retail
-winchat.chm	 retail
-winchat.hlp	 retail
 winclip.dll      idw
 winclock.avi     retail
 wind64.chm               retail

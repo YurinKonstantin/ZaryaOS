@@ -517,7 +517,6 @@ maint_wiz = "Мастер обслуживания"
 locsecpol = "Локальная политика безопасности"
 @*:msinfo = "System Information"
 services = "Службы"
-tlntadmn = "Управление сервером Telnet"
 @@:@i:oobe_desc   = "Активация Windows"
 oldnetcon = "Сеть и удаленный доступ к сети"
 @@:@3:remote_assistance = "Удаленный помощник"
@@ -548,7 +547,6 @@ dfsmgr_infotip = "Создает и управляет распределенными файловыми системами, связы
 locsecpol_infotip = "Просмотр и изменение локальной политики безопасности, например, прав пользователей и политики аудита."
 @*:msinfo_infotip = "System Information infotip"
 services_infotip = "Запуск и остановка служб."
-tlntadmn_infotip = "Просмотр и изменение параметров и подключений сервера Telnet."
 compatwizard_infotip = "Обеспечение работы старых программ под управлением Windows XP"
 
 

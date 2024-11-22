@@ -1,4 +1,0 @@
-PRODSWITCH=d
-DATACENTERFILES=1
-LANGUAGE=PL
-!include ..\..\makefile.inc

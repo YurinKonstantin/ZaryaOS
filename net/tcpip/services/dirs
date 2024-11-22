@@ -3,5 +3,4 @@ DIRS=\
     lpd \
     rip \
     simple \
-    telnet \
     tftpd

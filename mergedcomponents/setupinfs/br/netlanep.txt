@@ -1,6 +1,0 @@
-
-[Strings]
-Msft = "Microsoft"
-
-ATMLANE_Desc = "Simulação de rede local ATM"
-

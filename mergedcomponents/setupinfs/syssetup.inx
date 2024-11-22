@@ -98,7 +98,6 @@ layoutfile=LAYOUT.INF
 1,%cmd%,"",0
 @*:0,%remoteaccess%,"",1
 @s:1,%old_srv_config%,%admintools%,1
-1,%tlntadmn%,%admintools%,1
 @p:1,%locsecpol%,%admintools%,1
 1,%oldnetcon%,%accessories_communications%,1
 1,%dialer%,%accessories_communications%,1
@@ -509,8 +508,6 @@ Q328017.CAT
 {BA63DE4B-CAD8-49C5-A3F2-E976BEB019C8}=0x00020046   ; Microsoft SQL Server OLE DB Provider 2.70
 {E9A84D17-E5C1-4890-A557-4460207F6AAF}=0x00020046   ; WebData Setup 2.70
 {F1CAE27D-85D3-4642-B9E9-48D7F9F56C82}=0x00020046   ; MDAC 2.70
-{CEB436C4-6F1A-11D2-BA10-00A0C9CCA9A1}=0x00050014   ; Telnet Client 5.20
-{CEB43705-6F1A-11D2-BA10-00A0C9CCA9A1}=0x00050014   ; Telnet Server 5.20
 {4F645220-306D-11D2-995D-00C04F98BBC9}=0x00050006   ; Scripting 5.6
 {8621B4C0-C35B-4f46-89EB-529E75F501EA}=0x00010003   ; Windows Media Services 1.3
 {2E742517-5D48-4DBD-BF93-48FDCF36E634}=0x00020000   ; Windows Installer (MSI) 2.0
@@ -1049,7 +1046,6 @@ RegisterDlls=CryptoDlls
 @@:@@:10,PCHealth\HelpCtr\Binaries,msinfo.dll,1
 @@:@@:10,PCHealth\UploadLB\Binaries,UploadM.exe,,,"/svchost netsvcs /regserver"
 @*:; Entry below is for telnet service registration
-@@!p:@@:11,,tlntsvr.exe,,,"/Service"
 @*:; Entries below are for Application Compatibility UI components
 @@:@@:11,,compatui.dll,1
 @*:; Entries below here are for Windows Update
@@ -1152,7 +1148,6 @@ RegisterDlls=CryptoDlls
 @@:@@:11,,scripto.dll,1
 @*:;
 @@:@@:11,,inetcfg.dll,1
-@@!p:@@:11,,tlntsvrp.dll,1
 @s!b:@@:11,,certadm.dll,1
 @s!b:@@:11,,certmmc.dll,1
 @s!b:@@:11,,certpdef.dll,1

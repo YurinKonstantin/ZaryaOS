@@ -1,8 +1,0 @@
-
-[Strings]
-Msft = "Microsoft"
-
-NetworkAddress = "Indirizzo di rete"
-TUNMP.DisplayName = "Scheda Microsoft Tun Miniport"
-TUNMP.HelpText = "Driver scheda Microsoft Tun Miniport"
-TUNMP.Service.DisplayName = "Driver scheda Microsoft Tun Miniport"

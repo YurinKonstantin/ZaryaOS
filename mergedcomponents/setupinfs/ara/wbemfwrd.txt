@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMFWRD_DESC	= "WMI Event Forwarding Components"
-WBEMFWRD_TIP	= "Allows configuration of forwarding of WMI events across multiple machines."

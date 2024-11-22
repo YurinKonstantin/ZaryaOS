@@ -1,5 +1,0 @@
-!include ..\..\..\sources.inc
-
-ALT_PROJECT=pl
-ALT_PROJECT_TARGET=pl
-

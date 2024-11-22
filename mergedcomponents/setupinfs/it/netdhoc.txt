@@ -1,5 +1,0 @@
-
-[Strings]
-Msft            = "Microsoft"
-DHCPServer_Desc = "Server DHCP Microsoft"
-DHCPServer_Help = "Assegna automaticamente indirizzi IP ad altri computer su cui è in esecuzione il Servizio client DHCP (Dynamic Host Configuration Protocol)."

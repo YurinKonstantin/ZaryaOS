@@ -1,8 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-WLBS_Desc   = "Równowa¿enie obci¹¿enia sieciowego"
-WLBSMP_Desc = "Filtr równowa¿¹cy obci¹¿enie sieci"
-

@@ -7,13 +7,13 @@ DIRS=           \
     DS          \
     Shell       \
     InetCore    \
+    inetsrv    \
     COM         \
     Drivers     \
     Net         \
     SdkTools    \
     TermSrv     \
     MultiMedia  \
-    InetSrv     \
     PrintScan   \
     EndUser     \
     MergedComponents     \

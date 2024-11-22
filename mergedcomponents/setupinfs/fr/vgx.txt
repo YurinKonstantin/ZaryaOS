@@ -1,3 +1,0 @@
-
-[Strings]
-DisplayName="Rendu VML (Vector Graphics Rendering)"

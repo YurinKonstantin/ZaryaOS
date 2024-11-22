@@ -1,8 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-PSched_Desc   = "QoS 패킷 스케줄러"
-PSchedMP_Desc = "패킷 스케줄러 미니 포트"
-

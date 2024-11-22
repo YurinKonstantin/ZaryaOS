@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Modelo de recuperação de desastre para 'Controlador de domínio predefinido' (GPO)."

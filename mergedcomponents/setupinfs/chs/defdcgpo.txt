@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "默认域控制器 GPO 的事故恢复模板。"

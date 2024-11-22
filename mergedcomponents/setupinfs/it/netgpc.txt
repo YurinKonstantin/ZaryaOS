@@ -1,7 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-GPC_Desc = "Utilità di classificazione pacchetti generica"
-

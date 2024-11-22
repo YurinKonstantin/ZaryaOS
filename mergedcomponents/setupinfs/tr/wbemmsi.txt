@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMMSI_DESC	= "WMI Windows Installer Saðlayýcýsý"
-WBEMMSI_TIP	= "Ýstemci uygulamalarýn Windows Yönetim Araçlarý (WMI) yoluyla Windows Installer bilgisine eriþimini saðlar."

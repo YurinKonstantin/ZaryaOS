@@ -19,7 +19,6 @@ DIRS=             \
         mspaint   \
         ratpak    \
         calc      \
-        winchat   \
         access    \
         packager  \
         pbrush    \

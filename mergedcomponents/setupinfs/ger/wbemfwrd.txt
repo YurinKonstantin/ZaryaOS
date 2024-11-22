@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMFWRD_DESC	= "WMI-Ereignisweiterleitungskomponenten"
-WBEMFWRD_TIP	= "Ermöglicht die Konfiguration der Weiterleitung von WMI-Ereignissen über mehrere Computer."

@@ -1,6 +1,0 @@
-
-[Strings]
-RegPath = "SOFTWARE\Microsoft\WOW64\IA32Exec"
-Intl    = "Intel"
-DiskId1 = "Installationsdiskette 1 für IA-32-Ausführungsschicht"
-IA32Ex.DeviceDesc = "IA-32-Ausführungsschicht"

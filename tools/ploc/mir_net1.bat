@@ -412,7 +412,6 @@ call %2 at.exe . FE-Multi oem . at.exe ds1 excluded ds . .
 call %2 dfrgfat.exe . win32 unicode . dfrgfat.exe base2 yes_with base . .
 call %2 nbtstat.exe . win32 oem . nbtstat.exe net3 excluded net . .
 call %2 netstat.exe . win32 oem . netstat.exe net1 excluded net . .
-call %2 winchat.exe . win32 unicode . winchat.exe shell2 yes_without shell . .
 call %2 ati.sys . win32 unicode . ati.sys drivers1 yes_without drivers . .
 call %2 atkctrs.dll . win32 unicode . atkctrs.dll net3 excluded net . .
 call %2 atmadm.exe . FE-Multi oem . atmadm.exe net1 excluded net . .

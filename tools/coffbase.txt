@@ -627,7 +627,6 @@ inetmib1    0x52f80000  0x10080000
 lmmib2      0x53100000  0x10080000
 tcpipsvc    0x53180000  0x10080000
 nbtsvc      0x53200000  0x10080000
-telnet      0x53280000  0x10080000
 wshtcpip    0x53300000  0x10080000
 cnfgprts    0x53380000  0x10080000
 icmp        0x53400000  0x10080000
@@ -1475,11 +1474,6 @@ dmloader     0x77380000  0x10080000
 dmstyle      0x77400000  0x10080000
 dmsynth      0x77480000  0x10080000
 
-; solar coaster components
-;
-telnetc      0x77500000  0x10080000
-tlntsess     0x77580000  0x10080000
-tlntsvr      0x77600000  0x10080000
 
 ; New D3d components
 

@@ -1,8 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-WLBS_Desc   = "Netzwerklastenausgleich"
-WLBSMP_Desc = "Filtergerät für Netzwerklastenausgleich"
-

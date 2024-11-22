@@ -1240,7 +1240,6 @@ call %2 localsec.dll . win32 unicode . localsec.dll admin2 yes_without admin . .
 call %2 localspl.dll . win32 unicode . localspl.dll printscan1 yes_without printscan . .
 call %2 localui.dll . win32 unicode . localui.dll printscan1 yes_without printscan . .
 call %2 loghours.dll . win32 unicode . loghours.dll admin2 yes_without admin . .
-call %2 login.cmd . manual na . login.cmd loc_manual no net . .
 call %2 logiscan.txt . setup_inf unicode . logiscan.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 logman.exe . FE-Multi oem . logman.exe wmsos1\sdktools yes_with sdktools . .
 call %2 logoff.exe . FE-Multi oem . logoff.exe wmsos1\termsrv excluded termsrv . .

@@ -782,7 +782,6 @@ call %2 saslfcrt.dll . win32 unicode . saslfcrt.dll sak yes_without enduser . .
 call %2 sasysbck.dll . win32 unicode . sasysbck.dll sak yes_without enduser . .
 call %2 sasysinf.dll . win32 unicode . sasysinf.dll sak yes_without enduser . .
 call %2 sdwndr2k.txt . setup_inf unicode . sdwndr2k.inf admin1\sources\infs\setup no mergedcomponents locked\sources\infs\setup\usa .
-call %2 satelnet.dll . win32 unicode . satelnet.dll sak yes_without enduser . .
 call %2 satservr.dll . win32 unicode . satservr.dll sak yes_without enduser . .
 call %2 sausrmsg.dll . win32 unicode . sausrmsg.dll sak yes_without enduser . .
 call %2 savedump.exe . win32 unicode . savedump.exe wmsos1\sdktools excluded sdktools . .
@@ -1063,7 +1062,6 @@ call %2 tourstrt.exe . win32 unicode . tourstrt.exe shell1 yes_with shell locked
 call %2 tcpmonui.dll . win32 unicode . tcpmonui.dll printscan1 yes_without printscan . .
 call %2 tech.htm . html ansi . tech.htm inetcore1 html inetcore . .
 call %2 telephon.cpl . win32 unicode . telephon.cpl net2 yes_without net . .
-call %2 telnet.exe . FE-Multi oem . telnet.exe net1 excluded net . .
 call %2 template.inf . inf unicode . template.inf net2 no net . .
 call %2 termmgr.dll . win32 unicode . termmgr.dll net2 yes_without net . .
 call %2 termsrv.dll . win32 unicode . termsrv.dll wmsos1\termsrv excluded termsrv . .
@@ -1077,9 +1075,6 @@ call %2 timer.drv . win16 ansi . timer.drv base1 excluded base . .
 call %2 tip.htm . html ansi . tip.htm inetcore1 html inetcore . .
 call %2 tipband.dll . win32 unicode . tipband.dll drivers1\tabletpc yes_without drivers . .
 call %2 tipres.dll . win32 unicode . tipres.dll drivers1\tabletpc yes_without drivers . .
-call %2 tlntadmn.exe . FE-Multi oem . tlntadmn.exe net1 excluded net . .
-call %2 tlntsess.exe . win32 oem . tlntsess.exe net1 excluded net . .
-call %2 tlntsvr.exe . win32 oem . tlntsvr.exe resource_identical yes_with net . .
 call %2 tls236.dll . win32 unicode . tls236.dll wmsos1\termsrv excluded termsrv . .
 call %2 tly3res.dll . win32 unicode . tly3res.dll printscan1 yes_without printscan . .
 call %2 tly5cres.dll . win32 unicode . tly5cres.dll printscan1 yes_without printscan . .
@@ -1503,7 +1498,6 @@ call %2 FXSOCM.dll . win32 unicode . FXSOCM.dll fax_msmq yes_without printscan .
 call %2 rsmover.dll . win32 unicode . rsmover.dll base2 yes_without base . .
 call %2 replprov.dll . win32 unicode . replprov.dll ds1 yes_without ds . .
 call %2 pop3auth.dll . win32 oem . pop3auth.dll iis yes_without inetsrv . .
-call %2 winchat.exe . win32 unicode . winchat.exe shell2 yes_without shell . .
 call %2 kerberos.dll . win32 unicode . kerberos.dll ds2 yes_without ds . .
 call %2 proxycfg.exe . win32 unicode . proxycfg.exe inetcore1 yes_with inetcore . .
 call %2 oeaccess.txt . setup_inf unicode . oeaccess.inf admin1 no mergedcomponents . .

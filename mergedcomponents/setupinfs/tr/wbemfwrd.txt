@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMFWRD_DESC	= "WMI Olay Ýletme Bileþenleri"
-WBEMFWRD_TIP	= "Birden çok makineye WMI olaylarýnýn iletilmesinin yapýlandýrýlmasýný saðlar."

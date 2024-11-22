@@ -1,3 +1,0 @@
-
-[Strings]
-DisplayName="Vector Graphics Rendering (VML)"

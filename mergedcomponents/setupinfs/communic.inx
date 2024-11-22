@@ -9,8 +9,6 @@ LayoutFile=layout.inf
 
 
 [DestinationDirs]
-ChatCopyFilesSys                = 11    ;LDID_SYSTEM
-ChatCopyFilesHelp               = 18    ;LDID_HELP
 HypertrmCopyFilesProg   = 16422,%Hypertrm_DIR% ; DIRID_PROGRAM_FILES
 HypertrmCopyFilesSys    = 11
 HypertrmCopyFilesHelp   = 18    ;LDID_HELP
@@ -20,7 +18,6 @@ HypertrmDelFilesProg     = 16422,%Hypertrm_DIR% ; DIRID_PROGRAM_FILES
 
 [Optional Components]
 CommApps        ;Top level option
-Chat
 Hypertrm
 
 [CommApps]
@@ -29,37 +26,6 @@ Tip                     = %CommApps_TIP%
 IconIndex               = 7 ;Telephone mini-icon for dialogs
 Parent                  = AccessUtil
 
-[Chat]
-OptionDesc              = %Chat_DESC%
-Tip                     = %Chat_TIP%
-IconIndex               = 16 ;Net Client mini-icon for dialogs
-Parent                  = CommApps
-CopyFiles               = ChatCopyFilesSys, ChatCopyFilesHelp
-ProfileItems            = ChatUninstallItems, ChatUninstallCommonItems
-Uninstall               = ChatUninstall
-Modes                   = 0,1,2,3
-@i:@@:SizeApproximation       = 229376
-
-[ChatUninstall]
-DelFiles                = ChatCopyFilesSys, ChatCopyFilesHelp
-ProfileItems            = ChatUninstallItems, ChatUninstallCommonItems
-
-
-[ChatInstallItems]
-Name       = %Chat_DESC%
-CmdLine    = 11,, winchat.exe
-SubDir     = %Access_GROUP%
-WorkingDir = 11
-InfoTip    = "@%SystemRoot%\system32\shell32.dll,-22583"
-DisplayResource="%SystemRoot%\system32\shell32.dll",22071
-
-[ChatUninstallItems]
-Name       = %Chat_DESC%,0x00000003
-Subdir     = %Access_GROUPOLD%
-
-[ChatUninstallCommonItems]
-Name       = %Chat_DESC%,0x00000002
-Subdir     = %Access_GROUP%
 
 [Hypertrm]
 OptionDesc              = %Hypertrm_DESC%
@@ -100,18 +66,6 @@ Name       = %Hypertrm_GROUPOLD%,0x00000007
 Name       = %Hypertrm_DESC%,0x00000002
 Subdir     = %Access_GROUP%
 
-[ChatCopyFilesSys]
-winchat.exe
-
-[ChatCopyFilesSys.Security]
-"D:P(A;;GRGX;;;BU)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GRGX;;;WD)"
-
-
-[ChatCopyFilesHelp]
-
-
-[ChatCopyFilesHelp.Security]
-"D:P(A;;GRGX;;;BU)(A;;GA;;;BA)(A;;GA;;;SY)"
 
 
 [HypertrmCopyFilesProg]

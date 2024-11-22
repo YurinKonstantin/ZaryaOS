@@ -1,4 +1,0 @@
-
-
-[Strings]
-SCEProfileDescription = "セキュリティ テンプレート スナップインによって提供された既定の推奨です。"

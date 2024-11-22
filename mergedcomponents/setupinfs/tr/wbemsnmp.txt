@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMSNMP_DESC	= "WMI SNMP Saðlayýcýsý"
-WBEMSNMP_TIP	= "Ýstemci uygulamalarýn Windows Yönetim Araçlarý (WMI) yoluyla statik ve dinamik SNMP bilgisine eriþmesine olanak verir."

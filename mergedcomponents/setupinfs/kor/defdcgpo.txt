@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "기본 도메인 컨트롤러 복구 템플릿"

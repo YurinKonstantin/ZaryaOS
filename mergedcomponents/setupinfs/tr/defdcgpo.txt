@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Varsayýlan Etki Alaný Denetleyicisi GPO için kilitlenme kurtarma þablonu."

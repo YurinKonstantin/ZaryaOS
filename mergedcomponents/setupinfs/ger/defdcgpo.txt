@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Notfall-Wiederherstellungsvorlage für Standarddomänencontroller-Gruppenrichtlinienobjekt"

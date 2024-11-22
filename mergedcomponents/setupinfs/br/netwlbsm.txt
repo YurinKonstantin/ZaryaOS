@@ -1,8 +1,0 @@
-
-
-[Strings]
-Msft = "Microsoft"
-
-WLBS_Desc   = "Equilíbrio de carga de rede"
-WLBSMP_Desc = "Dispositivo para filtragem de equilíbrio de carga de rede"
-

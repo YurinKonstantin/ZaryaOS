@@ -1,4 +1,0 @@
-
-[Strings]
-WBEMMSI_DESC	= "WMI Windows Installer 提供者"
-WBEMMSI_TIP	= "允許用戶端應用程式經由 Windows Management Instrumentation (WMI) 存取 Windows Installer 資訊。"

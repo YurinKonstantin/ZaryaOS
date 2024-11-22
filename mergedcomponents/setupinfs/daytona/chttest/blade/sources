@@ -1,5 +1,0 @@
-!include ..\..\..\langtest.src
-
-ALT_PROJECT=CHT
-ALT_PROJECT_TARGET=CHT
-

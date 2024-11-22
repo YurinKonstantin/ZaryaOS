@@ -331,11 +331,6 @@ system.drv          ; DOS
 toolhelp.dll        ; DOS
 trustmon.dll        ; 32 bit WMI provider wont work on 64 WMI
 typelib.dll         ; Win16
-telnet.exe          ; do not need to keep 32-bit versions of telnet files
-tlntsvrp.dll        ; do not need to keep 32-bit versions of telnet files
-tlntsvr.exe         ; do not need to keep 32-bit versions of telnet files
-tlntsess.exe        ; do not need to keep 32-bit versions of telnet files
-tlntadmn.exe        ; do not need to keep 32-bit versions of telnet files
 umpnpmgr.dll        ; always native
 user.exe            ; althoug this is a Win16 file, it is needed for quicktime. see #491368. this file is added thru wowfile.inx
 ver.dll             ; Win16

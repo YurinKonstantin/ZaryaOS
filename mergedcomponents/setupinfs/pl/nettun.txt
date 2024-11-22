@@ -1,8 +1,0 @@
-
-[Strings]
-Msft = "Microsoft"
-
-NetworkAddress = "Adres sieciowy"
-TUNMP.DisplayName = "Karta Microsoft Tun Miniport"
-TUNMP.HelpText = "Sterownik karty Microsoft Tun Miniport"
-TUNMP.Service.DisplayName = "Sterownik karty Microsoft Tun Miniport"

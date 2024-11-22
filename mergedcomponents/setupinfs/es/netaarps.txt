@@ -1,6 +1,0 @@
-
-[strings]
-V_MS="Microsoft"
-
-V_CLASSNAME="Protocolo de red"
-ATMARPS.DeviceDesc="Servicio ARP/MARS de ATM"

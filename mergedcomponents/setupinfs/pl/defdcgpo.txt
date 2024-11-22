@@ -1,4 +1,0 @@
-
-[Strings]
-
-DefDCGPOProfileDescription = "Szablon odzyskiwania dla  domyœlnego obiektu zasad grupy kontrolera domeny."

@@ -412,7 +412,6 @@ call %2 at.exe . FE-Multi oem . at.exe ds1 excluded ds . .
 call %2 dfrgfat.exe . win32 unicode . dfrgfat.exe base2 yes_with base . .
 call %2 nbtstat.exe . win32 oem . nbtstat.exe net3 excluded net . .
 call %2 netstat.exe . win32 oem . netstat.exe net1 excluded net . .
-call %2 winchat.exe . win32 unicode . winchat.exe shell2 yes_without shell . .
 call %2 ati.sys . win32 unicode . ati.sys drivers1 yes_without drivers . .
 call %2 atkctrs.dll . win32 unicode . atkctrs.dll net3 excluded net . .
 call %2 atmadm.exe . FE-Multi oem . atmadm.exe net1 excluded net . .
@@ -1391,7 +1390,6 @@ call %2 tcmsetup.exe . FE-Multi unicode . tcmsetup.exe net2 excluded net . .
 call %2 tcpmon.dll . win32 unicode . tcpmon.dll printscan1 yes_without printscan . .
 call %2 tcpmonui.dll . win32 unicode . tcpmonui.dll printscan1 yes_without printscan . .
 call %2 telephon.cpl . win32 unicode . telephon.cpl net2 yes_without net . .
-call %2 telnet.exe . FE-Multi oem . telnet.exe net1 excluded net . .
 call %2 termmgr.dll . win32 unicode . termmgr.dll net2 yes_without net . .
 call %2 termsrv.dll . win32 unicode . termsrv.dll wmsos1\termsrv excluded termsrv . .
 call %2 tftp.exe . win32 oem . tftp.exe net1 excluded net . .
@@ -1399,9 +1397,6 @@ call %2 themeui.dll . win32 ansi . themeui.dll shell1 yes_without shell . .
 call %2 ti850res.dll . win32 unicode . ti850res.dll printscan1 yes_without printscan . .
 call %2 timedate.cpl . win32 unicode . timedate.cpl shell1 yes_without shell . .
 call %2 tip.htm . html ansi . tip.htm inetcore1 html inetcore . .
-call %2 tlntadmn.exe . FE-Multi oem . tlntadmn.exe net1 excluded net . .
-call %2 tlntsess.exe . win32 oem . tlntsess.exe net1 excluded net . .
-call %2 tlntsvr.exe . win32 oem . tlntsvr.exe resource_identical yes_with net . .
 call %2 tly3res.dll . win32 unicode . tly3res.dll printscan1 yes_without printscan . .
 call %2 tly5cres.dll . win32 unicode . tly5cres.dll printscan1 yes_without printscan . .
 call %2 tlyp6res.dll . win32 unicode . tlyp6res.dll printscan1 yes_without printscan . .
@@ -1483,7 +1478,6 @@ call %2 wiashext.dll . win32 ansi . wiashext.dll printscan1 yes_without printsca
 call %2 wiavideo.dll . win32 unicode . wiavideo.dll printscan1 yes_without printscan . .
 call %2 win32k.sys . win32 ansi . win32k.sys wmsos1\windows yes_without windows . .
 call %2 win32spl.dll . win32 unicode . win32spl.dll printscan1 yes_without printscan . .
-call %2 winchat.exe . win32 unicode . winchat.exe shell2 yes_without shell . .
 call %2 wininet.dll . win32 ansi . wininet.dll inetcore1 yes_without inetcore . .
 call %2 winlogon.exe . win32 unicode_limited . winlogon.exe ds2 yes_without ds . .
 call %2 winmgmt.exe . win32 unicode . winmgmt.exe admin3 yes_with admin . .
