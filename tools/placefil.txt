@@ -2034,12 +2034,6 @@ beep.sys         retail
 beethov9.wma     retail    ; shell sample music
 bells.wav        idw
 bfcab.inf        retail
-bfax.inf         retail    ; Fax specific, Brooktrout driver
-bfax.sys         retail    ; Fax specific, Brooktrout driver
-BfaxDev.dll      retail    ; Fax specific, Brooktrout driver
-BFAXFSP.dll      retail    ; Fax specific, Brooktrout driver
-BFaxSnp.dll      retail    ; Fax specific, Brooktrout driver
-BFAXTSP.tsp      retail    ; Fax specific, Brooktrout driver
 bg.gif           retail
 bhp001.dll       retail    ; netmon
 bhp001.ini       retail    ; netmon
@@ -2396,10 +2390,6 @@ bscmake.err      mstools
 bscmake.exe      mstools
 bt829.sys        retail
 bt848.sys        retail
-BTech.vcf        retail    ; Fax specific, Brooktrout driver
-btcall.cfg       retail    ; Fax specific, Brooktrout driver
-BTCPARM.CFG      retail    ; Fax specific, Brooktrout driver
-BTDLLD.DLL       retail    ; Fax specific, Brooktrout driver
 btpagnt.dll      retail
 btzhsepa.gif     retail
 bu1035e.gpd      retail
@@ -6179,7 +6169,6 @@ fax4.chm         retail
 faxab32.dll      retail    ; Fax
 faxab32w.dll     retail    ; Fax
 faxcover.chm     retail
-FAXINIT.EXE      retail    ; Fax specific, Brooktrout driver
 fbase.sys        retail
 fbase.usa        retail
 fc.exe           retail
@@ -8018,7 +8007,6 @@ ibm43321.ppd     retail
 ibm43322.ppd     retail
 ibm5204.dll      retail
 ibmcxcon.bin     retail
-IBMPCPS.FZ8      retail    ; Fax specific, Brooktrout driver
 ibmencon.bin     retail
 ibmgrphc.gpd     retail
 ibmport.dll      retail

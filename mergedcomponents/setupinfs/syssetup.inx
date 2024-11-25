@@ -570,7 +570,6 @@ Q328017.CAT
 ;
 [DeviceInfsToInstallIfExists]
 @@:@i:memstpci.inf
-@s:@i:bfax.inf
 ;@@:@i!n:mwtpdsp.inf
 
 

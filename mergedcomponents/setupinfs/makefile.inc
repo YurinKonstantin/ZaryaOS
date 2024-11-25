@@ -241,10 +241,6 @@ make_infs:$(O)\layout.inf    \
           $(O)\avc.inf       \
           $(O)\battery.inf   \
           $(O)\bda.inf       \
-!if $(386)
-          $(O)\bfcab.inf     \
-          $(O)\bfax.inf      \
-!endif
           $(O)\biomtric.inf \
           $(O)\biosinfo.inf  \
 !if $(386)
@@ -2035,11 +2031,6 @@ $(O)\printupg.inf: $(_INX)\printupg.inx $(_LNG)\printupg.txt
     $(STAMP)
     $(TSBINPLACE_CMD)
 
-$(O)\bfax.inf: $(_INX)\bfax.inx $(_LNG)\bfax.txt
-    $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1
-    copy $(_INX)\$(@B).inx+$(O)\$(@B).txt1 $@
-    @del $(O)\$(@B).txt1
-    $(TSBINPLACE_CMD)
 
 $(O)\bfcab.inf: $(_INX)\bfcab.inx $(_LNG)\bfcab.txt
     $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1

@@ -9,15 +9,7 @@ acelpdec.ax	; #167742, #348833
 air300pp.dll
 asfsipc.dll     ; #348833
 avmcoins.dll    ; #20669
-bfax.sys        ; Fax specific, Brooktrout driver, need to get symbols
-BfaxDev.dll     ; Fax specific, Brooktrout driver, need to get symbols
-BFAXFSP.dll     ; Fax specific, Brooktrout driver, need to get symbols
-BFaxSnp.dll     ; Fax specific, Brooktrout driver, need to get symbols
-BFAXTSP.tsp     ; Fax specific, Brooktrout driver, need to get symbols
-btcall.cfg      ; Fax specific, Brooktrout driver, need to get symbols
-BTCPARM.CFG     ; Fax specific, Brooktrout driver, need to get symbols
-BTDLLD.DLL      ; Fax specific, Brooktrout driver, need to get symbols
-BTech.vcf       ; Fax specific, Brooktrout driver, need to get symbols
+
 ce2n5.sys
 cliconfg.dll	; #139691
 cliconfg.exe	; #139691
@@ -41,7 +33,6 @@ dpserial.dll    ;FAILED
 dpwsock.dll     ;FAILED
 esent97.dll
 expsrv.dll	; #165291
-FAXINIT.EXE     ; Fax specific, Brooktrout driver, need to get symbols
 fpcibase.usa    ; #20669
 fpcmbase.usa    ; #20669
 fpnpbase.usa    ; #20669
@@ -52,7 +43,6 @@ HWXCHT.DLL      ; #353965
 hwxjpn.dll      ; #353965
 hwxkor.dll      ; #353965
 iac25_32.ax	; #152983
-IBMPCPS.FZ8     ; Fax specific, Brooktrout driver, need to get symbols
 iccvid.dll	; #167742, #348833
 ir32_32.dll	; #152983, #348833
 ir41_32.ax	; #152983

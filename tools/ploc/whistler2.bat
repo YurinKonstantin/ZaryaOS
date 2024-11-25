@@ -1540,7 +1540,6 @@ call %2 shmgrate.exe . win32 unicode . shmgrate.exe shell2 yes_with shell . .
 call %2 n1000325.sys  . win32 unicode . n1000325.sys  drivers1 yes_without drivers . .
 call %2 ipsecprf.ini . perf ansi . ipsecprf.ini net3 no net . .
 call %2 gprsop.dll gpmc win32 unicode . gprsop.dll extra\gpmc yes_without ds . .
-call %2 bfax.txt . setup_inf unicode . bfax.inf admin1 no mergedcomponents . .
 call %2 pbasetup.exe  pbainst\sources1 win32 unicode . pbasetup.exe net2 yes_without net . .
 call %2 tsweb-setup.sed . inf ansi . tsweb-setup.sed wmsos1\termsrv no termsrv . .
 call %2 a304.inf . inf unicode . a304.inf drivers1 no drivers . .
@@ -1561,11 +1560,6 @@ call %2 netrtxp.inf . inf unicode . netrtxp.inf drivers1 no drivers . .
 call %2 netprism.inf . inf unicode . netprism.inf drivers1 no drivers . .
 call %2 uddi.css uddi\webroot\stylesheets html ansi . uddi.css iis no inetsrv . .
 call %2 uddidl.css uddi\webroot\stylesheets html ansi . uddidl.css iis no inetsrv . .
-call %2 bfax.sys . win32 unicode . bfax.sys fax_msmq yes_without printscan . .
-call %2 bfaxdev.dll . win32 unicode . bfaxdev.dll fax_msmq yes_without printscan . .
-call %2 bfaxfsp.dll . win32 unicode . bfaxfsp.dll fax_msmq yes_without printscan . .
-call %2 bfaxsnp.dll . win32 unicode . bfaxsnp.dll fax_msmq yes_without printscan . .
-call %2 bfaxtsp.tsp . win32 unicode . bfaxtsp.tsp fax_msmq yes_without printscan . .
 call %2 default.htm inetsrv\wwwroot\adminui html ansi . default.htm iis no inetsrv . .
 call %2 text.asp inetsrv html ansi . text.asp iis no inetsrv . .
 call %2 rdpclip.exe . win32 unicode . rdpclip.exe wmsos1 yes_with termsrv . .

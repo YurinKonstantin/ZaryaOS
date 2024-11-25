@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 6.00.0366 */
-/* at Thu Nov 21 22:54:00 2024
+/* at Sun Nov 24 21:36:42 2024
  */
 /* Compiler settings for elf.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
