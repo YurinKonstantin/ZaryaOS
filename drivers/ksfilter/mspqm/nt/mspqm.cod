@@ -147,7 +147,7 @@ _QualityPropertySets DD FLAT:_KSPROPSETID_Quality
 CONST	ENDS
 PUBLIC	_InitializeListHead@4
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\public\sdk\inc\wdm.h
+; File d:\zaryaos\public\sdk\inc\wdm.h
 ;	COMDAT _InitializeListHead@4
 _TEXT	SEGMENT
 _ListHead$ = 8						; size = 4
@@ -241,7 +241,7 @@ EXTRN	__imp__KsAllocateDeviceHeader@12:NEAR
 EXTRN	__imp__IoCreateDevice@28:NEAR
 EXTRN	__imp__IoDeleteDevice@4:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\ksfilter\mspqm\mspqm.c
+; File d:\zaryaos\drivers\ksfilter\mspqm\mspqm.c
 ;	COMDAT _PnpAddDevice@8
 PAGE	SEGMENT
 _FunctionalDeviceObject$ = 8				; size = 4

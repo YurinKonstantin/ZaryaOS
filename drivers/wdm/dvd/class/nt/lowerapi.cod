@@ -118,7 +118,7 @@ INCLUDELIB OLDNAMES
 
 PUBLIC	_RemoveEntryList@4
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\public\sdk\inc\wdm.h
+; File d:\zaryaos\public\sdk\inc\wdm.h
 ;	COMDAT _RemoveEntryList@4
 _TEXT	SEGMENT
 _Entry$ = 8						; size = 4
@@ -195,7 +195,7 @@ EXTRN	__imp__KsGenerateEventList@20:NEAR
 EXTRN	__imp_@KfAcquireSpinLock@4:NEAR
 EXTRN	__imp_@KfReleaseSpinLock@8:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\wdm\dvd\class\lowerapi.c
+; File d:\zaryaos\drivers\wdm\dvd\class\lowerapi.c
 ;	COMDAT _StreamClassStreamNotification
 _TEXT	SEGMENT
 _Irql$ = -1						; size = 1

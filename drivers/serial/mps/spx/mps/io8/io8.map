@@ -1,6 +1,6 @@
  io8
 
- Timestamp is 6743836a (Sun Nov 24 22:50:02 2024)
+ Timestamp is 6744c691 (Mon Nov 25 21:48:49 2024)
 
  Preferred load address is 00010000
 
@@ -241,14 +241,14 @@
  0002:000000dc       __imp__ExFreePoolWithTag@8 000170dc     ntoskrnl:ntoskrnl.exe
  0002:000000e0       __imp__RtlAnsiStringToUnicodeString@12 000170e0     ntoskrnl:ntoskrnl.exe
  0002:000000e4       __imp__RtlxAnsiStringToUnicodeSize@4 000170e4     ntoskrnl:ntoskrnl.exe
- 0002:000000e8       _NlsMbCodePageTag          000170e8     ntoskrnl:ntoskrnl.exe
  0002:000000e8       __imp__NlsMbCodePageTag    000170e8     ntoskrnl:ntoskrnl.exe
+ 0002:000000e8       _NlsMbCodePageTag          000170e8     ntoskrnl:ntoskrnl.exe
  0002:000000ec       __imp__RtlInitAnsiString@8 000170ec     ntoskrnl:ntoskrnl.exe
  0002:000000f0       __imp__ZwQueryValueKey@24  000170f0     ntoskrnl:ntoskrnl.exe
  0002:000000f4       __imp__IoWriteErrorLogEntry@4 000170f4     ntoskrnl:ntoskrnl.exe
  0002:000000f8       __imp__IoAllocateErrorLogEntry@8 000170f8     ntoskrnl:ntoskrnl.exe
- 0002:000000fc       __imp__KeTickCount         000170fc     ntoskrnl:ntoskrnl.exe
  0002:000000fc       _KeTickCount               000170fc     ntoskrnl:ntoskrnl.exe
+ 0002:000000fc       __imp__KeTickCount         000170fc     ntoskrnl:ntoskrnl.exe
  0002:00000100       __imp__KeBugCheckEx@20     00017100     ntoskrnl:ntoskrnl.exe
  0002:00000104       __imp__KeCancelTimer@4     00017104     ntoskrnl:ntoskrnl.exe
  0002:00000108       __imp__KeRemoveQueueDpc@4  00017108     ntoskrnl:ntoskrnl.exe
@@ -273,7 +273,7 @@
  0003:0000008c       ___security_cookie         0001808c     BufferOverflowK:gs_support.obj
  0003:00000098       _BREAK_ON_POWER_UP         00018098     spx_powr.obj
  0003:000000a0       _SavedRegistryPath         000180a0     <common>
- 0003:000000a8       ___@@_PchSym_@00@UhieADignUwirevihUhvirzoUnkhUhkcUnkhUrlIUlyqUrDIGUkivxlnkOlyq@io8 000180a8     <common>
+ 0003:000000a8       ___@@_PchSym_@00@UazibzlhUwirevihUhvirzoUnkhUhkcUnkhUrlIUlyqUrDIGUkivxlnkOlyq@io8 000180a8     <common>
  0004:00000042       _XXX_CardGetResources@12   00019042 f   io8_pnp.obj
  0004:00000228       _XXX_CardInit@4            00019228 f   io8_pnp.obj
  0004:000002d6       _XXX_CardStart@4           000192d6 f   io8_pnp.obj

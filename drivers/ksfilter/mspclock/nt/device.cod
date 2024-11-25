@@ -66,7 +66,7 @@ EXTRN	__imp__KsDefaultDispatchPnp@8:NEAR
 EXTRN	__imp__KsDefaultDispatchPower@8:NEAR
 EXTRN	__imp__KsDefaultForwardIrp@8:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\ksfilter\mspclock\device.c
+; File d:\zaryaos\drivers\ksfilter\mspclock\device.c
 ;	COMDAT _DriverEntry@8
 INIT	SEGMENT
 _DriverObject$ = 8					; size = 4

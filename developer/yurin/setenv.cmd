@@ -20,7 +20,7 @@ REM Hopefully your requirement is already there.
 REM
 REM When you're done editing this file, save it and exit.  Then at
 REM your earliest convience, add
-REM      D:\srv03rtm\developer\yurin\setenv.cmd
+REM      D:\zaryaos\developer\yurin\setenv.cmd
 REM to source control.
 REM
 REM If you have multiple machines, add another COMPUTERNAME test as below

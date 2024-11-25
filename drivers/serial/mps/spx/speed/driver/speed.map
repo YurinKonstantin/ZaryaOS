@@ -1,6 +1,6 @@
  speed
 
- Timestamp is 6743836a (Sun Nov 24 22:50:02 2024)
+ Timestamp is 6744c691 (Mon Nov 25 21:48:49 2024)
 
  Preferred load address is 00010000
 
@@ -193,8 +193,8 @@
  0001:00006a7f       _ENABLE_OX950_ASR@4        00017a7f f   uartlib:16c95x.obj
  0001:00006aa9       _DISABLE_OX950_ASR@4       00017aa9 f   uartlib:16c95x.obj
  0001:00006ad5       _CalculateBaudDivisor_95X@8 00017ad5 f   uartlib:16c95x.obj
- 0001:00006b69       _UL_DeInitUart_16C95X@4    00017b69 f   uartlib:16c95x.obj
  0001:00006b69       _UL_DeInitUart_16C65X@4    00017b69 f   uartlib:16c65x.obj
+ 0001:00006b69       _UL_DeInitUart_16C95X@4    00017b69 f   uartlib:16c95x.obj
  0001:00006b8e       _UL_ResetUart_16C95X@4     00017b8e f   uartlib:16c95x.obj
  0001:00006c71       _UL_VerifyUart_16C95X@4    00017c71 f   uartlib:16c95x.obj
  0001:00006d0f       _UL_SetConfig_16C95X@12    00017d0f f   uartlib:16c95x.obj
@@ -271,8 +271,8 @@
  0002:000000e4       __imp__ExAllocatePoolWithQuotaTag@12 0001a0e4     ntoskrnl:ntoskrnl.exe
  0002:000000e8       __imp__RtlAnsiStringToUnicodeString@12 0001a0e8     ntoskrnl:ntoskrnl.exe
  0002:000000ec       __imp__RtlxAnsiStringToUnicodeSize@4 0001a0ec     ntoskrnl:ntoskrnl.exe
- 0002:000000f0       __imp__NlsMbCodePageTag    0001a0f0     ntoskrnl:ntoskrnl.exe
  0002:000000f0       _NlsMbCodePageTag          0001a0f0     ntoskrnl:ntoskrnl.exe
+ 0002:000000f0       __imp__NlsMbCodePageTag    0001a0f0     ntoskrnl:ntoskrnl.exe
  0002:000000f4       __imp__RtlInitAnsiString@8 0001a0f4     ntoskrnl:ntoskrnl.exe
  0002:000000f8       __imp__ZwQueryValueKey@24  0001a0f8     ntoskrnl:ntoskrnl.exe
  0002:000000fc       __imp__ZwSetValueKey@24    0001a0fc     ntoskrnl:ntoskrnl.exe
@@ -350,7 +350,7 @@
  0003:00000154       ___security_cookie         0001b154     BufferOverflowK:gs_support.obj
  0003:00000160       _BREAK_ON_POWER_UP         0001b160     spx_powr.obj
  0003:00000168       _SavedRegistryPath         0001b168     <common>
- 0003:00000170       ___@@_PchSym_@00@UhieADignUwirevihUhvirzoUnkhUhkcUhkvvwUwireviUlyqUrDIGUkivxlnkOlyq@speed 0001b170     <common>
+ 0003:00000170       ___@@_PchSym_@00@UazibzlhUwirevihUhvirzoUnkhUhkcUhkvvwUwireviUlyqUrDIGUkivxlnkOlyq@speed 0001b170     <common>
  0004:00000042       _XXX_CardGetResources@12   0001c042 f   spd_pnp.obj
  0004:00000286       _XXX_CardInit@4            0001c286 f   spd_pnp.obj
  0004:0000032a       _XXX_CardStart@4           0001c32a f   spd_pnp.obj
@@ -397,8 +397,8 @@
  0004:00003586       _Spx_LogError@64           0001f586 f   spxutils.obj
  0004:000036b0       _Spx_LogMessage@52         0001f6b0 f   spxutils.obj
  0004:00003b90       _SpxGetNtCardType@4        0001fb90 f   spd_w2k.obj
- 0004:00003da4       _XXX_CardPowerUp@4         0001fda4 f   spd_powr.obj
  0004:00003da4       _XXX_PortQueryPowerDown@4  0001fda4 f   spd_powr.obj
+ 0004:00003da4       _XXX_CardPowerUp@4         0001fda4 f   spd_powr.obj
  0004:00003da4       _XXX_CardPowerDown@4       0001fda4 f   spd_powr.obj
  0004:00003daa       _XXX_PortPowerDown@4       0001fdaa f   spd_powr.obj
  0004:00003e02       _XXX_PortPowerUp@4         0001fe02 f   spd_powr.obj

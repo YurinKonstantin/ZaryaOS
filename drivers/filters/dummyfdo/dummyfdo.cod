@@ -37,7 +37,7 @@ INCLUDELIB OLDNAMES
 
 PUBLIC	_Dummy_AddDevice@8
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\filters\dummyfdo\dummyfdo.c
+; File d:\zaryaos\drivers\filters\dummyfdo\dummyfdo.c
 ;	COMDAT _Dummy_AddDevice@8
 _TEXT	SEGMENT
 _DriverObject$ = 8					; size = 4

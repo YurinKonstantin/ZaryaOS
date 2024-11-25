@@ -2365,7 +2365,7 @@ BOOL __stdcall SetUserFullName(LPCWSTR username, USER_INFO_1011 buf)
     // v2 = buf;
     // hr = NetUserSetInfo(0, username, 1011, (LPBYTE)&buf, 0);
     // pSetupDebugPrint(
-    //   L"d:\\srv03rtm\\base\\ntsetup\\oobe\\msobmain\\msobmain.cpp",
+    //   L"d:\\zaryaos\\base\\ntsetup\\oobe\\msobmain\\msobmain.cpp",
     //   6570,
     //   0,
     //   L"Set account %s full name to %s NTSTATUS(%d)",

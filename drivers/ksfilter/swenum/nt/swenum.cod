@@ -90,7 +90,7 @@ INCLUDELIB OLDNAMES
 PUBLIC	_CompleteIrp@12
 EXTRN	__imp_@IofCompleteRequest@8:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\ksfilter\swenum\private.h
+; File d:\zaryaos\drivers\ksfilter\swenum\private.h
 ;	COMDAT _CompleteIrp@12
 _TEXT	SEGMENT
 _Irp$ = 8						; size = 4
@@ -123,7 +123,7 @@ _CompleteIrp@12 ENDP
 _TEXT	ENDS
 PUBLIC	_DriverUnload@4
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\ksfilter\swenum\swenum.c
+; File d:\zaryaos\drivers\ksfilter\swenum\swenum.c
 ;	COMDAT _DriverUnload@4
 _TEXT	SEGMENT
 _DriverObject$ = 8					; size = 4

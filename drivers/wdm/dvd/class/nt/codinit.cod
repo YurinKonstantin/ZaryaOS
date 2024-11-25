@@ -266,7 +266,7 @@ _PinMediums DD	04747b320H
 PAGECONST	ENDS
 PUBLIC	_InitializeListHead@4
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\public\sdk\inc\wdm.h
+; File d:\zaryaos\public\sdk\inc\wdm.h
 ;	COMDAT _InitializeListHead@4
 _TEXT	SEGMENT
 _ListHead$ = 8						; size = 4
@@ -477,7 +477,7 @@ EXTRN	__imp_@KfReleaseSpinLock@8:NEAR
 EXTRN	__imp__KsDispatchIrp@8:NEAR
 EXTRN	__imp__KsAddIrpToCancelableQueue@20:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\wdm\dvd\class\codinit.c
+; File d:\zaryaos\drivers\wdm\dvd\class\codinit.c
 ;	COMDAT _StreamClassPassThroughIrp@8
 _TEXT	SEGMENT
 tv208 = -8						; size = 4

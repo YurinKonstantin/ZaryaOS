@@ -1,6 +1,6 @@
  sx
 
- Timestamp is 6743836a (Sun Nov 24 22:50:02 2024)
+ Timestamp is 6744c691 (Mon Nov 25 21:48:49 2024)
 
  Preferred load address is 00010000
 
@@ -255,8 +255,8 @@
  0002:000000fc       __imp___allmul             000180fc     ntoskrnl:ntoskrnl.exe
  0002:00000100       __imp_@KefReleaseSpinLockFromDpcLevel@4 00018100     ntoskrnl:ntoskrnl.exe
  0002:00000104       __imp_@KefAcquireSpinLockAtDpcLevel@4 00018104     ntoskrnl:ntoskrnl.exe
- 0002:00000108       _KeTickCount               00018108     ntoskrnl:ntoskrnl.exe
  0002:00000108       __imp__KeTickCount         00018108     ntoskrnl:ntoskrnl.exe
+ 0002:00000108       _KeTickCount               00018108     ntoskrnl:ntoskrnl.exe
  0002:0000010c       __imp__KeBugCheckEx@20     0001810c     ntoskrnl:ntoskrnl.exe
  0002:00000110       __imp__PoSetPowerState@12  00018110     ntoskrnl:ntoskrnl.exe
  0002:00000114       __imp__KeSetEvent@12       00018114     ntoskrnl:ntoskrnl.exe
@@ -297,7 +297,7 @@
  0003:0000d908       _si3_t225_downloadaddr     00026908     download.obj
  0003:0000d90c       _si4_cf_downloadaddr       0002690c     download.obj
  0003:0000d910       _SavedRegistryPath         00026910     <common>
- 0003:0000d918       ___@@_PchSym_@00@UhieADignUwirevihUhvirzoUnkhUhkcUnkhUhcUlyqUrDIGUkivxlnkOlyq@sx 00026918     <common>
+ 0003:0000d918       ___@@_PchSym_@00@UazibzlhUwirevihUhvirzoUnkhUhkcUnkhUhcUlyqUrDIGUkivxlnkOlyq@sx 00026918     <common>
  0004:00000000       _DriverUnload@4            00027000 f   spx_init.obj
  0004:0000001a       _Spx_Card_StartDevice@8    0002701a f   spx_pnp.obj
  0004:00000072       _Spx_EnumPorts@4           00027072 f   spx_pnp.obj

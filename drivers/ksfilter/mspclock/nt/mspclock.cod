@@ -212,7 +212,7 @@ EXTRN	__imp__KsAllocateDeviceHeader@12:NEAR
 EXTRN	__imp__IoCreateDevice@28:NEAR
 EXTRN	__imp__IoDeleteDevice@4:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\ksfilter\mspclock\mspclock.c
+; File d:\zaryaos\drivers\ksfilter\mspclock\mspclock.c
 ;	COMDAT _PnpAddDevice@8
 PAGE	SEGMENT
 _FunctionalDeviceObject$ = 8				; size = 4

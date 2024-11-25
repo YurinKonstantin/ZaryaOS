@@ -681,7 +681,7 @@ _ClockPropertySets DD FLAT:_KSPROPSETID_Clock
 PAGECONST	ENDS
 PUBLIC	_InitializeListHead@4
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\public\sdk\inc\wdm.h
+; File d:\zaryaos\public\sdk\inc\wdm.h
 ;	COMDAT _InitializeListHead@4
 _TEXT	SEGMENT
 _ListHead$ = 8						; size = 4
@@ -818,7 +818,7 @@ EXTRN	_SCDereferenceDriver@4:NEAR
 EXTRN	_SCShowIoPending@8:NEAR
 EXTRN	_SCCheckPoweredUp@4:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\wdm\dvd\class\upperapi.c
+; File d:\zaryaos\drivers\wdm\dvd\class\upperapi.c
 ;	COMDAT _FilterDispatchGlobalCreate@8
 PAGE	SEGMENT
 _IrpStack$ = -20					; size = 4

@@ -388,7 +388,7 @@ _CreateHandlers DD FLAT:_StreamDispatchCreate@8
 PAGECONST	ENDS
 PUBLIC	_InitializeListHead@4
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\public\sdk\inc\wdm.h
+; File d:\zaryaos\public\sdk\inc\wdm.h
 ;	COMDAT _InitializeListHead@4
 _TEXT	SEGMENT
 _ListHead$ = 8						; size = 4
@@ -726,7 +726,7 @@ EXTRN	__imp_@KefReleaseSpinLockFromDpcLevel@4:NEAR
 EXTRN	_StreamClassCancelOutstandingIrp@8:NEAR
 EXTRN	__imp_@InterlockedExchange@8:NEAR
 ; Function compile flags: /Ogsy
-; File d:\srv03rtm\drivers\wdm\dvd\class\codguts.c
+; File d:\zaryaos\drivers\wdm\dvd\class\codguts.c
 ;	COMDAT _SCDequeueAndStartDeviceRequest@4
 _TEXT	SEGMENT
 _DeviceExtension$ = 8					; size = 4
