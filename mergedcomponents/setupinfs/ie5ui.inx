@@ -9,7 +9,7 @@ AdvancedINF=2.5,"INF installer is too old."
 
 
 [DefaultInstall]
-CopyFiles=Satellite.files.install,WebFolder.install,Inf.install,OE.install
+CopyFiles=Satellite.files.install,WebFolder.install,Inf.install
 
 
 [SourceDisksNames]
@@ -21,8 +21,6 @@ CopyFiles=Satellite.files.install,WebFolder.install,Inf.install,OE.install
 [WebFolder.install.Security]
 "D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GRGX;;;BU)(A;;GRGX;;;WD)"
 
-[OE.install]
-WAB32RES.DLL,WAB32RES.DLL.MU_
 
 [OE.install.Security]
 "D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GRGX;;;BU)(A;;GRGX;;;WD)"

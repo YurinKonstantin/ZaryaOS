@@ -303,10 +303,6 @@ instcm.inf
 ; anything on Win2K.  This inf needs to eventually be removed from our product. (contact QuintinB)
 
 
-msnmsn.inf
-; *Reason For Exclusion, msnmsn.inf* - MSN has got exclusion status because as part of MARS they will auto update etc.
-; their component. Also they have assured that they won't be including system component dependencies and will operate isolated.
-
 msmsgs.inf
 ; *Reason For Exclusion, msmsgs.inf* - Messenger gets autoupdated both independently and as part of Mars. (ShabbirS)
 
@@ -882,7 +878,6 @@ cryptext.dll,0
 cryptnet.dll,0
 cryptsvc.dll,0
 cryptui.dll,0
-csapi3t1.dll,0
 dispex.dll,0
 dosapp.fon,0
 drvmain.sdb,0

@@ -1,7 +1,0 @@
-LIBRARY   WAB16
-
-EXPORTS
-
-    _WABOpen                     	@2
-    WABCreateIProp = CreateIProp        @3
-    WABInitThread                     	@4

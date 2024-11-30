@@ -37,7 +37,6 @@ HKLM,"SOFTWARE\Microsoft\Active Setup\Installed Components\{E92B03AB-B707-11d2-9
 @w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{26923b43-4d38-484f-9b9e-de460746276c}","StubPath",0x00020000,"%systemroot%\system32\shmgrate.exe OCInstallUserConfigIE"
 @w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{26923b43-4d38-484f-9b9e-de460746276c}","Version",,"2,0,0,0"
 @w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{881dd1c5-3dcf-431b-b061-f3f88e8be88a}",,,"Outlook Express"
-@w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{881dd1c5-3dcf-431b-b061-f3f88e8be88a}","ComponentID",,"OEACCESS"
 @w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{881dd1c5-3dcf-431b-b061-f3f88e8be88a}","Dontask",0x00010001,0x00000002
 @w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{881dd1c5-3dcf-431b-b061-f3f88e8be88a}","IsInstalled",0x00010001,0x00000000
 @w:HKLM,"Software\Microsoft\Active Setup\Installed Components\>{881dd1c5-3dcf-431b-b061-f3f88e8be88a}","Locale",,"*"

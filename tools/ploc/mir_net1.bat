@@ -369,7 +369,6 @@ for /f "tokens=1 delims=_" %%i in ("%_BuildBranch%") do set LabName=%%i
 
 call %2 aaaamon.dll . win32 ansi . aaaamon.dll net2 yes_without net . .
 call %2 access.cpl . win32 unicode . access.cpl shell2 yes_without shell . .
-call %2 acctres.dll . win32 ansi . acctres.dll inetcore1 yes_without inetcore . .
 call %2 accwiz.exe . win32 unicode . accwiz.exe shell2 yes_with shell . .
 call %2 acledit.dll . FE-Multi unicode . acledit.dll admin2 yes_without admin . .
 call %2 aclui.dll . win32 unicode . aclui.dll shell2 yes_without shell . .
@@ -418,7 +417,6 @@ call %2 atmadm.exe . FE-Multi oem . atmadm.exe net1 excluded net . .
 call %2 ausrinfo.htm . html ansi . ausrinfo.htm admin3\oobe html base . .
 call %2 autochk.exe . win32 oem . autochk.exe resource_identical yes_with base . .
 call %2 autoconv.exe . win32 oem . autoconv.exe resource_identical yes_with base . .
-call %2 autodisc.dll . win32 ansi . autodisc.dll inetcore1 yes_without inetcore . .
 call %2 autofmt.exe . win32 oem . autofmt.exe resource_identical yes_with base . .
 call %2 autorun.exe . win32_bi ansi . autorun.exe shell1 yes_with shell . .
 call %2 avicap32.dll . win32 unicode . avicap32.dll mmedia1\multimedia yes_without multimedia . .

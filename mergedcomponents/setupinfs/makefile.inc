@@ -451,10 +451,6 @@ make_infs:$(O)\layout.inf    \
           $(O)\msmusb.inf    \
 !endif
           $(O)\msnike.inf   \
-          $(O)\msoe50.inf    \
-!if $(WIN64)
-          $(O)\msoe50.wow    \
-!endif
           $(O)\msports.inf   \
           $(O)\msrio8.inf   \
           $(O)\msrio.inf    \
@@ -546,7 +542,6 @@ make_infs:$(O)\layout.inf    \
 !endif
           $(O)\ntprint.inf   \
           $(O)\ocmri.inf     \
-          $(O)\oeaccess.inf  \
           $(O)\oemmui.inf    \
           $(O)\oobe.inf      \
 !if "$(PRODSWITCH)" == "w"
@@ -713,10 +708,6 @@ make_infs:$(O)\layout.inf    \
           $(O)\wkstamig.inf  \
 !endif
           $(O)\au.inf \
-          $(O)\wab50.inf     \
-!if $(WIN64)
-          $(O)\wab50.wow     \
-!endif
           $(O)\wbemcrrl.inf  \
           $(O)\wbemfwrd.inf  \
           $(O)\wbemmsi.inf   \
@@ -1422,28 +1413,9 @@ $(O)\ie.inf : $(O)\ie.inftok \
 $(O)\install.ins : $(O)\install.instok $(STD_DEP)
      perl $$(PERL_SWITCHES) $(O)\install.instok > $(O)\install.ins
 
-$(O)\msoe50.inf : $(O)\msoe50.inftok \
-!if $(WIN64)
-                  $(O)\msoe50.inftok_6432 \
-!endif
-                  $(STD_DEP)
-     perl $$(PERL_SWITCHES) $(O)\msoe50.inftok > $(O)\msoe50.inf
-!if $(WIN64)
-     perl $$(PERL_SWITCHES) $(O)\msoe50.inftok_6432 > $(O)\msoe50.tmp1
-     wowlist -i $(O)\msoe50.tmp1 -c $(O)\wowlist.inf -as -f w -d $(O)\msoe50.wow -o $(O)\msoe50.tmp2
-     copy $(O)\msoe50.inf $(O)\msoe50.tmp1
-     copy $(O)\msoe50.tmp1+$(O)\msoe50.tmp2 $(O)\msoe50.inf
-     @del $(O)\msoe50.tmp1 $(O)\msoe50.tmp2
-!endif
 
-$(O)\wab50.inf : $(O)\wab50.inftok $(STD_DEP)
-     perl $$(PERL_SWITCHES) $(O)\wab50.inftok > $(O)\wab50.inf
-!if $(WIN64)
-     wowlist -i $(O)\wab50.inf -c $(O)\wowlist.inf -as -f w -d $(O)\wab50.wow -o $(O)\wab50.tmp2
-     copy $(O)\wab50.inf $(O)\wab50.tmp1
-     copy $(O)\wab50.tmp1+$(O)\wab50.tmp2 $(O)\wab50.inf
-     @del $(O)\wab50.tmp1 $(O)\wab50.tmp2
-!endif
+
+
 <<NOKEEP
 
 #
@@ -1486,42 +1458,7 @@ $(O)\install.instok: $(_INX)\install.inx $(_LNG)\install.txt $(O)\ietoken.mak
     copy $(_INX)\install.inx+$(O)\$(@B).txt1 $@
     @del $(O)\$(@B).txt1
 
-$(O)\msoe50.inftok: $(_INX)\msoe50.inx $(_LNG)\msoe50.txt
-    @type <<$(ECHO_RSP)
-$(ECHO_MSG_P)
-<<NOKEEP
-    @$(C_PREPROCESSOR_NAME) @<<$(CL_RSP) /Tc$(_INX)\$(@B).inx > $(O)\$(@B).tmp
-$(CPPXX: =
-)
-/DNT5
-<<NOKEEP
-    $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1
-    copy $(O)\$(@B).tmp+$(O)\$(@B).txt1 $(O)\$(@B).tmp1
-    prodfilt $(O)\$(@B).tmp1 $(O)\$(@B).tmp2 +$(PRODSWITCH)
-    prodfilt $(O)\$(@B).tmp2 $@ +$(PLATFORM_SWITCH)
-    @del $(O)\$(@B).tmp $(O)\$(@B).tmp1 $(O)\$(@B).tmp2 $(O)\$(@B).txt1
 
-$(O)\msoe50.inftok_6432: $(_INX)\msoe50.inx $(_LNG)\msoe50.txt
-    @type <<$(ECHO_RSP)
-$(C_COMPILER_NAME) -D_X86_=1 -Di386=1 $(_INX)\msoe50.inx
-<<NOKEEP
-    @$(C_PREPROCESSOR_NAME) @<<$(CL_RSP) -D_X86_=1 -Di386=1 /Tc$(_INX)\$(@B).inx > $(O)\$(@B).tmp
-$(CPPXX: =
-)
-/DNT5
-<<NOKEEP
-    $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1
-    copy $(O)\$(@B).tmp+$(O)\$(@B).txt1 $(O)\$(@B).tmp1
-    prodfilt $(O)\$(@B).tmp1 $(O)\$(@B).tmp2 +$(PRODSWITCH)
-    prodfilt $(O)\$(@B).tmp2 $@ +i
-    @del $(O)\$(@B).tmp $(O)\$(@B).tmp1 $(O)\$(@B).tmp2
-
-$(O)\wab50.inftok: $(_INX)\wab50.inx $(_LNG)\wab50.txt
-    $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1
-    copy $(_INX)\$(@B).inx+$(O)\$(@B).txt1 $(O)\$(@B).tmp1
-    prodfilt $(O)\$(@B).tmp1 $(O)\$(@B).tmp2 +$(PLATFORM_SWITCH)
-    prodfilt $(O)\$(@B).tmp2 $@ +$(PRODSWITCH)
-    @del $(O)\$(@B).tmp1 $(O)\$(@B).tmp2 $(O)\$(@B).txt1
 #
 # IE/INSTALL notes: And finally, we run them through the
 # makefile we created above, stamp, and binplace.
@@ -1541,19 +1478,13 @@ $(O)\ie.inf : $(O)\ietoken.mak \
 $(O)\ie.wow: $(O)\ie.inf
 !endif
 
-$(O)\msoe50.inf : $(O)\ietoken.mak \
 !if $(WIN64)
                   $(O)\wowlist.inf \
-                  $(O)\msoe50.inftok_6432 \
 !endif
-                  $(O)\msoe50.inftok
     nmake -f $(O)\ietoken.mak $@
     $(STAMP)
     $(TSBINPLACE_CMD)
 
-!if $(WIN64)
-$(O)\msoe50.wow: $(O)\msoe50.inf
-!endif
 
 $(O)\mstask.inf : $(_INX)\mstask.inx \
 !if $(WIN64)
@@ -1583,19 +1514,13 @@ $(O)\mstask.inf : $(_INX)\mstask.inx \
 $(O)\mstask.wow: $(O)\mstask.inf
 !endif
 
-$(O)\wab50.inf :  $(O)\ietoken.mak \
 !if $(WIN64)
                   $(O)\wowlist.inf \
-                  $(O)\msoe50.inftok_6432 \
 !endif
-                  $(O)\wab50.inftok
     nmake -f $(O)\ietoken.mak $@
     $(STAMP)
     $(TSBINPLACE_CMD)
 
-!if $(WIN64)
-$(O)\wab50.wow: $(O)\wab50.inf
-!endif
 
 $(O)\install.ins: $(O)\ietoken.mak $(O)\install.instok
     nmake -f $(O)\ietoken.mak $@
@@ -4180,8 +4105,7 @@ $(O)\wowfile.cmn: $(_INX)\wowfile.inx $(_LNG)\wowfile.txt \
                   $(O)\accessor.wow $(O)\communic.wow $(O)\games.wow \
                   $(O)\mmopt.wow $(O)\multimed.wow $(O)\optional.wow \
                   $(O)\pinball.wow $(O)\wordpad.wow $(O)\mdac.wow    \
-                  $(O)\msinfo32.wow $(O)\ie.wow $(O)\msoe50.wow      \
-                  $(O)\mstask.wow $(O)\wab50.wow $(O)\syssetup.wow $(O)\wsh.wow      \
+                  $(O)\mstask.wow $(O)\syssetup.wow $(O)\wsh.wow      \
                   $(O)\apcompat.wow $(O)\intl.wow $(O)\wbemoc.wow \
                   $(O)\vgx.wow $(O)\icwnt5.wow
     $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1
@@ -4197,8 +4121,7 @@ $(O)\wowfile.cmn: $(_INX)\wowfile.inx $(_LNG)\wowfile.txt \
     for %%i in ($(O)\$(@B).tmp1 $(O)\accessor.wow $(O)\communic.wow $(O)\games.wow \
                 $(O)\mmopt.wow $(O)\multimed.wow $(O)\optional.wow \
                 $(O)\pinball.wow $(O)\wordpad.wow $(O)\mdac.wow    \
-                $(O)\msinfo32.wow $(O)\ie.wow $(O)\msoe50.wow      \
-                $(O)\mstask.wow $(O)\wab50.wow $(O)\syssetup.wow $(O)\wsh.wow      \
+                $(O)\mstask.wow $(O)\syssetup.wow $(O)\wsh.wow      \
                 $(O)\apcompat.wow $(O)\intl.wow $(O)\wbemoc.wow $(O)\vgx.wow $(O)\icwnt5.wow)   \
         do $(STRIPCHAR) %%i $(O)\$(@B).tmp
     perl $(_INX)\wowfltr.pl /file=$(O)\$(@B).tmp > $@
@@ -4222,16 +4145,14 @@ $(O)\wowfiled.inf: $(O)\wowfile.cmn $(_INX)\header2
 $(O)\wowexcp.txt: $(_INX)\wowfile.inx $(_LNG)\wowfile.txt $(O)\accessor.wow $(O)\communic.wow     \
                   $(O)\games.wow $(O)\mmopt.wow $(O)\multimed.wow              \
                   $(O)\optional.wow $(O)\pinball.wow $(O)\wordpad.wow          \
-                  $(O)\mdac.wow $(O)\msinfo32.wow $(O)\ie.wow $(O)\msoe50.wow  \
-                  $(O)\mstask.wow $(O)\wab50.wow $(O)\syssetup.wow $(O)\wsh.wow                \
+                  $(O)\mstask.wow $(O)\syssetup.wow $(O)\wsh.wow                \
                   $(O)\apcompat.wow $(O)\intl.wow $(O)\intlinfa.wow $(O)\wbemoc.wow $(O)\vgx.wow \
                   $(O)\icwnt5.wow
     if exist $(O)\$(@B).tmp del $(O)\$(@B).tmp
     for %%i in ($(O)\accessor.wow $(O)\communic.wow $(O)\games.wow \
                 $(O)\mmopt.wow $(O)\multimed.wow $(O)\optional.wow \
                 $(O)\pinball.wow $(O)\wordpad.wow $(O)\mdac.wow    \
-                $(O)\msinfo32.wow $(O)\ie.wow $(O)\msoe50.wow      \
-                $(O)\mstask.wow $(O)\wab50.wow $(O)\syssetup.wow $(O)\wsh.wow      \
+                $(O)\mstask.wow $(O)\syssetup.wow $(O)\wsh.wow      \
                 $(O)\apcompat.wow $(O)\intl.wow $(O)\intlinfa.wow $(O)\wbemoc.wow $(O)\vgx.wow \
                 $(O)\icwnt5.wow)        \
          do type %%i >>$(O)\$(@B).tmp
@@ -4687,16 +4608,6 @@ $(O)\ieaccess.inf: $(_INX)\ieaccess.inx $(_LNG)\ieaccess.txt
     $(STAMP)
     $(TSBINPLACE_CMD)
 
-$(O)\oeaccess.inf: $(_INX)\oeaccess.inx $(_LNG)\oeaccess.txt
-    $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1
-    copy $(_INX)\$(@B).inx+$(O)\$(@B).txt1 $(O)\$(@B).tmp1
-    prodfilt $(O)\$(@B).tmp1 $(O)\$(@B).tmp2 +$(PRODSWITCH)
-    prodfilt $(O)\$(@B).tmp2 $@ +$(PLATFORM_SWITCH)
-    @del $(O)\$(@B).tmp1
-    @del $(O)\$(@B).tmp2
-    @del $(O)\$(@B).txt1
-    $(STAMP)
-    $(TSBINPLACE_CMD)
 
 $(O)\ieharden.inf: $(_INX)\ieharden.inx $(_LNG)\ieharden.txt
     $(CC) $(PREFLAGS) $(_LNG)\$(@B).txt > $(O)\$(@B).txt1

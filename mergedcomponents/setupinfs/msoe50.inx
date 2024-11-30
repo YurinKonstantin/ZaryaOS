@@ -25,7 +25,6 @@ HKLM,"Software\Microsoft\Active Setup\Installed Components\%GUID_OE%","IsInstall
 HKLM,"Software\Microsoft\Active Setup\Installed Components\%GUID_OE%","Locale",,"%STR_LANG%"
 HKLM,"Software\Microsoft\Active Setup\Installed Components\%GUID_OE%","ComponentID",,"MailNews"
 HKLM,"Software\Microsoft\Active Setup\Installed Components\%GUID_OE%","CloneUser",0x10001,01,00,00,00
-HKLM,"Software\Microsoft\Active Setup\Installed Components\%GUID_OE%","StubPath",0x00020000,"""%ProgramFiles%\%STR_MAILNEWS_DIR%\setup50.exe"" %APP_OE% %CALLER% /user /install"
 [DefaultInstall]
 DelFiles=file.del.old.help, file.del.exe, file.del.inf, file.del.sys, file.del.win.links, file.del.sys.roll
 CopyFiles=file.copy.permanent, file.copy.help,file.copy.permanent,file.copy.exe,file.copy.stationery,file.copy.sys,file.copy.sys.roll,file.copy.common.perm
@@ -53,8 +52,7 @@ AddReg=User.No.Uninstall.Add.Reg
 HKCU,"Software\Microsoft\Outlook Express\Mail\Composition"
 HKCU,"Software\Microsoft\Outlook Express\News\Composition"
 HKCU,"Software\Microsoft\MailIcon"
-[mapi.ini]
-win.ini,Mail,,"MAPI=1"
+
 [file.del.sys]
 thor.dll
 imnacct.dll
@@ -77,7 +75,6 @@ msoe.gid
 [file.del.sys.roll]
 msoert.dll
 [file.copy.permanent]
-setup50.exe,,,5
 oemig50.exe,,,4
 oemiglib.dll,,,4
 [file.copy.permanent.Security]
@@ -104,10 +101,6 @@ directdb.dll,,,5
 [file.copy.common.perm.Security]
 "D:P(A;;GRGX;;;BU)(A;;GA;;;BA)(A;;GA;;;SY)"
 [file.copy.stationery]
-"%STR_ALEABANR_GIF%",aleabanr.gif
-"%STR_AMAIZRUL_GIF%",amaizrul.gif
-"%STR_ANABNR2_GIF%",anabnr2.gif
-"%STR_ASWRULE_GIF%",aswrule.gif
 "%STR_BLANK_HTM%",blank.htm
 "%STR_BLANKBKG_GIF%",blankbkg.gif
 "%STR_BTZHSEPA_GIF%",btzhsepa.gif
@@ -123,7 +116,6 @@ directdb.dll,,,5
 "%STR_GLACRBKG_JPG%",glacrbkg.jpg
 "%STR_IVY_GIF%",ivy.gif
 "%STR_IVY_HTM%",ivy.htm
-"%STR_LEAVES_HTM%",leaves.htm
 "%STR_LEAVESBG_JPG%",leavesbg.jpg
 "%STR_MAIZE_HTM%",maize.htm
 "%STR_MAIZEBKG_JPG%",maizebkg.jpg
@@ -224,7 +216,6 @@ HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnceEx\OEWAB OS Setup","OE5_1
 HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnceEx\OEWAB OS Setup","OE5_3",0,"%16422%\%STR_MAILNEWS_DIR%\oeimport.dll|DllRegisterServer"
 HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnceEx\OEWAB OS Setup","OE5_4",0,"%16422%\%STR_MAILNEWS_DIR%\oemiglib.dll|DllRegisterServer"
 HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnceEx\OEWAB OS Setup","OE5_5",0,"%16422%\%STR_MAILNEWS_DIR%\msoe.dll|DllRegisterServer"
-HKLM,"Software\Microsoft\Windows\CurrentVersion\RunOnceEx\OEWAB OS Setup","OEWABOS_2",0,"""%16422%\%STR_MAILNEWS_DIR%\setup50.exe"" %APP_OE% %CALLER% /INSTALL"
 [SM.Del.1]
 Name = %STR_MAIL_OLD%, 0x00000003
 SubDir = %STR_INET_DESC_OLD_GRP%

@@ -332,9 +332,6 @@ call %2 occache.dll . win32 ansi . occache.dll shell2 yes_without shell . .
 call %2 oce.dll . win32 unicode . oce.dll printscan1 yes_without printscan . .
 call %2 ocmanage.dll . win32 unicode . ocmanage.dll admin1 yes_without base . .
 call %2 od9ibres.dll . win32 unicode . od9ibres.dll printscan1 yes_without printscan . .
-call %2 oeimport.dll . win32 ansi . oeimport.dll inetcore1 yes_without inetcore . .
-call %2 oemig50.exe . win32 unicode . oemig50.exe inetcore1 yes_with inetcore . .
-call %2 oemiglib.dll . win32 ansi . oemiglib.dll inetcore1 yes_without inetcore . .
 call %2 ofc43ins.cmd . manual na . ofc43ins.cmd loc_manual no termsrv . .
 call %2 ofc43ins.cmd chs manual na . ofc43ins.cmd loc_manual\chs no termsrv . .
 call %2 ofc43ins.cmd cht manual na . ofc43ins.cmd loc_manual\cht no termsrv . .
@@ -848,7 +845,6 @@ call %2 setup.ini tsclient\win32\i386 manual na . setup.ini loc_manual\tsclient\
 call %2 setup.lst tsclient\win32\i386\acme351 manual na . setup.lst legacy\tsclient\win32\i386\acme351 no termsrv . .
 call %2 setup_wm.exe . win32 unicode . setup_wm.exe extra\media yes_with multimedia . .
 call %2 setup16.exe wow6432 win16 ansi . setup16.exe legacy\wow6432 no base . .
-call %2 setup50.exe . win32 unicode . setup50.exe inetcore1 yes_with inetcore . .
 call %2 setupacc.txt . nobin na . setupacc.inf loc_manual no enduser . .
 call %2 setupapi.dll . FE-Multi ansi . setupapi.dll admin1 yes_without base . .
 call %2 setupapi.dll winnt32\win9xupg win32 unicode . setupapi.dll resource_identical\winnt32\win9xupg yes_without base . .
@@ -1260,11 +1256,6 @@ call %2 w3ctrs.ini . perf na . w3ctrs.ini iis no inetsrv . .
 call %2 w3ext.dll . win32 unicode . w3ext.dll iis yes_without inetsrv . .
 call %2 w95upg.dll winnt32\win9xupg win32 ansi . w95upg.dll admin1\winnt32\win9xupg yes_without base . .
 call %2 w95upgnt.dll . win32 ansi . w95upgnt.dll admin1 yes_without base . .
-call %2 wab32.dll . win32 ansi . wab32.dll inetcore1 yes_without inetcore . .
-call %2 wab32res.dll . win32 ansi . wab32res.dll inetcore1 yes_without inetcore . .
-call %2 wab50.txt . setup_inf ansi . wab50.inf inetcore1\sources\infs\setup no mergedcomponents . .
-call %2 wabfind.dll . win32 ansi . wabfind.dll inetcore1 yes_without inetcore . .
-call %2 wabimp.dll . win32 ansi . wabimp.dll inetcore1 yes_without inetcore . .
 call %2 wacompen.sys . win32 unicode . wacompen.sys drivers1\tabletpc yes_without drivers . .
 call %2 waitfor.exe . win32 oem . waitfor.exe admin2 yes_with admin . .
 call %2 wave.inf . inf unicode . wave.inf mmedia1\multimedia no multimedia . .
@@ -1500,7 +1491,6 @@ call %2 replprov.dll . win32 unicode . replprov.dll ds1 yes_without ds . .
 call %2 pop3auth.dll . win32 oem . pop3auth.dll iis yes_without inetsrv . .
 call %2 kerberos.dll . win32 unicode . kerberos.dll ds2 yes_without ds . .
 call %2 proxycfg.exe . win32 unicode . proxycfg.exe inetcore1 yes_with inetcore . .
-call %2 oeaccess.txt . setup_inf unicode . oeaccess.inf admin1 no mergedcomponents . .
 call %2 ps5333nu.inf . inf unicode . ps5333nu.inf drivers1 no drivers . .
 call %2 smxx5333.inf . inf unicode . smxx5333.inf drivers1 no drivers . .
 call %2 ssav5333.inf . inf unicode . ssav5333.inf drivers1 no drivers . .

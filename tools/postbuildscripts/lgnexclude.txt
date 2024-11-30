@@ -440,7 +440,6 @@ mfcsubs.dll
 ;azroles.dll
 ;msppmgr.dll
 ;msppmd5.dll
-;inetcomm.dll
 ;comsnap.dll
 ;
 ; IIS registration

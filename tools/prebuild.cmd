@@ -74,14 +74,6 @@ If exist "ds\security\services\ca\tools\certut\obj\ia64" (
 )
 
 
-
-If exist "inetcore\outlookexpress\external\obj\i386" ( 
-    Echo "Создали dinetcore\outlookexpress\external\obj\i386"
-) Else ( 
-    mkdir "inetcore\outlookexpress\external\obj\i386"
-)
-
-
 If exist "windows\advcore\duser\directui\engine\parser\obj\amd64" ( 
     Echo "Создали windows\advcore\duser\directui\engine\parser\obj\amd64"
 ) Else ( 
@@ -106,24 +98,12 @@ copy ds\security\services\ca\tools\certut\amd64\cast.lib ds\security\services\ca
 copy ds\security\services\ca\tools\certut\i386\cast.lib ds\security\services\ca\tools\certut\obj\i386
 copy ds\security\services\ca\tools\certut\ia64\cast.lib ds\security\services\ca\tools\certut\obj\ia64
 
-copy inetcore\outlookexpress\external\i386\9xmig.dll inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\csapi3t1.dll inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\csapi3t1.pdb inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\mapistub.dll inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\newstub.dll inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\fixmapi.exe inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\newfix.exe inetcore\outlookexpress\external\obj\i386
-copy inetcore\outlookexpress\external\i386\polmod.exe inetcore\outlookexpress\external\obj\i386
-
 copy windows\advcore\duser\directui\engine\parser\i386\parse.obj windows\advcore\duser\directui\engine\parser\obj\i386
 copy windows\advcore\duser\directui\engine\parser\amd64\parse.obj windows\advcore\duser\directui\engine\parser\obj\amd64
 
 
 echo Setting Read-only attribute on required objects/libs...
 attrib /S /D +r ds\security\services\ca\tools\certut\obj\*.lib
-attrib /S /D +r inetcore\outlookexpress\external\obj\*.*
-attrib /S /D +r inetcore\outlookexpress\external\objd\*.*
-attrib /S /D +r inetcore\outlookexpress\external\objp\*.*
 attrib /S /D +r windows\advcore\duser\directui\engine\parser\obj\i386\parse.obj
 attrib /S /D +r windows\advcore\duser\directui\engine\parser\objd\i386\parse.obj
 attrib /S /D +r windows\advcore\duser\directui\engine\parser\obj\amd64\parse.obj

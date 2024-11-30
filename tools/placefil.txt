@@ -1252,7 +1252,6 @@ _default.pif     retail
 _disp.sys        retail
 _ias.sys         retail
 _isdel.exe       retail    ; wow64
-_isetup.exe      retail    ; outlook express
 _media.inx       congeal_scripts
 _mssetup.exe     retail
 _prnescp.sys     retail
@@ -1327,7 +1326,6 @@ accsctrs.dll     inetsrv
 accsctrs.h       inetsrv
 accsctrs.ini     inetsrv
 accserv.mib      retail    ; IAS Accounting Mib File
-acctres.dll      retail    ; outlook express
 accwiz.exe       retail
 acelpdec.ax      retail    ; Media Player
 acerscan.inf     retail
@@ -1583,7 +1581,6 @@ aic78u2.sys      retail
 aic78xx.sys      retail
 air300pp.dll     retail
 airplane.bmp     retail    ; Shell Images
-aleabanr.gif     retail    ; Outlook Express
 alert.gif        retail    ; eelview
 alertsys.dll     retail
 alertsys.exe     retail
@@ -1621,7 +1618,6 @@ alpsres.dll      retail
 alpsres.ini      retail
 alrsvc.dll       retail
 altsecid.exe     retail         ; temporary
-amaizrul.gif     retail    ; Outlook Express
 amdagp.sys       retail    ; AMD Processor to AGP Controller driver
 amdagp8p.sys     retail    ; AMD xxx Processor to AGP Controller driver
 amdk6.c          pp\amdk6.sys ; amdk6.sys type information for the debugger
@@ -1641,7 +1637,6 @@ amrtpss.ax       retail    ; tapi 3.0
 amsint.sys       retail
 amstream.dll     retail    ; active movie
 an983.sys        retail
-anabnr2.gif      retail    ; Outlook Express
 aniedit.exe      reskit\bin
 anm.exe          mstools
 ansi.sys         retail
@@ -1780,7 +1775,6 @@ assemblylistloc.txt netfx    ; netfx
 associat.exe     reskit\bin
 ast__470.ppd     retail
 astro.bmp        retail    ; Shell Images
-aswrule.gif      retail    ; Outlook Express
 asycfilt.dll     retail
 asycpict.dll     retail    ; ie sysdir
 asynceqn.inf     retail
@@ -1913,7 +1907,6 @@ authz.dll        retail
 autochk.exe      retail
 autocmpt.exe     retail
 autoconv.exe     retail
-autodisc.dll     retail    ; AutoDiscovery API (Outlook Express)
 autoexec.nt      retail
 autoexnt.exe     reskit\bin
 autofmt.exe      retail
@@ -2079,7 +2072,6 @@ bhsupp.dll       retail    ; netmon
 bidispl.dll      retail    ; Spooler Bidi Support
 bi52182.nlp      netfx    ; netfx
 big5.nls         retail
-bigfoot.bmp      retail    ; outlook express
 bin264.exe       security_regression_tests
 bin2c.exe        bldtools
 bingen.exe       idw
@@ -2098,8 +2090,6 @@ bktr.gif         retail   ; Windows Media Tour
 bktrh.gif        retail   ; Windows Media Tour
 black.gif        dsadmin\images
 black16.scr      retail
-blank.htm        retail    ; Outlook Express
-blankbkg.gif     retail    ; Outlook Express
 bldsam2.exe      idw
 blip.wav         retail    ; Net Meeting
 blocks.wav       idw
@@ -2391,7 +2381,6 @@ bscmake.exe      mstools
 bt829.sys        retail
 bt848.sys        retail
 btpagnt.dll      retail
-btzhsepa.gif     retail
 bu1035e.gpd      retail
 bu1435e.gpd      retail
 bu1645e.gpd      retail
@@ -2931,11 +2920,9 @@ cistp.dll        retail
 cisvc.exe        retail
 cit24us.dll      retail
 cit9us.dll       retail
-citbanna.gif     retail    ; Outlook Express
 citoh.dll        retail
 citohres.dll     retail
 citohres.ini     retail
-citrbkg.gif      retail    ; Outlook Express
 citrpun.htm      retail    ; Outlook Express
 ciweb.cab        retail
 ciweb.dll        retail
@@ -3873,7 +3860,6 @@ cs423x.dll       retail
 cs423x.hlp       retail
 cs423x.sys       retail
 csamsp.dll       retail
-csapi3t1.dll     retail    ; outlook express
 csc.exe.config   netfx    ; netfx
 csc.exe          netfx     ; netfx
 csc.rsp          netfx     ; netfx
@@ -4475,7 +4461,6 @@ dinosaur.ani     retail
 dinput.dll       retail
 dinput8.dll      retail
 dint5upg.dll     retail
-directdb.dll     retail    ; outlook express
 dirtbike.bmp     retail    ; Shell Images
 diruse.exe       reskit\bin
 dis.exe          idw
@@ -8320,7 +8305,6 @@ inet.txt         retail    ; ie appdir
 inetab32.dll     retail
 inetaccs.exe     inetsrv
 inetcfg.dll      retail    ; icw
-inetcomm.dll     retail    ; outlook express
 inetcorp.adm     retail
 inetcpl.cpl      retail:inetsrv    ; ie sysdir
 inetcplc.dll     retail
@@ -8339,7 +8323,6 @@ inetppui.dll     retail
 inetpref.xml     retail    ;SearchAssistant
 inetres.adm      retail
 inetres.chm      retail ;ADM Core file
-inetres.dll      retail    ; outlook express
 inetset.adm      retail
 inetsloc.dll     inetsrv
 inetsrch.xml     retail    ;SearchAssistant
@@ -11053,7 +11036,6 @@ msimeset.exe     retail
 msimg32.dll      retail
 msimig.dll       retail    ; Darwin
 msimig.exe       retail    ; Darwin
-msimn.exe        retail    ; outlook express
 msimsg.dll       retail    ; darwin
 msimsp.exe       retail    ; Darwin
 msinet.ocx       retail    ; PNPU
@@ -11133,7 +11115,6 @@ msmsgs.cat       retail    ; Messenger
 msmsgs.inf       retail    ; Messenger
 msmusb.inf       retail    ; TWAIN
 msmusd.dll       retail    ; TWAIN
-msn.inf          retail    ; MSN Explorer
 msn.isp          retail    ; icw
 msn100.ini       retail    ; MSN Explorer (India market file)
 msn100.mar       retail    ; MSN Explorer (India market file)
@@ -11167,7 +11148,6 @@ msn40.ini        retail    ; MSN Explorer (Switzerland market file)
 msn40.mar        retail    ; MSN Explorer (Switzerland market file)
 msn53.ini        retail    ; MSN Explorer  (Germany market file)
 msn53.mar        retail    ; MSN Explorer  (Germany market file)
-msn6.exe         retail    ; MSN Explorer
 msn64.ini        retail    ; MSN Explorer (Spain market file)
 msn64.mar        retail    ; MSN Explorer (Spain market file)
 msn71.ini        retail    ; MSN Explorer  (France market file)
@@ -11193,7 +11173,6 @@ msnmigr.ini      retail     ; MSN Explorer
 msncpq.ico       retail     ; MSN Explorer
 msndell.ico      retail     ; MSN Explorer
 msnms.ico        retail     ; MSN Explorer
-msnmsn.inf       retail     ; MSN Explorer
 msnmtllc.dll     retail     ; MSN Explorer
 msnntmig.dll     retail     ; MSN Explorer
 msnread.htm      retail     ; MSN Explorer
@@ -11202,22 +11181,12 @@ msnsspc.dbg      symbols\retail\dll  ; ie sysdir
 msnsspc.dll      retail     ; ie sysdir
 msnsspc.pdb      symbols\retail\dll  ; ie sysdir
 msnunin.exe      retail     ; MSN Explorer
-msnupgrd.inf     retail     ; MSN Explorer
 msobcomm.dll     retail
 msobdl.dll       retail
 msobjs.dll       retail
 msobmain.dll     retail
 msobshel.dll     retail
 msobweb.dll      retail
-msoe.chm         retail    ; outlook express
-msoe.dll         retail    ; outlook express
-msoe.hlp         retail    ; outlook express
-msoe.txt         retail    ; outlook express
-msoe50.inf       retail    ; outlook express
-msoeacct.dll     retail    ; outlook express
-msoeacct.hlp     retail    ; outlook express
-msoeres.dll      retail    ; outlook express
-msoert2.dll      retail    ; outlook express
 msonsext.dll     retail    ; Office Name Space extension
 msoobe.exe       retail
 msorc32r.dll     retail    ; MDAC
@@ -12717,11 +12686,7 @@ odpdx32.pdb      symbols\retail\dll    ; MDAC
 odtext32.dbg     symbols\retail\dll    ; MDAC
 odtext32.dll     retail    ; MDAC
 odtext32.pdb     symbols\retail\dll    ; MDAC
-oeaccess.inf     retail
-oeimport.dll     retail    ; outlook express
 oemeula.txt      retail
-oemig50.exe      retail    ; outlook express
-oemiglib.dll     retail    ; outlook express
 oeminf.exe       idw
 oemmui.inf       mui\drop\oemhelp  ; Oem help mui install inf
 oemnad8c.inf     retail
@@ -15138,7 +15103,6 @@ setup16p.hiv     idw\setup
 setup2p.hiv      idw\setup
 setup32p.hiv     idw\setup
 setup4p.hiv      idw\setup
-setup50.exe      retail    ; outlook express
 setup64p.hiv     idw\setup
 setup8p.hiv      idw\setup
 setup9x.dll      mstools   ; build tool for filelist.dat
@@ -17623,7 +17587,6 @@ verifier.exe     retail
 verifier.hlp     retail
 verifier.dll.sld mantis
 verifieS.hlp    srvinf
-verisign.bmp     retail    ; outlook express
 vermsg.exe       idw       ; wow64
 version.dll      retail
 vform32.dll      retail\
@@ -17905,15 +17868,6 @@ WMSWizardRES.pdb        symbols\retail\dll    ; wms.cab Windows Media Server Deb
 WMSWMIPropPage.pdb      symbols\retail\dll    ; wms.cab Windows Media Server Debug
 wSiINTxx.sys     retail    ; Intel I81x Driver
 wVchNTxx.sys     retail    ; Intel I81x Driver
-wab.chm          retail    ; outlook express
-wab.exe          retail    ; outlook express
-wab.hlp          retail    ; outlook express
-wab32.dll        retail    ; outlook express
-wab32res.dll     retail    ; outlook express
-wab50.inf        retail    ; outlook express
-wabfind.dll      retail    ; outlook express
-wabimp.dll       retail    ; outlook express
-wabmig.exe       retail    ; outlook express
 wagtail.ani      retail
 wah.wav          idw
 wait.exe         idw
@@ -18097,7 +18051,6 @@ whoami.exe       retail
 whole32.dll      retail
 wholedlg.dll     retail
 whopengl.dll     retail
-whowhere.bmp     retail    ; outlook express
 whrasapi.dll     retail
 whrasdlg.dll     retail
 whrassap.dll     retail

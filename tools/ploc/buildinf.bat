@@ -32,7 +32,6 @@ unitohex -u netfxdct.inf netfxdct.txt %logFile%
 unitohex -u netfxwbs.inf netfxwbs.txt %logFile%
 unitohex -u netfxsbs.inf netfxsbs.txt %logFile%
 
-unitohex -u msnmsn.inf msnmsn.txt %logFile%
 
 echo %SDXROOT%\tools\ploc\block.exe %SDXROOT%\tools\ploc\block32_%buildmode%.txt 2>> %logFile%
 %SDXROOT%\tools\ploc\block.exe %SDXROOT%\tools\ploc\block32_%buildmode%.txt 2>> %logFile%
@@ -67,7 +66,6 @@ unitohex -a srvinf\intl.txt srvinf\intl.inf %logFile%
 unitohex -a blainf\intl.txt blainf\intl.inf %logFile%
 unitohex -a sbsinf\intl.txt sbsinf\intl.inf %logFile%
 
-unitohex -a msnmsn.txt msnmsn.inf %logFile%
 
 unitohex -u ntprint.inf ntprint.txt %logFile%
 unitohex -u dtcinf\ntprint.inf dtcinf\ntprint.txt %logFile%

@@ -1,7 +1,0 @@
-DIRS=\
-    wizard \
-    cab \
-    win9xupg
-
-OPTIONAL_DIRS =\
-    polmod

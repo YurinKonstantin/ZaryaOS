@@ -1,6 +1,5 @@
 ataboot.sys
 compdata
-csapi3t1.dll
 ctmrclas.dll
 ddao36u.dll
 dgclass.dll
@@ -90,7 +89,6 @@ ic\tourp.exe
 ic\txtsetup.sif
 ic\useract.chm
 ic\usermig.inf
-ic\wab50.inf
 ic\whatnewp.chm
 ic\win32per.bmp
 ic\win9xupg\migdb.inf
@@ -170,7 +168,6 @@ ip\sysrestw.chm
 ip\tourw.exe
 ip\txtsetup.sif
 ip\usermig.inf
-ip\wab50.inf
 ip\winnt32.hlp
 ip\winnt32.msi
 ip\wkstamig.inf

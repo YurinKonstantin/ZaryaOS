@@ -875,8 +875,6 @@ CONTROL.INI\%ss_3dtext95%\* = CONTROL.INI\%ss_3dtextNT%\*
 "%%ProgramFiles%%\%Accessories%\HyperTerminal","","Programs"
 "%%ProgramFiles%%\%Internet_Explorer%\IEXPLORE.EXE","","Programs"
 "%%ProgramFiles%%\%Internet_Explorer%\%Connection_Wizard%\ICWCONN1.EXE","*","Desktop"
-"%%ProgramFiles%%\%Outlook_Express%\WAB.EXE","","Programs"
-"%%ProgramFiles%%\%Outlook_Express%\MSIMN.EXE","","Programs"
 @*:
 @*: Special hack for a special hack. Remove Arabic enabled command prompt from every "Programs" shell folder.
 @*:

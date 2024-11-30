@@ -447,7 +447,6 @@ HKLM,"Software\Microsoft\Internet Explorer\Main","Cache_Percent_of_Disk",3,0A,00
 HKLM,"Software\Microsoft\Internet Explorer\Main","Delete_Temp_Files_On_Exit",2,"yes"
 
 ;   Miscellaneous IE Settings
-HKLM,"Software\Microsoft\Internet Explorer\Main","Local Page",REG_EXPAND_SZ,"%SystemRoot%\system32\blank.htm"
 HKLM,"Software\Microsoft\Internet Explorer\Main","Anchor_Visitation_Horizon",3,01,00,00,00
 HKLM,"Software\Microsoft\Internet Explorer\Main","Use_Async_DNS",2,"yes"
 HKLM,"Software\Microsoft\Internet Explorer\Main","Placeholder_Width",3,1A,00,00,00

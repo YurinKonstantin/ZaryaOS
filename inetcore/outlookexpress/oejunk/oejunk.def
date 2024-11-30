@@ -1,4 +1,0 @@
-LIBRARY     MSOEACCT
-EXPORTS
-    GetDllMajorVersion
-    HrCreateJunkFilter

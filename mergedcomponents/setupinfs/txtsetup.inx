@@ -1236,7 +1236,6 @@ DriverCabName=driver.cab
 @@:@s:msmscsi.pnf   , 20
 @@:@s:msmusb.inf    , 20
 @@:@s:msmusb.pnf    , 20
-@@:@@:msn.inf       , 20
 @@:@@:msn.isp       , 38
 @@:@@:msnbc.url     , 1
 @i:@@:msobshel.htm  , 63

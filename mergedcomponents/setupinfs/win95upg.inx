@@ -846,7 +846,6 @@ main.cpl=2,100,104,108,200,300,400
 mapi32.dll=3,451,501,801
 shimgvw.dll=0,2-5
 access.cpl=1,110
-acctres.dll=5,100-104
 accwiz.exe=10,101,109,111-113,242-246
 appwiz.cpl=4,1500-1503
 asctrls.ocx=2,101,102

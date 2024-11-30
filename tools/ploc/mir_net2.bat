@@ -379,7 +379,6 @@ call %2 inetopts.xml . xml ansi . inetopts.xml mmedia1\enduser html enduser . .
 call %2 inetpp.dll . win32 unicode . inetpp.dll printscan1 yes_without printscan . .
 call %2 inetppui.dll . win32 unicode . inetppui.dll printscan1 yes_without printscan . .
 call %2 inetpref.xml . xml ansi . inetpref.xml mmedia1\enduser html enduser . .
-call %2 inetres.dll . win32 ansi . inetres.dll inetcore1 yes_without inetcore . .
 call %2 inetsrch.xml . xml ansi . inetsrch.xml mmedia1\enduser html enduser . .
 call %2 inetwiz.exe . win32 unicode . inetwiz.exe inetcore1 yes_with inetcore . .
 call %2 infoctrs.dll . win32 unicode . infoctrs.dll iis yes_without inetsrv . .
@@ -558,7 +557,6 @@ call %2 msi.mfl . wmi unicode . msi.mfl admin3 no admin . .
 call %2 msident.dll . win32 ansi . msident.dll shell2 yes_without shell . .
 call %2 msidntld.dll . win32 ansi . msidntld.dll shell2 yes_without shell . .
 call %2 msieftp.dll . win32 ansi . msieftp.dll shell2 yes_without shell . .
-call %2 msimn.exe . win32 ansi . msimn.exe inetcore1 yes_without inetcore . .
 call %2 msinfo.dll . win32 unicode . msinfo.dll admin2 yes_without admin . .
 call %2 msinfo32.exe . win32 unicode . msinfo32.exe mmedia1\enduser yes_with enduser . .
 call %2 mslbui.dll . win32 unicode . mslbui.dll wmsos1\windows yes_without windows . .
@@ -569,7 +567,6 @@ call %2 msobjs.dll . win32 unicode . msobjs.dll base1 yes_without base . .
 call %2 msobmain.dll . win32 unicode . msobmain.dll admin3\oobe yes_without base . .
 call %2 msobshel.dll . win32 unicode . msobshel.dll admin3\oobe yes_without base . .
 call %2 msobshel.htm . html ansi . msobshel.htm admin3\oobe html base . .
-call %2 msoeres.dll . win32 ansi . msoeres.dll inetcore1 yes_without inetcore . .
 call %2 msoobe.exe . win32 unicode . msoobe.exe admin3\oobe yes_with base . .
 call %2 mspaint.exe . win32 unicode . mspaint.exe shell2 yes_with shell . .
 call %2 mspmspsv.dll . win32 ansi . mspmspsv.dll mmedia1\multimedia yes_without multimedia . .
@@ -665,8 +662,6 @@ call %2 occache.dll . win32 ansi . occache.dll shell2 yes_without shell . .
 call %2 oce.dll . win32 unicode . oce.dll printscan1 yes_without printscan . .
 call %2 ocmanage.dll . win32 unicode . ocmanage.dll admin1 yes_without base . .
 call %2 od9ibres.dll . win32 unicode . od9ibres.dll printscan1 yes_without printscan . .
-call %2 oemig50.exe . win32 unicode . oemig50.exe inetcore1 yes_with inetcore . .
-call %2 oemiglib.dll . win32 ansi . oemiglib.dll inetcore1 yes_without inetcore . .
 call %2 ok9ibres.dll . win32 unicode . ok9ibres.dll printscan1 yes_without printscan . .
 call %2 okd24res.dll . win32 unicode . okd24res.dll printscan1 yes_without printscan . .
 call %2 oki24res.dll . win32 unicode . oki24res.dll printscan1 yes_without printscan . .
@@ -853,7 +848,6 @@ call %2 services.exe . win32 oem . services.exe base1 yes_with base . .
 call %2 serwvdrv.dll . win32 unicode . serwvdrv.dll net2 yes_without net . .
 call %2 sessmgr.exe . win32 unicode . sessmgr.exe wmsos1\termsrv excluded termsrv . .
 call %2 sethc.exe . win32 unicode . sethc.exe ds2 yes_with ds . .
-call %2 setup50.exe . win32 unicode . setup50.exe inetcore1 yes_with inetcore . .
 call %2 setupapi.dll . FE-Multi ansi . setupapi.dll admin1 yes_without base . .
 call %2 sfc.exe . FE-Multi oem . sfc.exe base1 excluded base . .
 call %2 sfc_os.dll . win32 unicode . sfc_os.dll base1 yes_without base . .
@@ -996,10 +990,6 @@ call %2 w32time.dll . FE-Multi ansi . w32time.dll ds2 yes_without ds . .
 call %2 w32tm.exe . FE-Multi ansi . w32tm.exe ds2 yes_with ds . .
 call %2 w3ext.dll . win32 unicode . w3ext.dll iis yes_without inetsrv . .
 call %2 w95upgnt.dll . win32 ansi . w95upgnt.dll admin1 yes_without base . .
-call %2 wab32.dll . win32 ansi . wab32.dll inetcore1 yes_without inetcore . .
-call %2 wab32res.dll . win32 ansi . wab32res.dll inetcore1 yes_without inetcore . .
-call %2 wabfind.dll . win32 ansi . wabfind.dll inetcore1 yes_without inetcore . .
-call %2 wabimp.dll . win32 ansi . wabimp.dll inetcore1 yes_without inetcore . .
 call %2 wavemsp.dll . win32 unicode . wavemsp.dll net2 yes_without net . .
 call %2 wbemcntl.dll . win32 unicode . wbemcntl.dll admin3 yes_without admin . .
 call %2 wbemcons.mfl . wmi unicode . wbemcons.mfl admin3 no admin . .

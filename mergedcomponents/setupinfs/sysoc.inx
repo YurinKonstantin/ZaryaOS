@@ -43,8 +43,6 @@ ims=imsinsnt.dll,OcEntry,ims.inf,,7
 @s!b:@i!m:UDDIServices=uddiocm.dll,OcEntry,uddi.inf,,6
 @s!l:Pop3Srv=Pop3Oc.dll,OcEntry,pop3oc.inf,,7
 @s:@i!n:authman=ocgen.dll,OcEntry,AuthMan.inf,hide,7
-@w:OEAccess=ocgen.dll,OcEntry,oeaccess.inf,,7
-@s:OEAccess=ocgen.dll,OcEntry,oeaccess.inf,hide,7
 @s:IEHarden=ocgen.dll,OcEntry,ieharden.inf,,7
 
 ; old base components

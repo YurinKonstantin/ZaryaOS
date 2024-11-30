@@ -720,8 +720,6 @@ ie.inf,DefaultInstall
 mdac.inf,DefaultInstall
 icwnt5.inf,DefaultInstall
 mstask.inf,DefaultInstall.NT
-msoe50.inf,DefaultInstall
-wab50.inf,DefaultInstall
 tshoot.inf,DefaultInstall
 @s:tshootsv.inf,DefaultInstall
 @e:tshootas.inf,DefaultInstall
@@ -836,7 +834,6 @@ RegisterDlls=CryptoDlls
 @*:; Entries below here are IE
 @@:@@:11,,shell32.dll,3
 @@:@@:11,,comctl32.dll,2
-@@:@@:11,,autodisc.dll,1
 @@:@@:11,,shmedia.dll,1
 @@:@@:11,,themeui.dll,3
 @@:@@:11,,wininet.dll,2
