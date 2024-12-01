@@ -525,7 +525,6 @@ call %2 cprofile.exe . FE-Multi oem . cprofile.exe wmsos1\termsrv excluded terms
 call %2 credui.dll . win32 oem . credui.dll ds1 yes_without ds . .
 call %2 crusoe.sys . win32 unicode . crusoe.sys resource_identical yes_without base . .
 call %2 crypt32.dll . win32 unicode . crypt32.dll ds2 yes_without ds . .
-call %2 cryptdlg.dll . win32 unicode . cryptdlg.dll inetcore1 yes_without inetcore . .
 call %2 cryptext.dll . win32 unicode . cryptext.dll ds2 yes_without ds . .
 call %2 cryptui.dll . win32 unicode . cryptui.dll ds2 yes_without ds . .
 call %2 csamsp.dll . win32 unicode . csamsp.dll net2 yes_without net . .

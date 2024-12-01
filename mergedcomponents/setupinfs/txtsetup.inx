@@ -2366,9 +2366,6 @@ DriverCabName=driver.cab
 @i:@@:tdkcd31.sys   , 4
 @@:@@:tdk100b.sys   , 4
 @@:@@:telephon.hlp  , 21
-@@:@@:telnet.cnt    , 2
-@@:@@:telnet.cnt    , 21
-@@:@@:telnetc.exe   , 2
 @@:@s:termcli.chm   , 21
 @@:@@:terminal.cnt  , 2
 @@:@@:terminal.exe  , 2
@@ -4100,7 +4097,6 @@ AddReg = dmreg.inf,DM.AddReg
   Netlogon
   Alerter
   Afd
-  Telnet
   DHCP
   NetDDE
   NetDDEdsdm

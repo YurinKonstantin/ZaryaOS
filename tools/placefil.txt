@@ -2923,7 +2923,6 @@ cit9us.dll       retail
 citoh.dll        retail
 citohres.dll     retail
 citohres.ini     retail
-citrpun.htm      retail    ; Outlook Express
 ciweb.cab        retail
 ciweb.dll        retail
 ciweb.inf        retail
@@ -2960,7 +2959,6 @@ cleanri.exe      retail
 cleanspl.exe     idw
 cleanspl.hlp     idw
 cleanup.exe      system
-clearday.htm     retail    ; Outlook Express
 clearmem.exe     idw
 cli.mof          retail    ; wbem
 cliconf.chm      retail    ; MDAC
@@ -2997,7 +2995,6 @@ clonelg.vbs      reskit\bin
 clonepr.dll      reskit\bin
 clonepr.vbs      reskit\bin
 close.gif        retail    ; eelview
-clrdaybg.jpg     retail    ; Outlook Express
 cluadmin.exe     cluster
 cluadmin.hlp     retail
 clusapi.dll      cluster
@@ -3843,7 +3840,6 @@ crusoe.sys       retail
 crypt.exe        retail
 crypt32.dll      retail    ; ispu
 cryptcom.dll     retail    ; ie sysdir
-cryptdlg.dll     retail    ; outlook express
 cryptdll.dll     retail
 cryptext.dll     retail    ; ispu
 cryptmnu.dll     retail
@@ -6196,9 +6192,6 @@ fetools.inf      retail
 fevprov.mfl      retail    ; wbem
 fevprov.mof      retail    ; wbem
 fidlhead.bmp     retail
-fieruld.gif      retail    ; Outlook Express
-fiesta.htm       retail    ; Outlook Express
-fiestabg.jpg     retail    ; Outlook Express
 file_srv.chm     retail
 filefldp.chm     retail
 filefldw.chm     retail
@@ -6933,8 +6926,6 @@ gfx40.sys        retail
 gidl.exe         bldtools
 gifimp32.flt     retail
 gki.dll          retail    ; tapi 3.0
-glacier.htm      retail    ; Outlook Express
-glacrbkg.jpg     retail    ; Outlook Express
 glass.wav        idw
 glmda.ini        retail    ; dinput mappings
 glmda.png        retail    ; dinput image
@@ -8350,8 +8341,6 @@ infoctrs.dll     inetsrv
 infoctrs.h       inetsrv
 infoctrs.ini     inetsrv
 infosoft.dll     retail
-infospbz.bmp     retail    ; outlook express
-infospce.bmp     retail    ; outlook express
 infotec.bmp      retail ; twain
 infotec.def      retail ; twain
 infparser.exe    idw
@@ -8645,8 +8634,6 @@ itss.dll         retail    ; ie sysdir
 iuctl.dll        retail    ; IU Control (sysdir)
 iuengine.dll     retail    ; IU Engine (sysdir)
 iviewers.dll     mstools
-ivy.gif          retail    ; Outlook Express
-ivy.htm          retail    ; Outlook Express
 iwlp51e1.ppd     retail    ; printer driver
 iwlp51j1.ppd     retail
 iwrps.dll        inetsrv
@@ -9333,9 +9320,7 @@ ldrdll.dll       system
 le100nds.sys     retail
 le10nds.sys      retail
 leame.txt        retail
-leaves.htm       retail    ; Outlook Express
 leaves16.bmp     retail
-leavesbg.jpg     retail    ; Outlook Express
 leesmij.txt      retail
 left.gif         retail    ; eelview
 legacy.inf       retail
@@ -9859,8 +9844,6 @@ main.cpl         retail
 main.inf         retail ; COM+ 64bit only
 main.js          retail    ; eelview
 mainds.ds        retail ; TWAIN
-maize.htm        retail    ; Outlook Express
-maizebkg.jpg     retail    ; Outlook Express
 makeani.exe      mstools
 makeboot.exe     makeboot
 makebt32.exe     makeboot
@@ -11538,8 +11521,6 @@ napmmc.dll       retail
 napmmc.hlp       retail
 narrator.exe     retail
 narrhook.dll     retail
-nature.htm       retail    ; Outlook Express
-naturebg.jpg     retail    ; Outlook Express
 navigate.asp     dsadmin
 nbtd.exe         idw
 nbtinfo.exe      idw
@@ -11895,8 +11876,6 @@ netbcm4e.inf     retail
 netbeac.inf      retail    ; INF file for Beacon Client
 netbios.sld      mantis    ; Component definition for NETBIOS
 netbios.sys      retail
-netblitz.htm     retail    ; Outlook Express
-netblzbg.gif     retail    ; Outlook Express
 netbrdgm.inf     retail
 netbrdgs.inf     retail
 Netbrdgs_inf_{43F6A837-E55B-4179-BFC7-D0112E5ED29F}.sld    mantis
@@ -13568,8 +13547,6 @@ phvfwext.dll     retail
 piano.ani        retail
 pid.dll          retail
 pidgen.dll       retail:winnt32
-piechtbg.jpg     retail    ; Outlook Express
-piechts.htm      retail    ; Outlook Express
 pifedita.hlp     system
 pifmgr.dll       retail
 pinball.chm      retail
@@ -16173,9 +16150,6 @@ subscrpt.mof     retail    ; wbem
 subst.exe        retail
 suck.exe         idw
 sumcat.dll       retail
-sunbanna.gif     retail    ; Outlook Express
-sunfbkg.jpg      retail    ; Outlook Express
-sunflowr.htm     retail    ; Outlook Express
 sunset.jpg       retail    ; Shell Images
 supp_ed.chm      retail    ;temp addition for b2
 supp_edS.chm     retail
@@ -16233,8 +16207,6 @@ svslp45.gpd      retail    ; printer driver
 sw_effct.dll     retail
 sw_wheel.dll     retail
 swedish.trn      retail
-sweets.htm       retail    ; Outlook Express
-sweetsbg.gif     retail    ; Outlook Express
 swenum.sys       retail
 swflash.inf      retail    ; IE
 swflash.ocx      retail    ; IE
@@ -16245,7 +16217,6 @@ swmidi.sys       retail    ; WDM Audio
 swnt.inf         retail
 swpdflt2.dll     retail
 swpidflt.dll     retail
-swtchbrd.bmp     retail    ; outlook express
 swusbflt.sys     retail
 swdisp.sys       retail    ; server availability
 swkeypad.sys     retail    ; server availability
@@ -16603,8 +16574,6 @@ te_swed.pm       retail
 te_swed.sm       retail
 te_swed.sx       retail
 te_swed.sy       retail
-tech.gif         retail    ; outlook express
-tech.htm         retail    ; outlook express
 ted1tr6.sys      retail
 ted5ess.sys      retail
 tedatel.sys      retail
@@ -16622,8 +16591,6 @@ tekph600.icm     retail
 telb450j.gpd     retail    ; printer driver
 telbp35j.gpd     retail
 telephon.cpl     retail
-telnetS.hlp      srvinf
-telnetS.chm      retail  ;telnet.chm
 template.exe     retail
 template.inf     retail
 template.pmc     retail
@@ -18982,8 +18949,6 @@ xeroxpcl.dll     retail
 xfilexr.dll      retail
 xiffr3_0.dll     retail    ; Kodak Imaging
 ximail32.dll     idw
-xivy.gif         retail    ; outlook express
-xivy.htm         retail    ; outlook express
 xj52190.nlp         netfx    ; netfx
 xjis.nls         retail
 xload.exe        retail
@@ -19332,7 +19297,6 @@ xxpsini1.ini     retail
 xxpsru1.dll      retail
 xxui1.dll        retail
 xxwh1hlp.hlp     retail
-yahoo.bmp        retail    ; outlook express
 yapt.exe         idw
 yhjblp.dll       retail
 ync.exe          idw

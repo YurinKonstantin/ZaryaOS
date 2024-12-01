@@ -40,7 +40,6 @@ DelFiles=ResourceDll.install,HelpFile.install,SAKinf.install,SAKShortcut.install
 @s:@i:selfsigncertmsg.dll=55
 @s:@i:sitearea.dll=55
 @s:@i:sysinfomsg.dll=55
-@s:@i:telnet.dll=55
 @s:@i:tserver.dll=55
 @s:@i:usermsg.dll=55
 @s:@i:_alertemail_alert_e_mail.htm=55
@@ -230,7 +229,6 @@ sakitmui.inf=55
 @s:@i:selfsigncertmsg.dll,saslfcrt.dll.mu_ 
 @s:@i:sitearea.dll,sasitare.dll.mu_ 
 @s:@i:sysinfomsg.dll,sasysinf.dll.mu_ 
-@s:@i:telnet.dll,satelnet.dll.mu_ 
 @s:@i:tserver.dll,satservr.dll.mu_ 
 @s:@i:usermsg.dll,sausrmsg.dll.mu_ 
 

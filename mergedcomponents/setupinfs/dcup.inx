@@ -744,7 +744,6 @@ MACHINE\System\CurrentControlSet\Services\NTDS\Parameters\LDAPServerIntegrity=4,
 "%Systemdirectory%\taskkill.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\tasklist.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\tcpsvcs.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
-"%Systemdirectory%\telnet.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\tftp.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\tftpd.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\timeout.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"

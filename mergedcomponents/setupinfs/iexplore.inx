@@ -279,23 +279,15 @@ HKCR,"ftp\shell\open\ddeexec",,2,"""%1"",,-1,,,,,"
 HKCR,"ftp\shell\open\ddeexec\Application",,2,"IExplore"
 HKCR,"ftp\shell\open\ddeexec\Topic",,2,"WWW_OpenURL"
 
-HKCR,"telnet",,2,"%URLTELNET%"
-HKCR,"telnet","EditFlags",3,02,00,00,00
-HKCR,"telnet","URL Protocol",2,""
-HKCR,"telnet\DefaultIcon",,2,"%11%\url.dll,0"
-HKCR,"telnet\shell\open\command",,2,"rundll32.exe url.dll,TelnetProtocolHandler %l"
-
 HKCR,"rlogin",,2,"%URLRLOGIN%"
 HKCR,"rlogin","EditFlags",3,02,00,00,00
 HKCR,"rlogin","URL Protocol",2,""
 HKCR,"rlogin\DefaultIcon",,2,"%11%\url.dll,0"
-HKCR,"rlogin\shell\open\command",,2,"rundll32.exe url.dll,TelnetProtocolHandler %l"
 
 HKCR,"tn3270",,2,"%URLTN3270%"
 HKCR,"tn3270","EditFlags",3,02,00,00,00
 HKCR,"tn3270","URL Protocol",2,""
 HKCR,"tn3270\DefaultIcon",,2,"%11%\url.dll,0"
-HKCR,"tn3270\shell\open\command",,2,"rundll32.exe url.dll,TelnetProtocolHandler %l"
 
 HKCR,"gopher",,2,"%URLGOPHER%"
 HKCR,"gopher","EditFlags",3,02,00,00,00

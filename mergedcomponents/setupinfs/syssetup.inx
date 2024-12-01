@@ -876,7 +876,6 @@ RegisterDlls=CryptoDlls
 @@:@3:11,,msxml.dll,1
 @w:@@:11,,nusrmgr.cpl,3
 @@:@@:11,,cdfview.dll,1
-@@:@@:11,,cryptdlg.dll,1
 @@:@@:11,,twext.dll,1
 @@:@@:11,,webvw.dll,1,120
 @@:@@:11,,msieftp.dll,1
@@ -1041,7 +1040,6 @@ RegisterDlls=CryptoDlls
 @@:@@:11,,rcImLby.exe,,,"-regserver"
 @@:@@:10,PCHealth\HelpCtr\Binaries,msinfo.dll,1
 @@:@@:10,PCHealth\UploadLB\Binaries,UploadM.exe,,,"/svchost netsvcs /regserver"
-@*:; Entry below is for telnet service registration
 @*:; Entries below are for Application Compatibility UI components
 @@:@@:11,,compatui.dll,1
 @*:; Entries below here are for Windows Update

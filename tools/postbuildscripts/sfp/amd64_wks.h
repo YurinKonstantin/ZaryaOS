@@ -35,8 +35,6 @@ PROTECT_FILE_ENTRY WksFiles[] =
     {L"wcompatUI.dll", L"%systemroot%\\SysWOW64\\compatUI.dll", NULL},
     {NULL, L"%systemroot%\\system32\\crypt32.dll", NULL},
     {L"wcrypt32.dll", L"%systemroot%\\SysWOW64\\crypt32.dll", NULL},
-    {NULL, L"%systemroot%\\system32\\cryptdlg.dll", NULL},
-    {L"wcryptdlg.dll", L"%systemroot%\\SysWOW64\\cryptdlg.dll", NULL},
     {NULL, L"%systemroot%\\system32\\cryptdll.dll", NULL},
     {L"wcryptdll.dll", L"%systemroot%\\SysWOW64\\cryptdll.dll", NULL},
     {NULL, L"%systemroot%\\system32\\cryptext.dll", NULL},

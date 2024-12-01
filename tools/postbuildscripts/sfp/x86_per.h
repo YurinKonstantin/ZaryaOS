@@ -20,7 +20,6 @@ PROTECT_FILE_ENTRY PerFiles[] =
     {NULL, L"%systemroot%\\system32\\comdlg32.dll", NULL},
     {NULL, L"%systemroot%\\system32\\compatUI.dll", NULL},
     {NULL, L"%systemroot%\\system32\\crypt32.dll", NULL},
-    {NULL, L"%systemroot%\\system32\\cryptdlg.dll", NULL},
     {NULL, L"%systemroot%\\system32\\cryptdll.dll", NULL},
     {NULL, L"%systemroot%\\system32\\cryptext.dll", NULL},
     {NULL, L"%systemroot%\\system32\\cryptnet.dll", NULL},

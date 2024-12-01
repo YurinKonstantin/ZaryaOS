@@ -35,8 +35,8 @@ salogs.dll,salogs.dll
 SaShutdown_msg.dll,sashutdn.dll 
 selfsigncertmsg.dll,saslfcrt.dll 
 sitearea.dll,sasitare.dll 
-sysinfomsg.dll,sasysinf.dll 
-telnet.dll,satelnet.dll 
+sysinfomsg.dll,sasysinf.dll,
+satelnet.dll 
 tserver.dll,satservr.dll 
 usermsg.dll,sausrmsg.dll 
 

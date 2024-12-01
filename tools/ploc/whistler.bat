@@ -641,7 +641,6 @@ call %2 cinemclc.sys . win32 ansi . cinemclc.sys drivers1 yes_without drivers . 
 call %2 ciodm.dll . win32 unicode . ciodm.dll extra\indexsrv yes_without inetsrv . .
 call %2 cipher.exe . FE-Multi oem . cipher.exe base2 excluded base . .
 call %2 citohres.dll . win32 unicode . citohres.dll printscan1 yes_without printscan . .
-call %2 citrpun.htm . html ansi . citrpun.htm inetcore1 html inetcore . .
 call %2 cladmwiz.dll . win32 unicode . cladmwiz.dll base1 excluded base . .
 call %2 class_ss.dll . win32 unicode . class_ss.dll shell1 yes_without shell . .
 call %2 clb.dll . win32 unicode . clb.dll base2 yes_without base . .
@@ -649,7 +648,6 @@ call %2 clcfgsrv.dll . win32 unicode . clcfgsrv.dll base1 excluded base . .
 call %2 clcfgsrv.inf . inf unicode . clcfgsrv.inf base1 no base . .
 call %2 cleanmgr.exe . win32 unicode . cleanmgr.exe shell1 yes_with shell . .
 call %2 cleanri.exe . win32 unicode . cleanri.exe base2 yes_with base . .
-call %2 clearday.htm . html ansi . clearday.htm inetcore1 html inetcore . .
 call %2 cliegali.mfl . wmi unicode . cliegali.mfl admin3 no admin . .
 call %2 clip.exe . FE-Multi oem . clip.exe admin2 yes_with admin . .
 call %2 clipbrd.exe . win32 ansi . clipbrd.exe shell2 yes_with shell . .
@@ -764,7 +762,6 @@ call %2 cpu.txt . setup_inf unicode . cpu.inf admin1\sources\infs\setup no merge
 call %2 credui.dll . win32 oem . credui.dll ds1 yes_without ds . .
 call %2 crusoe.sys . win32 unicode . crusoe.sys resource_identical yes_without base . .
 call %2 crypt32.dll . win32 unicode . crypt32.dll ds2 yes_without ds . .
-call %2 cryptdlg.dll . win32 unicode . cryptdlg.dll inetcore1 yes_without inetcore . .
 call %2 cryptext.dll . win32 unicode . cryptext.dll ds2 yes_without ds . .
 call %2 cryptsvc.dll . win32 unicode . cryptsvc.dll ds2 yes_without ds . .
 call %2 cryptui.dll . win32 unicode . cryptui.dll ds2 yes_without ds . .
@@ -1083,7 +1080,6 @@ call %2 femgrate.inf jpn fe-file na . femgrate.inf pre_localized\jpn no windows 
 call %2 femgrate.inf kor fe-file na . femgrate.inf pre_localized\kor no windows . .
 call %2 fevprov.mfl . wmi unicode . fevprov.mfl admin3 no admin . .
 call %2 fldrclnr.dll . win32 unicode . fldrclnr.dll shell1 yes_without shell locked .
-call %2 fiesta.htm . html ansi . fiesta.htm inetcore1 html inetcore . .
 call %2 filegen.txt . setup_inf ansi . filegen.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 filemgmt.dll . win32 unicode . filemgmt.dll admin2 yes_without admin . .
 call %2 filesvr.msc . xml ansi . filesvr.msc admin2 no admin . .
@@ -1157,7 +1153,6 @@ call %2 getmac.exe . win32 oem . getmac.exe admin2 yes_with admin . .
 call %2 gettype.exe . win32 oem . gettype.exe admin2 yes_with admin . .
 call %2 getuname.dll . win32 unicode . getuname.dll shell2 excluded shell . .
 call %2 guitrn.dll . win32 unicode . guitrn.dll wmsos1\windows yes_without windows locked .
-call %2 glacier.htm . html ansi . glacier.htm inetcore1 html inetcore . .
 call %2 glu32.dll . win32 unicode . glu32.dll mmedia1\multimedia yes_without multimedia . .
 call %2 gpedit.dll . win32 unicode . gpedit.dll ds2 yes_without ds . .
 call %2 gpedit.msc . xml ansi . gpedit.msc ds2 no ds . .
@@ -1500,7 +1495,6 @@ call %2 isapnp.sys . win32 unicode . isapnp.sys base1 yes_without base . .
 call %2 iscomlog.dll . win32 unicode . iscomlog.dll iis yes_without inetsrv . .
 call %2 isign32.dll . win32 unicode . isign32.dll inetcore1 yes_without inetcore . .
 call %2 isp2busy.htm . html ansi . isp2busy.htm admin3\oobe html base . .
-call %2 ivy.htm . html ansi . ivy.htm inetcore1 html inetcore . .
 call %2 ixsso.dll  . win32 unicode . ixsso.dll extra\indexsrv yes_without inetsrv . .
 call %2 iyuv_32.dll . win32 unicode . iyuv_32.dll drivers1 yes_without drivers . .
 call %2 jetconv.exe . win32 ansi . jetconv.exe net3 yes_with net . .
@@ -1645,7 +1639,6 @@ call %2 macfile.exe . FE-Multi ansi . macfile.exe net3 excluded net . .
 call %2 machine.txt . setup_inf unicode . machine.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 magnify.exe . win32 unicode . magnify.exe shell2 no shell . .
 call %2 main.cpl . win32 unicode . main.cpl shell1 yes_without shell . .
-call %2 maize.htm . html ansi . maize.htm inetcore1 html inetcore . .
 call %2 makebt32.exe makeboot FE-Multi oem . makebt32.exe admin1\makeboot excluded base . .
 call %2 mchgr.txt . setup_inf unicode . mchgr.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 mciavi32.dll . win32 unicode . mciavi32.dll mmedia1\multimedia yes_without multimedia . .
@@ -1929,7 +1922,6 @@ call %2 nabtsfec.txt . setup_inf unicode . nabtsfec.inf admin1\sources\infs\setu
 call %2 napmmc.dll . win32 unicode . napmmc.dll net2 yes_without net . .
 call %2 narrator.exe . win32 unicode . narrator.exe shell2 yes_with shell . .
 call %2 narrhook.dll . win32 unicode . narrhook.dll shell2 yes_without shell . .
-call %2 nature.htm . html ansi . nature.htm inetcore1 html inetcore . .
 call %2 NbkIntl.dll . win32 unicode . NbkIntl.dll drivers1\tabletpc yes_without drivers . .
 call %2 nbmaptip.dll . win32 unicode . nbmaptip.dll drivers1\tabletpc yes_without drivers . .
 call %2 nbtstat.exe . win32 oem . nbtstat.exe net3 excluded net . .
@@ -1986,7 +1978,6 @@ call %2 netauni.txt . setup_inf unicode . netauni.inf admin1\sources\infs\setup 
 call %2 netb57xp.inf . inf unicode . netb57xp.inf drivers1 no drivers . .
 call %2 netbcm4e.inf . inf unicode . netbcm4e.inf drivers1 no drivers . .
 call %2 netbeui.txt valueadd\msft\net\netbeui manual na . netbeui.inf loc_manual\valueadd\msft\net\netbeui no net . .
-call %2 netblitz.htm . html ansi . netblitz.htm inetcore1 html inetcore . .
 call %2 netbrdgm.inf . inf unicode . netbrdgm.inf net3 no net . .
 call %2 netbrdgs.inf . inf unicode . netbrdgs.inf net3 no net . .
 call %2 netcb102.inf . inf unicode . netcb102.inf drivers1 no drivers . .
@@ -2369,7 +2360,6 @@ call %2 philtune.txt . setup_inf unicode . philtune.inf admin1\sources\infs\setu
 call %2 phone.inf . inf unicode . phone.inf admin3\oobe no base . .
 call %2 photowiz.dll . win32 ansi . photowiz.dll printscan1 no printscan . .
 call %2 phvfwext.dll . win32_multi ansi . phvfwext.dll pre_localized no drivers . .
-call %2 piechts.htm . html ansi . piechts.htm inetcore1 html inetcore . .
 call %2 ping.exe . FE-Multi oem . ping.exe net1 excluded net . .
 call %2 place.dns . manual na . place.dns loc_manual no ds . .
 call %2 plotui.dll . win32 unicode . plotui.dll printscan1 yes_without printscan . .
@@ -2866,9 +2856,7 @@ call %2 strings.asm . nobin na . strings.asm loc_manual\sources\mvdm no loc_manu
 call %2 strings.c . manual na . strings.c loc_manual\sources\makeboot no loc_manual . .
 call %2 strings.h . nobin na . strings.h loc_manual\sources\ldrs no sdktools . .
 call %2 strmfilt.dll . win32 unicode . strmfilt.dll iis yes_without inetsrv . .
-call %2 sunflowr.htm . html ansi . sunflowr.htm inetcore1 html inetcore . .
 call %2 svcext.dll . win32 unicode . svcext.dll iis yes_without inetsrv . .
-call %2 sweets.htm . html ansi . sweets.htm inetcore1 html inetcore . .
 call %2 swflash.ocx . notloc unicode . swflash.ocx pre_localized no inetcore . .
 call %2 switch.inf . manual unicode . switch.inf loc_manual no net . .
 call %2 swnt.txt . setup_inf unicode . swnt.inf admin1\sources\infs\setup no mergedcomponents . .
@@ -2923,7 +2911,6 @@ call %2 tcmsetup.exe . FE-Multi unicode . tcmsetup.exe net2 excluded net . .
 call %2 tcpmon.dll . win32 unicode . tcpmon.dll printscan1 yes_without printscan . .
 call %2 tourstrt.exe . win32 unicode . tourstrt.exe shell1 yes_with shell locked .
 call %2 tcpmonui.dll . win32 unicode . tcpmonui.dll printscan1 yes_without printscan . .
-call %2 tech.htm . html ansi . tech.htm inetcore1 html inetcore . .
 call %2 telephon.cpl . win32 unicode . telephon.cpl net2 yes_without net . .
 call %2 template.inf . inf unicode . template.inf net2 no net . .
 call %2 termmgr.dll . win32 unicode . termmgr.dll net2 yes_without net . .
