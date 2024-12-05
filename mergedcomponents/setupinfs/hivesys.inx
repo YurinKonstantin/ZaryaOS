@@ -246,7 +246,6 @@ HKLM,"SYSTEM\CurrentControlSet\Control\CoDeviceInstallers","{4D36E97D-E325-11CE-
 HKLM,"SYSTEM\CurrentControlSet\Control\CoDeviceInstallers","{4D36E980-E325-11CE-BFC1-08002BE10318}",0x00010000,"SysSetup.Dll,StorageCoInstaller"
 HKLM,"SYSTEM\CurrentControlSet\Control\CoDeviceInstallers","{6D807884-7D21-11CF-801C-08002BE10318}",0x00010000,"SysSetup.Dll,StorageCoInstaller"
 HKLM,"SYSTEM\CurrentControlSet\Control\CoDeviceInstallers","{71A27CDD-812A-11D0-BEC7-08002BE2092F}",0x00010000,"SysSetup.Dll,CriticalDeviceCoInstaller"
-@@:@i:HKLM,"SYSTEM\CurrentControlSet\Control\CoDeviceInstallers","{4D36E96D-E325-11CE-BFC1-08002BE10318}",0x00010000,"NetCfgx.dll,ModemClassCoInstaller","setup\FxsOcm.dll,FaxModemCoClassInstaller"
 @@:@@!i:HKLM,"SYSTEM\CurrentControlSet\Control\CoDeviceInstallers","{4D36E96D-E325-11CE-BFC1-08002BE10318}",0x00010000,"NetCfgx.dll,ModemClassCoInstaller"
 HKLM,"SYSTEM\CurrentControlSet\Control\ComputerName",,0x00000012
 HKLM,"SYSTEM\CurrentControlSet\Control\ComputerName\ComputerName","ComputerName",0x00000002,"MACHINENAME"

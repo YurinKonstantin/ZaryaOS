@@ -705,10 +705,6 @@ call %2 fu24res.dll . win32 unicode . fu24res.dll printscan1 yes_without printsc
 call %2 fu9res.dll . win32 unicode . fu9res.dll printscan1 yes_without printscan . .
 call %2 fupclres.dll . win32 unicode . fupclres.dll printscan1 yes_without printscan . .
 call %2 fx5eres.dll . win32 unicode . fx5eres.dll printscan1 yes_without printscan . .
-call %2 FXSCLNTR.DLL . win32 unicode . FXSCLNTR.DLL fax_msmq\faxsrv yes_without printscan . .
-call %2 FXSEVENT.DLL . win32 unicode . FXSEVENT.DLL fax_msmq\faxsrv yes_without printscan . .
-call %2 FXSOCM.dll . win32 unicode . FXSOCM.dll fax_msmq yes_without printscan . .
-call %2 FXSRES.DLL . win32 unicode . FXSRES.DLL fax_msmq\faxsrv yes_without printscan . .
 call %2 g200m.sys . win32 unicode . g200m.sys drivers1 yes_without drivers . .
 call %2 g400m.sys . win32 unicode . g400m.sys drivers1\ia64 yes_without drivers . ia64only
 call %2 gcdef.dll . win32 unicode . gcdef.dll mmedia1\multimedia yes_without multimedia . .

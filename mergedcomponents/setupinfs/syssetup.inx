@@ -361,7 +361,6 @@ IASNT4.CAT
 @@:@6:WOWLANG.CAT
 @@:@@:MSTSWEB.CAT ; For terminal server web client
 @@:@i:OEMBIOS.CAT
-@s!b:@i:FXSCAT.CAT ; For Fax down level clients
 @s:@i:sasetup.CAT  ; For Remote Admin Tools msi
 @s:@i:adminpak.CAT ; For adminpak msi
 @s:@i:admt.cat        ; For ADMT msi packages
@@ -829,7 +828,6 @@ RegisterDlls=CryptoDlls
 @@:@@:11,,sxs.dll,2
 @@:@3:11,,msvbvm60.dll,1
 @@:@@:11,,w32time.dll,1
-@@:@i:11,setup,fxsocm.dll,1
 @*:; Entries below here are ISPU
 @*:; Entries below here are IE
 @@:@@:11,,shell32.dll,3

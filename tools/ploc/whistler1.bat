@@ -380,7 +380,6 @@ call %2 comres.dll . win32 unicode . comres.dll extra\com yes_without com . .
 call %2 comrmsg.inc . nobin na . comrmsg.inc loc_manual\sources\mvdm no loc_manual . .
 call %2 comsnap.dll . win32 ansi . comsnap.dll extra\com yes_without com . .
 call %2 conf.adm . inf_unicode unicode . conf.adm mmedia1\enduser no enduser . .
-call %2 confdent.cov . notloc na . confdent.cov loc_manual no printscan . .
 call %2 config.nt . manual na . config.nt Loc_Manual no base . .
 call %2 confmsp.dll . win32 unicode . confmsp.dll net2 yes_without net . .
 call %2 connection.htm helpandsupportservices\saf\pss html ansi . connection.htm admin2\helpandsupportservices\saf\pss html admin . .
@@ -766,20 +765,10 @@ call %2 fus2base.sys . notloc unicode . fus2base.sys pre_localized no drivers . 
 call %2 fuxlres.dll jpn fe-file unicode . fuxlres.dll printscan1\jpn no printscan . .
 call %2 fx5eres.dll . win32 unicode . fx5eres.dll printscan1 yes_without printscan . .
 call %2 fxartres.dll jpn fe-file unicode . fxartres.dll printscan1\jpn no printscan . .
-call %2 FXSADMIN.MSC . xml ansi . FXSADMIN.MSC fax_msmq\faxsrv no printscan . .
 call %2 fxscln_.msi faxclients msi ansi . fxscln_.msi msi\faxclients no printscan . .
-call %2 FXSCLNTR.DLL . win32 unicode . FXSCLNTR.DLL fax_msmq\faxsrv yes_without printscan . .
-call %2 fxsclntr.dll faxclients\win9x win32 ansi . fxsclntr.dll resource_identical\faxclients\win9x yes_without printscan . .
 call %2 games.txt . setup_inf unicode . games.inf admin1\sources\infs\setup no mergedcomponents locked\sources\infs\setup\usa .
 call %2 fxsdrv16.drv faxclients\win9x win16 ansi . fxsdrv16.drv fax_msmq\faxsrv\faxclients\win9x no printscan . .
-call %2 FXSEVENT.DLL . win32 unicode . FXSEVENT.DLL fax_msmq\faxsrv yes_without printscan . .
-call %2 FXSEXT.ECF . inf ansi . FXSEXT.ECF fax_msmq\faxsrv no printscan . .
-call %2 fxsocm.txt . setup_inf unicode . fxsocm.inf fax_msmq\faxsrv\sources\infs\faxsrv no printscan . .
-call %2 FXSPERF.INI . ini ansi . FXSPERF.INI fax_msmq\faxsrv no printscan . .
-call %2 FXSRES.DLL . win32 unicode . FXSRES.DLL fax_msmq\faxsrv yes_without printscan . .
-call %2 fxssend.exe faxclients\win9x win32 ansi . fxssend.exe resource_identical\faxclients\win9x yes_with printscan . .
 call %2 fxssetu_.ini faxclients manual na . fxssetu_.ini loc_manual\faxclients no printscan . .
-call %2 fyi.cov . notloc na . fyi.cov loc_manual no printscan . .
 call %2 g200.inf . inf unicode . g200.inf drivers1 no drivers . .
 call %2 g200m.sys . win32 unicode . g200m.sys drivers1 yes_without drivers . .
 call %2 g400.inf . inf unicode . g400.inf drivers1\ia64 no drivers . ia64only
@@ -788,7 +777,6 @@ call %2 g450ms.inf   . inf unicode . g450ms.inf   drivers1 no drivers . .
 call %2 g550ms.inf   . inf unicode . g550ms.inf   drivers1 no drivers . .
 call %2 gameport.txt . setup_inf unicode . gameport.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 gcdef.dll . win32 unicode . gcdef.dll mmedia1\multimedia yes_without multimedia . .
-call %2 generic.cov . notloc na . generic.cov loc_manual no printscan . .
 call %2 genprint.txt . setup_inf unicode . genprint.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 getmac.exe . win32 oem . getmac.exe admin2 yes_with admin . .
 call %2 gettype.exe . win32 oem . gettype.exe admin2 yes_with admin . .

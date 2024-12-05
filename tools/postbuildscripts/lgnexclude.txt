@@ -334,7 +334,6 @@ mfcsubs.dll
 ;oleacc.dll
 ;msvbvm50.dll
 ;msvbvm60.dll
-;fxsocm.dll
 ;browseui.dll
 ;browsewm.dll
 ;shdocvw.dll

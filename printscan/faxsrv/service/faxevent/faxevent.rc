@@ -1,4 +1,0 @@
-#include <windows.h>
-#include "faxevent.rc2"
-
-#include "faxevent_messages.rc"

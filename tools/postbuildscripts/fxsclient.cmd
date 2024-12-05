@@ -89,11 +89,4 @@ if errorlevel 1 (
 )
 popd
 
-REM
-REM Update binaries sizes in the INF
-REM
-
-for /f %%a in ('dir /s /b %_NTPOSTBLD%\fxsocm.inf') do (
-    call %_NTPOSTBLD%\fxsinfsize.exe /i:%%a /p:%_NTPOSTBLD%
-)
 

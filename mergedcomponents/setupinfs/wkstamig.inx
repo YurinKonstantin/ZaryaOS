@@ -995,10 +995,6 @@ regsvr32 /s drmclien.dll
 %USERPROFILE%,ntuser.dat.LOG
 %USERPROFILE%,ntuser.dat.ref.LOG
 %USERPROFILE%\%Documents%\%Microsoft%\%Media_Index%,%wmplibrary_v_0_12_db%
-%USERPROFILE%\%Documents%\%My_Faxes%\%Common_CoverPages%,%CONFDENT_COV%
-%USERPROFILE%\%Documents%\%My_Faxes%\%Common_CoverPages%,%FYI_COV%
-%USERPROFILE%\%Documents%\%My_Faxes%\%Common_CoverPages%,%GENERIC_COV%
-%USERPROFILE%\%Documents%\%My_Faxes%\%Common_CoverPages%,%URGENT_COV%
 %USERPROFILE%\%Documents%\%My_Music%,%MUSIC_ASX%
 %USERPROFILE%\%Documents%\%My_Music%,%MUSIC_BMP%
 %USERPROFILE%\%Documents%\%My_Music%,%MUSIC_WMA%

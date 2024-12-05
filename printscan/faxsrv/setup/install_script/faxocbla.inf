@@ -1,5 +1,0 @@
-[Version]
-Signature="$Windows NT$"
-
-[Components]
-Fax=..\fxsocm.dll,FaxOcmSetupProc,..\blainf\fxsocm.inf,,6

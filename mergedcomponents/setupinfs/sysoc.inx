@@ -6,7 +6,6 @@ NtComponents=ntoc.dll,NtOcSetupProc,,4
 WBEM=ocgen.dll,OcEntry,wbemoc.inf,hide,7
 WBEMMSI=wbemupgd.dll,OcEntry,wbemmsi.inf,,7
 Display=desk.cpl,DisplayOcSetupProc,,7
-@@:@i:Fax=fxsocm.dll,FaxOcmSetupProc,fxsocm.inf,,6
 @@:NetOC=netoc.dll,NetOcSetupProc,netoc.inf,,7
 @e!b:RSTORAGE=RsOptCom.dll,OcEntry,RsOptCom.inf,7
 @@!p:iis=iis.dll,OcEntry,iis.inf,,7

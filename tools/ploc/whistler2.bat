@@ -1188,7 +1188,6 @@ call %2 uproj98.cmd chs manual na . uproj98.cmd loc_manual\chs no termsrv . .
 call %2 uproj98.cmd cht manual na . uproj98.cmd loc_manual\cht no termsrv . .
 call %2 uproj98.cmd jpn manual na . uproj98.cmd loc_manual\jpn no termsrv . .
 call %2 uproj98.cmd kor manual na . uproj98.cmd loc_manual\kor no termsrv . .
-call %2 urgent.cov . notloc na . urgent.cov loc_manual no printscan . .
 call %2 urlmon.dll . win32 ansi . urlmon.dll inetcore1 yes_without inetcore . .
 call %2 usb.txt . setup_inf unicode . usb.inf admin1\sources\infs\setup no mergedcomponents . .
 call %2 usbport.txt . setup_inf unicode . usbport.inf admin1\sources\infs\setup no mergedcomponents . .
@@ -1479,7 +1478,6 @@ call %2 ipaddrmgmt.msc  . xml ansi . ipaddrmgmt.msc  admin2 no admin . .
 call %2 pkmgmt.msc  . xml ansi . pkmgmt.msc  admin2 no admin . .
 call %2 twcli32_.msi twclient\usa msi ansi . twcli32.msi msi\twclient\usa no shell . .
 call %2 gpmc.msi gpmc\workdir msi ansi . gpmc.msi extra\gpmc no ds . .
-call %2 FXSOCM.dll . win32 unicode . FXSOCM.dll fax_msmq yes_without printscan . .
 call %2 rsmover.dll . win32 unicode . rsmover.dll base2 yes_without base . .
 call %2 replprov.dll . win32 unicode . replprov.dll ds1 yes_without ds . .
 call %2 pop3auth.dll . win32 oem . pop3auth.dll iis yes_without inetsrv . .

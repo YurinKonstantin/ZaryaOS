@@ -3697,7 +3697,6 @@ conf.cnt         retail    ; Net meeting
 conf.exe         retail    ; Net Meeting
 conf.hlp         retail    ; Net Meeting
 conf1.chm        retail ;ADM Core file
-confdent.cov     retail    ; Fax
 config.nt        retail
 config.us        retail
 config.wow       retail
@@ -6752,70 +6751,27 @@ fxdp4j54.ppd     retail    ; printer driver
 fxlw3121.ppd     retail
 fxlw3151.ppd     retail
 fxmon.exe        retail
-fxsadmin.chm     retail                  ; Fax Help
-fxsadmin.dll     retail                  ; Fax
-fxsadmin.hlp     retail                  ; Fax Help
-fxsadmin.msc     retail                  ; Fax
-fxsapi.dll       retail                  ; Fax
-fxscfgwz.dll     retail                  ; Fax
-fxscl_s.hlp      retail                  ; Fax Help
 fxscldwn.chm     faxclients\WIN9X        ; Fax down level clients help
 fxscln_.msi      faxclients              ; Fax
-fxsclnt.cab      retail                  ; Fax Help
 fxsclnt.cat      retail                  ; Fax Help
-fxsclnt.chm      retail                  ; Fax Help
-fxsclnt.exe      retail                  ; Fax
-fxsclnt.hlp      retail                  ; Fax Help
-fxsclnt.msi      retail                  ; Fax Help
-fxsclntr.dll     retail:faxclients\WIN9X ; Fax
-fxsclsvr.chm     retail                  ; Fax Help
-fxscom.dll       retail                  ; Fax
-fxscomex.dll     retail                  ; Fax
-fxscount.h       retail                  ; Fax
 fxscov_d.chm     faxclients\WIN9x        ; Fax down level clients help
-fxscov_s.chm     retail                  ; Fax Help
-fxscover.chm     retail                  ; Fax Help
-fxscover.exe     retail                  ; Fax
-fxsdrv.dll       retail                  ; Fax
 fxsdrv16.drv     retail                  ; Fax
 fxsdrv32.dll     retail                  ; Fax
 fxsdrv4.dll      retail                  ; Fax
-fxsevent.dll     retail                  ; Fax
-fxsext.ecf       retail                  ; Fax
-fxsext32.dll     retail                  ; Fax
 fxshow.exe       retail
 fxsinfsize.exe   retail                  ; Fax
 fxsm_m01.ppd     retail
 fxsm_m02.ppd     retail
 fxsmics1.ppd     retail
-fxsmon.dll       retail                  ; Fax
 fxsmps31.ppd     retail
 fxsmsigen.cmd    faxclients              ; Fax
 fxsmsvcrt.dll    faxclients              ; Fax
-fxsocm.dll       retail                  ; Fax
-fxsocm.inf       retail                  ; Fax
-fxsperf.dll      retail                  ; Fax
-fxsperf.ini      retail                  ; Fax
-fxsres.dll       retail                  ; Fax
-fxsroute.dll     retail                  ; Fax
-fxsrtmtd.dll     retail                  ; Fax
-fxssend.exe      retail                  ; Fax
 fxssetu_.ini     faxclients              ; Fax
 fxssetup.exe     faxclients              ; Fax
-fxsshare.chm     retail                  ; Fax Help
-fxsst.dll        retail                  ; Fax
 fxsstrap.exe     faxclients              ; Fax
-fxssvc.exe       retail                  ; Fax
-fxst30.dll       retail                  ; Fax
-fxst30p.dll      retail                  ; Fax
-fxstiff.dll      retail                  ; Fax
-fxsui.dll        retail                  ; Fax
-fxswzrd.dll      retail                  ; Fax
-fxsxp32.dll      retail                  ; Fax
 fxusbase.pdb     symbols\retail\sys
 fxusbase.sys     retail
 fxw3cd21.ppd     retail    ; printer driver
-fyi.cov          retail                  ; Fax
 g200.inf         retail
 g200d.dll        retail
 g200m.sys        retail
@@ -6877,7 +6833,6 @@ gencmd.dll       cluster
 genctrnm.h       retail    ; wbem
 gend9318.icm     retail
 gend9322.icm     retail
-generic.cov      retail    ; Fax
 generapp.ico     retail
 generr.exe       idw
 genflpy.sys      retail
@@ -17374,7 +17329,6 @@ uptomp.ico       reskit\bin
 uptomp.inf       reskit\bin
 uptomp.sif       reskit\bin
 ureg.dll         retail
-urgent.cov       retail    ; Fax
 url.dll          retail    ; ie sysdir
 urlmon.dll       retail:inetsrv    ; ie sysdir
 urlmon.old       retail
@@ -18272,7 +18226,6 @@ windp.chm        retail
 winerror.exe     idw
 winetapi.dll     retail
 winexit.scr      reskit\bin
-winfax.dll       retail ; Fax
 winfile.cnt      retail
 winfile.exe      retail
 winfile.ini      retail

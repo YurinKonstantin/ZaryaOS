@@ -13,12 +13,12 @@ AdvancedINF=2.5,"INF installer is too old."
 [SourceDisksFiles]
 
 [DefaultInstall]
-CopyFiles=Driver1,Driver3,Driver4,Driver5,Driver6,Driver7,Driver8,Driver9,Driver10,Driver12,Driver13,Driver14,Driver15,Driver16,Driver17,Driver18,Driver19,Driver20,Driver21,Driver22,Driver23,Driver24,Driver25,Driver26,Driver27,Driver28,Driver29,Driver30,Driver31,Dat.Install,Inf.install
+CopyFiles=Driver1,Driver3,Driver4,Driver5,Driver6,Driver8,Driver9,Driver10,Driver12,Driver13,Driver14,Driver15,Driver16,Driver17,Driver18,Driver19,Driver20,Driver21,Driver22,Driver23,Driver24,Driver25,Driver26,Driver27,Driver28,Driver29,Driver30,Driver31,Dat.Install,Inf.install
 AddReg=AddReg.Perf
 RunPostSetupCommands=RunPostSetupCommandsSection
 
 [DefaultUninstall]
-DelFiles=Driver1,Driver3,Driver4,Driver5,Driver6,Driver7,Driver8,Driver9,Driver10,Driver12,Driver13,Driver14,Driver15,Driver16,Driver17,Driver18,Driver19,Driver20,Driver21,Driver22,Driver23,Driver24,Driver25,Driver26,Driver27,Driver28,Driver29,Driver30,Driver31,Dat.Install,Inf.install
+DelFiles=Driver1,Driver3,Driver4,Driver5,Driver6,Driver8,Driver9,Driver10,Driver12,Driver13,Driver14,Driver15,Driver16,Driver17,Driver18,Driver19,Driver20,Driver21,Driver22,Driver23,Driver24,Driver25,Driver26,Driver27,Driver28,Driver29,Driver30,Driver31,Dat.Install,Inf.install
 DelReg=AddReg.Perf
 
 [DestinationDirs]
@@ -30,7 +30,6 @@ Driver3=10,INF\%LCID2%\%drivername3%
 Driver4=10,INF\%LCID2%\%drivername4%
 Driver5=10,INF\%LCID2%\%drivername5%
 Driver6=10,INF\%LCID2%\%drivername6%
-Driver7=10,INF\%LCID2%\%drivername7%
 Driver8=10,INF\%LCID2%\%drivername8%
 Driver9=10,INF\%LCID2%\%drivername9%
 Driver10=10,INF\%LCID2%\%drivername10%
@@ -83,9 +82,6 @@ esentprf.ini,esentprf.ini.mu_
 
 [Driver6]
 ftpctrs.ini,ftpctrs.ini.mu_
-
-[Driver7]
-fxsperf.ini,fxsperf.ini.mu_
 
 [Driver8]
 iasperf.ini,iasperf.ini.mu_

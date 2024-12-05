@@ -1,3 +1,0 @@
-UNIDRV.DLL		faxclients\Win9X\Win98
-UNIDRV.HLP		faxclients\Win9X\Win98
-ICONLIB.DLL		faxclients\Win9X\Win98

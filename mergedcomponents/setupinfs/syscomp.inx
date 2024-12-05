@@ -125,7 +125,6 @@ revision=1
 "%Systemdirectory%\freedisk.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\fsutil.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\ftp.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
-"%Systemdirectory%\fxssvc.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\getmac.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\gettype.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"
 "%Systemdirectory%\gpresult.exe",2,"D:P(A;;GRGX;;;IU)(A;;GRGX;;;SU)(A;;GRGX;;;S-1-5-3)(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;CO)"

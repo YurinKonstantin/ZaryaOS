@@ -3937,7 +3937,6 @@ SPOOLSS.DLL  = 16
 mfc42.dll    = 16
 mfc42u.dll   = 16
 msvcp60.dll  = 16
-fxsclnt.hlp  = 16
 
 
 [ScsiClass.Load]

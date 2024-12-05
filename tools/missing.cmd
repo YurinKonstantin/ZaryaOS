@@ -1619,7 +1619,6 @@ if not exist "%_NTPOSTBLD%\adminpak.msi" copy /Y /B "%_RTLISO%\I386\adminpak.msi
 if not exist "%_NTPOSTBLD%\cabinet.dll" copy /Y /B "%_RTLISO%\I386\cabinet.dll" "%_NTPOSTBLD%\"
 if not exist "%_NTPOSTBLD%\eula.txt" copy /Y /B "%_RTLISO%\I386\eula.txt" "%_NTPOSTBLD%\"
 if not exist "%_NTPOSTBLD%\fp50ext.cab" copy /Y /B "%_RTLISO%\I386\fp50ext.cab" "%_NTPOSTBLD%\"
-if not exist "%_NTPOSTBLD%\fxsclnt.msi" copy /Y /B "%_RTLISO%\I386\fxsclnt.msi" "%_NTPOSTBLD%\"
 if not exist "%_NTPOSTBLD%\ins.cab" copy /Y /B "%_RTLISO%\I386\ins.cab" "%_NTPOSTBLD%\"
 if not exist "%_NTPOSTBLD%\ins.cat" copy /Y /B "%_RTLISO%\I386\ins.cat" "%_NTPOSTBLD%\"
 if not exist "%_NTPOSTBLD%\netfx.cab" copy /Y /B "%_RTLISO%\I386\netfx.cab" "%_NTPOSTBLD%\"

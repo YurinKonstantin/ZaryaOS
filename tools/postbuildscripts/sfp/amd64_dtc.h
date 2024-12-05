@@ -3678,7 +3678,6 @@ PROTECT_FILE_ENTRY DtcFiles[] =
     {NULL, L"%systemroot%\\system32\\winar30.ime", L"intl.inf"},
     {NULL, L"%systemroot%\\system32\\winbrand.dll", NULL},
     {L"wwinbrand.dll", L"%systemroot%\\SysWOW64\\winbrand.dll", NULL},
-    {L"wwinfax.dll", L"%systemroot%\\SysWOW64\\winfax.dll", NULL},
     {NULL, L"%systemroot%\\system32\\wingb.ime", L"intl.inf"},
     {L"wwinhlp32.exe", L"%systemroot%\\winhlp32.exe", NULL},
     {L"wwinhstb.exe", L"%systemroot%\\SysWOW64\\winhlp32.exe", NULL},

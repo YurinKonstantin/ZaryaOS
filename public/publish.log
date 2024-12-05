@@ -854,3 +854,13 @@ D:\zaryaos\public\internal\Windows\lib\i386\obj\DUser.lib D:\zaryaos\windows\adv
 D:\zaryaos\DS\security\lib\obj\i386\sclogon2.lib D:\zaryaos\ds\security\services\smartcrd\sclogon2 obj\i386\sclogon2.lib 1733059201 
 D:\zaryaos\DS\lib\obj\i386\azrolesp.lib D:\zaryaos\ds\security\azroles obj\i386\azrolesp.lib 1733059313 
 D:\zaryaos\public\sdk\lib\i386\adsiis.tlb D:\zaryaos\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1733059966 
+D:\zaryaos\public\internal\base\lib\i386\winreg.lib D:\zaryaos\base\screg\winreg\client obj\i386\winreg.lib 1733069867 
+D:\zaryaos\public\sdk\lib\i386\adsiis.tlb D:\zaryaos\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1733071479 
+D:\zaryaos\net\http\inc\obj\i386\httpkrnl.h d:\zaryaos\net\published\inc obj\i386\httpkrnl.h 1733338332 
+D:\zaryaos\net\http\inc\obj\i386\httppkrnl.h d:\zaryaos\net\published\inc obj\i386\httppkrnl.h 1733338332 
+D:\zaryaos\public\internal\Windows\lib\i386\obj\DUser.lib D:\zaryaos\windows\advcore\duser\engine\duser obj\i386\DUser.lib 1733338770 
+D:\zaryaos\public\internal\base\lib\i386\winreg.lib D:\zaryaos\base\screg\winreg\client obj\i386\winreg.lib 1733339398 
+D:\zaryaos\DS\security\lib\obj\i386\sclogon2.lib D:\zaryaos\ds\security\services\smartcrd\sclogon2 obj\i386\sclogon2.lib 1733340263 
+D:\zaryaos\DS\lib\obj\i386\azrolesp.lib D:\zaryaos\ds\security\azroles obj\i386\azrolesp.lib 1733340370 
+D:\zaryaos\public\internal\Shell\lib\i386\shlproxy.lib D:\zaryaos\shell\published\inc obj\i386\shlproxy.lib 1733340498 
+D:\zaryaos\public\sdk\lib\i386\adsiis.tlb D:\zaryaos\inetsrv\iis\admin\adsi\adsiis\iis60 ..\obj\i386\adsiis.tlb 1733341002 
