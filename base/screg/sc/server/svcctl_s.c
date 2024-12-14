@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 6.00.0366 */
-/* at Wed Dec 04 21:48:37 2024
+/* at Sat Dec 14 19:12:35 2024
  */
 /* Compiler settings for .\svcctl.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
@@ -3646,14 +3646,14 @@ static const NDR_RUNDOWN RundownRoutines[] =
     };
 
 
-static void __RPC_USER svcctl_RGetServiceDisplayNameWExprEval_0000( PMIDL_STUB_MESSAGE pStubMsg )
+static void __RPC_USER svcctl_RGetServiceKeyNameWExprEval_0001( PMIDL_STUB_MESSAGE pStubMsg )
 {
     #pragma pack(4)
     struct _PARAM_STRUCT
         {
         NDR_SCONTEXT hSCManager;
-        wchar_t *lpServiceName;
         wchar_t *lpDisplayName;
+        wchar_t *lpServiceName;
         LPBOUNDED_DWORD lpcchBuffer;
         DWORD _RetVal;
         };
@@ -3664,14 +3664,14 @@ static void __RPC_USER svcctl_RGetServiceDisplayNameWExprEval_0000( PMIDL_STUB_M
     pStubMsg->MaxCount = ( unsigned long ) ( *pS->lpcchBuffer + 1 );
 }
 
-static void __RPC_USER svcctl_RGetServiceKeyNameWExprEval_0001( PMIDL_STUB_MESSAGE pStubMsg )
+static void __RPC_USER svcctl_RGetServiceDisplayNameWExprEval_0000( PMIDL_STUB_MESSAGE pStubMsg )
 {
     #pragma pack(4)
     struct _PARAM_STRUCT
         {
         NDR_SCONTEXT hSCManager;
-        wchar_t *lpDisplayName;
         wchar_t *lpServiceName;
+        wchar_t *lpDisplayName;
         LPBOUNDED_DWORD lpcchBuffer;
         DWORD _RetVal;
         };
